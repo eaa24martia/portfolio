@@ -1,0 +1,6 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #8fbe89;
+}
