@@ -11,16 +11,16 @@ html, body {
 
 body {
   font-family: 'Brown-Regular', Arial, sans-serif;
-  background: #f8f8f8;
   color: #3e463b;
   line-height: 1.5;
+  background: #fff7de;
 }
 
 /* Global element styles */
 a {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #2b312b;
+     color: #1b1b1b;
   text-decoration: inherit;
 }
 a:hover {

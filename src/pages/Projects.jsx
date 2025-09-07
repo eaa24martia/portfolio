@@ -1,5 +1,5 @@
-
 import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router';
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -45,15 +45,16 @@ export default function Projects() {
               <div>
                 <strong>Tags:</strong> {project.tags?.join(', ')}
               </div>
-              {project.links && (
-                <div style={{ marginTop: '1rem' }}>
-                  {project.links.map((link, index) => (
-                    <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" style={{ marginRight: '1rem' }}>
-                      {link.text}
-                    </a>
-                  ))}
-                </div>
-              )}
+              <div style={{ marginTop: '1rem' }}>
+                <NavLink to={`/projects/${project.id}`} style={{ marginRight: '1rem' }}>
+                  Se detaljer
+                </NavLink>
+                {project.links && project.links.map((link, index) => (
+                  <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" style={{ marginRight: '1rem' }}>
+                    {link.text}
+                  </a>
+                ))}
+              </div>
             </div>
           ))}
         </div>
