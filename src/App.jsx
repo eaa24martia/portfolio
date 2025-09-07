@@ -11,7 +11,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 function App() {
    
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/eaa24martia/"}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/portfolio/"}>
       <Header />
       <Navigation />
       <Routes>
