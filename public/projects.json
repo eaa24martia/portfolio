@@ -1,9 +1,53 @@
-{
-  "id": 1,
-  "title": "Portfolio Website",
-  "year": 2025,
-  "description": "Mit portfolio bygget med React.",
-  "tags": ["React", "Portfolio", "Frontend"],
-  "image": "/img/portfolio.webp",
-  "links": [{"url": "https://cederdorff.github.io", "text": "React Portfolio"}]
-}
+[
+  {
+    "id": 1,
+    "title": "Steno Project",
+    "year": 2025,
+    "description": "Et projekt om Steno-metoden.",
+    "tags": ["HTML", "CSS", "JS"],
+    "image": "/img/steno.webp",
+    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "Se projekt"}]
+  },
+  {
+    "id": 2,
+    "title": "UX Beer Project",
+    "year": 2025,
+    "description": "Et UX-projekt med fokus på øloplevelse.",
+    "tags": ["UX", "Design", "Frontend"],
+    "image": "/img/ux-beer.webp",
+    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "Se projekt"}]
+  },
+  {
+    "id": 5,
+    "title": "Radar Project",
+    "year": 2024,
+    "description": "Et projekt med radar-tema.",
+    "tags": ["HTML", "JS", "Design"],
+    "image": "/img/radar.webp",
+    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "Se projekt"}]
+  },
+   {
+    "id": 3,
+    "title": "Responsive TBC Project",
+    "year": 2024,
+    "description": "Et responsivt webprojekt.",
+    "tags": ["Responsive", "HTML", "CSS"],
+    "image": "/img/responsive-tbc.webp",
+    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "Se projekt"}]
+  },
+  {
+    "id": 4,
+    "title": "Sprint Project",
+    "year": 2024,
+    "description": "Et projekt lavet under sprint-forløb.",
+    "tags": ["HTML", "CSS", "JS"],
+    "image": "/img/sprint.webp",
+    "links": [{"url": "https://eaa24martia.github.io/sprint-project/", "text": "Se projekt"}]
+  }
+]
+
+
+
+
+
+

@@ -7,29 +7,112 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overscroll-behavior: none;
 }
 
 body {
-  font-family: 'Brown-Regular', Arial, sans-serif;
+  font-family: "basic-sans", sans-serif;
+  cursor: url('/src/assets/cursor.png'), auto;
   color: #3e463b;
   line-height: 1.5;
-  background: #fff7de;
+  background: #FAF3DE;
+}
+
+.header-container {
+  background: #00000011;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.header {
+  background: none;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.cv-header {
+  font-size: 1rem;
+  font-family: "chelsea-market-pro", sans-serif;
+  font-weight: 500;
+  color: #4B694E;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  background-color: #FFAD59;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.cv-header:hover {
+  background-color: #8Cbf8f;
+  border-color: #8Cbf8f;
+  color: #4B694E;
+}
+
+.cv-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -9rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.5rem;
+  align-items: flex-start;
+  margin-top: -9rem;
+}
+
+.social-icons i {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #8Cbf8f !important;
+}
+
+.header-logo {
+  height: 7rem;
+  width: auto;
+}
+
+.header.hidden {
+  transform: translateY(-100%);
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: none;
+    font-family: "chelsea-market-pro", sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 /* Global element styles */
 a {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 500;
-     color: #1b1b1b;
+     color: #4B694E;
   text-decoration: inherit;
 }
 a:hover {
-  color: #ffffff;
+  color: #8Cbf8f;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: "chelsea-market-pro", sans-serif;
 }
 
 button {
@@ -47,4 +130,5 @@ button {
 button:hover {
   border-color: #646cff;
 }
+
 
