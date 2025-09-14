@@ -1,10 +1,10 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Slider() {
   const [projects, setProjects] = useState([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const swiperRef = useRef(null);
 
   useEffect(() => {
     const loadProjects = async () => {
@@ -26,47 +26,13 @@ export default function Slider() {
     loadProjects();
   }, []);
 
-  // Initialize Swiper after projects are loaded
-  useEffect(() => {
-    if (projects.length > 0 && window.Swiper) {
-      const swiper = new window.Swiper(".slide-content", {
-        slidesPerView: 3,
-        spaceBetween: 25,
-        loop: true,
-        centerSlide: true,
-        fade: true,
-        grabCursor: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          dynamicBullets: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-          520: {
-            slidesPerView: 2,
-          },
-          950: {
-            slidesPerView: 3,
-          },
-        },
-      });
+  const nextSlide = () => {
+    setCurrentIndex((prev) => (prev + 1) % projects.length);
+  };
 
-      swiperRef.current = swiper;
-
-      return () => {
-        if (swiperRef.current) {
-          swiperRef.current.destroy();
-        }
-      };
-    }
-  }, [projects]);
+  const prevSlide = () => {
+    setCurrentIndex((prev) => (prev - 1 + projects.length) % projects.length);
+  };
 
   if (loading) {
     return (
@@ -88,39 +54,78 @@ export default function Slider() {
     );
   }
 
+  if (projects.length === 0) {
+    return (
+      <section>
+        <div className="slide-container">
+          <div className="no-projects">No projects found.</div>
+        </div>
+      </section>
+    );
+  }
+
   return (
-    <section>
-      <div className="slide-container swiper">
-        <div className="slide-content">
-          <div className="card-wrapper swiper-wrapper">
-            {projects.map((project, index) => (
-              <div key={index} className="card swiper-slide">
-                <div className="image-content">
-                  <span className="overlay"></span>
-                  <div className="card-image">
-                    <img 
-                      src={project.image || "https://tinypic.host/images/2022/12/19/img_avatar.png"} 
-                      alt={project.title || "Project image"} 
-                      className="card-img"
-                    />
+    <section className="slider-section">
+      <h2 className="slider-h2">My Projects</h2>
+      <div className="slide-container">
+        <div className="slider-wrapper">
+          <button className="slider-btn prev-btn" onClick={prevSlide}>
+            <i className="fa-solid fa-arrow-left" style={{ color: '#faf3de' }}></i>
+          </button>
+          <div className="slider-content">
+            <div
+              className="slider-track"
+              style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+            >
+              {projects.map((project, index) => (
+                <div key={index} className="card">
+                  <div className="image-content">
+                    <div className="card-image">
+                      <img
+                        src={project.image || "https://tinypic.host/images/2022/12/19/img_avatar.png"}
+                        alt={project.title || "Project image"}
+                        className="card-img"
+                      />
+                    </div>
+                  </div>
+                  <div className="card-content">
+                    <h2 className="name">{project.title || "Untitled Project"}</h2>
+                    <p className="description">
+                      {project.description || "No description available."}
+                    </p>
+                    <div className="project-tags">
+                      {project.tags && project.tags.map((tag, tagIndex) => (
+                        <span key={tagIndex} className="tag">{tag}</span>
+                      ))}
+                    </div>
+                    {project.links && project.links[0] && (
+                      <a
+                        href={project.links[0].url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                      >
+                        {project.links[0].text}
+                      </a>
+                    )}
                   </div>
                 </div>
-
-                <div className="card-content">
-                  <h2 className="name">{project.title || "Untitled Project"}</h2>
-                  <p className="description">
-                    {project.description || "No description available."}
-                  </p>
-                  <button className="button">View More</button>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
+          <button className="slider-btn next-btn" onClick={nextSlide}>
+            <i className="fa-solid fa-arrow-right" style={{ color: '#faf3de' }}></i>
+          </button>
         </div>
-
-        <div className="swiper-button-next swiper-navBtn"></div>
-        <div className="swiper-button-prev swiper-navBtn"></div>
-        <div className="swiper-pagination"></div>
+        <div className="slider-indicators">
+          {projects.map((_, index) => (
+            <button
+              key={index}
+              className={`indicator ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => setCurrentIndex(index)}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

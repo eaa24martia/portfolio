@@ -119,22 +119,6 @@ h1 {
   font-family: "chelsea-market-pro", sans-serif;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #222;
-  color: #fff;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-
 .home-hero {
   display: flex;
   justify-content: space-evenly;
@@ -161,6 +145,161 @@ button:hover {
   margin-top: 2rem;
 }
 
+.slider-section {
+  background: #4B694E;
+}
+
+.slider-h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #FFAD59;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.slider-content {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  min-width: 100%;
+  background: #FAF3DE;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.image-content {
+  position: relative;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #4B694E;
+}
+
+.description {
+  color: #2a2422;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.project-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #4B694E;
+  color: #FFAD59;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.project-link {
+  background: #FFAD59;
+  color: #4B694E;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10rem;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover {
+  background: #8Cbf8f;
+  color: #4B694E;
+}
+
+.slider-btn {
+  width: 3rem;
+  height: 2.5rem;
+  color: #FAF3DE;
+  background: none;
+  border: none;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slider-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #FAF3DE;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.indicator.active {
+  background: #FFAD59;
+}
+
+.loading, .error, .no-projects {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+}
 
 
 
