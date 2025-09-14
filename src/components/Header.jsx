@@ -1,5 +1,4 @@
 import Navigation from "./Navigation";
-import logo from "../assets/tvebak-green.png";
 
 export default function Header() {
  return (
@@ -12,7 +11,7 @@ export default function Header() {
         <i className="fa-brands fa-square-instagram" style={{color: "#4b694e"}}></i>
         <i className="fa-brands fa-square-facebook" style={{color: "#4b694e"}}></i>
       </section>
-      <img src={logo} alt="Portfolio Logo" className="header-logo" />
+      <img src="/img/tvebak-green.png" alt="Portfolio Logo" className="header-logo" />
       <section className="cv-section">
         <a href="cv" className="cv-header">SHOW CV</a>
       </section>

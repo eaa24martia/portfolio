@@ -5,7 +5,7 @@
     "year": 2025,
     "description": "Et projekt om Steno-metoden.",
     "tags": ["HTML", "CSS", "JS"],
-    "image": "/img/steno.webp",
+    "image": "./img/steno-project.png",
     "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "Se projekt"}]
   },
   {
@@ -14,7 +14,7 @@
     "year": 2025,
     "description": "Et UX-projekt med fokus på øloplevelse.",
     "tags": ["UX", "Design", "Frontend"],
-    "image": "/img/ux-beer.webp",
+    "image": "./img/zero-buzz-project.png",
     "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "Se projekt"}]
   },
   {
@@ -23,7 +23,7 @@
     "year": 2024,
     "description": "Et projekt med radar-tema.",
     "tags": ["HTML", "JS", "Design"],
-    "image": "/img/radar.webp",
+    "image": "./img/radar-project.png",
     "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "Se projekt"}]
   },
    {
@@ -32,18 +32,10 @@
     "year": 2024,
     "description": "Et responsivt webprojekt.",
     "tags": ["Responsive", "HTML", "CSS"],
-    "image": "/img/responsive-tbc.webp",
+    "image": "./img/tbc-project.png",
     "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "Se projekt"}]
-  },
-  {
-    "id": 4,
-    "title": "Sprint Project",
-    "year": 2024,
-    "description": "Et projekt lavet under sprint-forløb.",
-    "tags": ["HTML", "CSS", "JS"],
-    "image": "/img/sprint.webp",
-    "links": [{"url": "https://eaa24martia.github.io/sprint-project/", "text": "Se projekt"}]
   }
+ 
 ]
 
 

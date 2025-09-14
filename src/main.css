@@ -1,4 +1,8 @@
-/* src/main.css - Global styles for portfolio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Reset and base styles */
 html, body {
@@ -12,7 +16,7 @@ html, body {
 
 body {
   font-family: "basic-sans", sans-serif;
-  cursor: url('/src/assets/cursor.png'), auto;
+  cursor: url('/public/img/cursor.png'), auto;
   color: #3e463b;
   line-height: 1.5;
   background: #FAF3DE;
@@ -138,14 +142,25 @@ button:hover {
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  min-height: 60vh;  
+  min-height: 60vh;
+
 }
 
 .home-hero img {
-  max-width: 500px;  /* Reduced max width */
+  max-width: 500px; 
   width: 100%;
   height: auto;
 }
+
+.home-hero section:first-child {
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;  
+  margin-top: 2rem;
+}
+
 
 
 
