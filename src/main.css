@@ -131,4 +131,22 @@ button:hover {
   border-color: #646cff;
 }
 
+.home-hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 60vh;  
+}
+
+.home-hero img {
+  max-width: 500px;  /* Reduced max width */
+  width: 100%;
+  height: auto;
+}
+
+
+
 

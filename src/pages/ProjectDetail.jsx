@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 
+
 export default function ProjectDetail() {
   const [project, setProject] = useState({}); // state to handle the data (project)
   const [loading, setLoading] = useState(true);

@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import ProjectDetail from "./pages/ProjectDetail";
 
