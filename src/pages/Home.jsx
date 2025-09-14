@@ -10,7 +10,13 @@ export default function Home() {
   image="./src/assets/logo.png"
   className="home-hero"
 />
-  
+<Section
+  subtitle="Hej, I'm Martin"
+  title="Multimedia Designer"
+  tagline="Creative ideas turned into digital experiences"
+  image="./src/assets/logo.png"
+  className="home-hero"
+/>
 </main>
 
 
