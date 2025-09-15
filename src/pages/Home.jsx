@@ -1,8 +1,6 @@
 import Section from "../components/Section";
 import Slider from "../components/Slider";
 import Competencies from "../components/Competencies";
-import ScrollText from "../components/Scroll-text";
-import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -21,17 +19,7 @@ export default function Home() {
   title="About me?"
   image="./public/img/logo.png"
   className="more-about-me"
-  link={{ text: "Learn More", href: "/about" }}
 />
-  <ScrollText />
-<Section
-  title="Let's work together!"
-  image="./public/img/logo.png"
-  className="work-together"
-  link={{ text: "Learn More", href: "/contact" }}
-/>
-  <Footer />
-
 </main>
 
 
