@@ -6,7 +6,11 @@
     "description": "Et projekt om Steno-metoden.",
     "tags": ["HTML", "CSS", "JS"],
     "image": "/img/steno-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "PROTOTYPE"}]
+    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "PROTOTYPE"}],
+    "client": "Steno Project",
+    "team": "2 people",
+    "time": "4 weeks",
+    "focus": ["Design System", "Interaction Design", "Testing", "Prototyping"]
   },
   {
     "id": 2,
@@ -15,7 +19,11 @@
     "description": "Et UX-projekt med fokus på øloplevelse.",
     "tags": ["UX", "Design", "Frontend"],
     "image": "/img/zero-buzz-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "PROTOTYPE"}]
+    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "PROTOTYPE"}],
+    "client": "UX Beer Project",
+    "team": "4 people",
+    "time": "3 weeks",
+    "focus": ["User Research", "Prototyping", "Usability Testing"]
   },
   {
     "id": 5,
@@ -24,7 +32,11 @@
     "description": "Et projekt med radar-tema.",
     "tags": ["HTML", "JS", "Design"],
     "image": "/img/radar-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "PROTOTYPE"}]
+    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "PROTOTYPE"}],
+    "client": "Radar Project",
+    "team": "1 person",
+    "time": "4 weeks",
+    "focus": ["Design System", "Interaction Design", "Testing", "Prototyping"]
   },
    {
     "id": 3,
@@ -33,7 +45,11 @@
     "description": "Et responsivt webprojekt.",
     "tags": ["Responsive", "HTML", "CSS"],
     "image": "/img/tbc-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "PROTOTYPE"}]
+    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "PROTOTYPE"}],
+    "client": "Responsive TBC Project",
+    "team": "4 people",
+    "time": "3 weeks",
+    "focus": ["Design System", "Interaction Design", "Testing", "Prototyping"]
   }
  
 ]

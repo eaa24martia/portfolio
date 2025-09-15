@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import Detail from "../components/Detail.jsx";
+import Overview from "../components/Overview.jsx";
 
 export default function ProjectDetail() {
   const [project, setProject] = useState({});
@@ -56,14 +57,17 @@ export default function ProjectDetail() {
       </a>
     </section>
 
-    <section>
-      <Detail
+        <section>
+       <Detail
         project={{
-          title: "Let's work together!",
-          description: "I'm available for new projects and collaborations. Feel free to reach out!",
+          title: project.title,
+          description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. I'm open for `new` and collaborations. Feel free to reach out!",
           image: "/public/img/logo.png",
+          className: "project-name-section",
         }}
       />
+
+      <Overview project={project} />
     </section>
      </main>
   );

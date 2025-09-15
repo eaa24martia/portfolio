@@ -4,7 +4,7 @@ export default function Detail({ project }) {
   if (!project) return null;
   
   return (
-    <section className="detail-section">
+    <section className={`section ${project.className}`}>
       <section>
         <h1>{project.title}</h1>
         <h4>{project.description}</h4>
