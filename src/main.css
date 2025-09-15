@@ -1098,10 +1098,42 @@ footer {
 }
 
 .project-container:hover .project-info a {
-  color: #8cbf8f;
+  color: #FFAD59;
   text-decoration: underline;
 }
 
 .project-container:hover .project-info {
   color: #ffffff;
+}
+
+.detail-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    height: auto;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.detail-image a {
+  font-size: 1rem;
+  font-family: "chelsea-market-pro", sans-serif;
+  font-weight: 500;
+  color: #4B694E;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
+  background-color: #FFAD59;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+    
+}
+
+.detail-image img {
+  width: 80%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

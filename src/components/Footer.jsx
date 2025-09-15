@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
              <section className="footer-contact">
-                    <img src="./public/img/tvebak-green.png" alt="Logo Image" />
+                    <img src="/public/img/tvebak-green.png" alt="Logo Image" />
                     <p>tvebakmartin@gmail.com</p>
                     <p>+45 71 83 01 15</p>
 

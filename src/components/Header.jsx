@@ -11,7 +11,7 @@ export default function Header() {
         <i className="fa-brands fa-square-instagram" style={{color: "#4b694e"}}></i>
         <i className="fa-brands fa-square-facebook" style={{color: "#4b694e"}}></i>
       </section>
-      <img src="./img/tvebak-green.png" alt="Portfolio Logo" className="header-logo" />
+      <img src="/img/tvebak-green.png" alt="Portfolio Logo" className="header-logo" />
     </section>
   </header>
   </>

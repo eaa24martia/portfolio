@@ -5,8 +5,8 @@
     "year": 2025,
     "description": "Et projekt om Steno-metoden.",
     "tags": ["HTML", "CSS", "JS"],
-    "image": "./img/steno-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "SEE PROJECT"}]
+    "image": "/img/steno-project.png",
+    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "PROTOTYPE"}]
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "year": 2025,
     "description": "Et UX-projekt med fokus på øloplevelse.",
     "tags": ["UX", "Design", "Frontend"],
-    "image": "./img/zero-buzz-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "SEE PROJECT"}]
+    "image": "/img/zero-buzz-project.png",
+    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "PROTOTYPE"}]
   },
   {
     "id": 5,
@@ -23,8 +23,8 @@
     "year": 2024,
     "description": "Et projekt med radar-tema.",
     "tags": ["HTML", "JS", "Design"],
-    "image": "./img/radar-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "SEE PROJECT"}]
+    "image": "/img/radar-project.png",
+    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "PROTOTYPE"}]
   },
    {
     "id": 3,
@@ -32,8 +32,8 @@
     "year": 2024,
     "description": "Et responsivt webprojekt.",
     "tags": ["Responsive", "HTML", "CSS"],
-    "image": "./img/tbc-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "SEE PROJECT"}]
+    "image": "/img/tbc-project.png",
+    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "PROTOTYPE"}]
   }
  
 ]

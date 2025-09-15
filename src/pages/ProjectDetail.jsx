@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
-
+import Detail from "../components/Detail.jsx";
 
 export default function ProjectDetail() {
-  const [project, setProject] = useState({}); // state to handle the data (project)
+  const [project, setProject] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const { id } = useParams();
@@ -18,15 +18,15 @@ export default function ProjectDetail() {
           throw new Error('Failed to fetch project');
         }
         const data = await response.json();
-        
-        // Handle both single project and array of projects
+
         const projects = Array.isArray(data) ? data : [data];
-        const foundProject = projects.find(project => project.id === id);
-        
+        // Ensure id comparison works for both string and number
+        const foundProject = projects.find(project => String(project.id) === id);
+
         if (!foundProject) {
           throw new Error('Project not found');
         }
-        
+
         setProject(foundProject);
       } catch (err) {
         setError(err.message);
@@ -36,7 +36,7 @@ export default function ProjectDetail() {
     };
 
     fetchProject();
-  }, [id]); // <--- "[id]" VERY IMPORTANT!!!
+  }, [id]);
 
   function goBack() {
     navigate("/projects");
@@ -46,54 +46,25 @@ export default function ProjectDetail() {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <section id="project-page" className="page">
-      <div className="container">
-        <button onClick={goBack} style={{ marginBottom: '1rem' }}>
-          ← Back to Projects
-        </button>
-        
-        <h1>{project?.title}</h1>
-        
-        <div className="project-details">
-          <p><strong>Year:</strong> {project.year}</p>
-          <p><strong>Description:</strong> {project.description}</p>
-          
-          {project.tags && (
-            <div>
-              <strong>Technologies:</strong> {project.tags.join(', ')}
-            </div>
-          )}
-          
-          {project.links && project.links.length > 0 && (
-            <div style={{ marginTop: '1rem' }}>
-              <strong>Links:</strong>
-              <div>
-                {project.links.map((link, index) => (
-                  <a 
-                    key={index} 
-                    href={link.url} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    style={{ marginRight: '1rem', display: 'inline-block', marginTop: '0.5rem' }}
-                  >
-                    {link.text}
-                  </a>
-                ))}
-              </div>
-            </div>
-          )}
-          
-          {project.image && (
-            <div style={{ marginTop: '1rem' }}>
-              <img 
-                src={project.image} 
-                alt={project.title}
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          )}
-        </div>
-      </div>
+    <main>
+
+   
+    <section className="detail-image">
+      <img src={project.image} alt={project.title} />
+      <a href={project.links[0].url} target="_blank" rel="noopener noreferrer" className="project-link">
+        {project.links[0].text}
+      </a>
     </section>
+
+    <section>
+      <Detail
+        project={{
+          title: "Let's work together!",
+          description: "I'm available for new projects and collaborations. Feel free to reach out!",
+          image: "/public/img/logo.png",
+        }}
+      />
+    </section>
+     </main>
   );
 }
