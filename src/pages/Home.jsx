@@ -19,7 +19,17 @@ export default function Home() {
   title="About me?"
   image="./public/img/logo.png"
   className="more-about-me"
+  link={{ text: "Learn More", href: "/about" }}
 />
+  <ScrollText />
+<Section
+  title="Let's work together!"
+  image="./public/img/logo.png"
+  className="work-together"
+  link={{ text: "Learn More", href: "/contact" }}
+/>
+  <Footer />
+
 </main>
 
 
