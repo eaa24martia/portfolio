@@ -16,7 +16,7 @@ export default function Footer() {
                 </section>
 
                 <section>
-                    <p>© 2024 Martin Andersen. All rights reserved.</p>
+                    <p>© 2025 Martin Andersen. All rights reserved.</p>
                 </section>
             </section>
 

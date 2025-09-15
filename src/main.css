@@ -958,24 +958,18 @@ footer {
 }
 
 /* Responsive breakpoints */
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
   }
 }
 
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .projects-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    width: 35rem;
   }
 }
 
@@ -994,6 +988,35 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.project-image {
+  object-fit: cover;
+  opacity: 20%;
+  position: absolute;
+  z-index: 0;
+}
+
+.project-info {
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #2a2422;
+}
+
+.project-info a {
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #2a2422;
+  font-family: "chelsea-market-pro", sans-serif;
+}
+
+.project-info a:hover {
+  color: #8cbf8f;
+}
+
 
 /* Different blob shapes for each project */
 .project-container:nth-child(1) {
@@ -1071,4 +1094,14 @@ footer {
 
 .project-container:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+   background: #121212;
+}
+
+.project-container:hover .project-info a {
+  color: #8cbf8f;
+  text-decoration: underline;
+}
+
+.project-container:hover .project-info {
+  color: #ffffff;
 }

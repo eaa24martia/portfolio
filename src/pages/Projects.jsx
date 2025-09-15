@@ -15,7 +15,6 @@ export default function Projects() {
           throw new Error('Failed to fetch projects');
         }
         const data = await response.json();
-        // If projects.json contains a single project object, wrap it in an array
         setProjects(Array.isArray(data) ? data : [data]);
       } catch (err) {
         setError(err.message);
@@ -39,22 +38,33 @@ export default function Projects() {
         <div className="projects-grid">
           {projects.map((project) => (
             <div key={project.id} className="project-container">
-              <h2>{project.title}</h2>
-              <p><strong>Year:</strong> {project.year}</p>
-              <p>{project.description}</p>
-              <div>
-                <strong>Tags:</strong> {project.tags?.join(', ')}
-              </div>
-              <div style={{ marginTop: '1rem' }}>
-                <NavLink to={`/projects/${project.id}`} style={{ marginRight: '1rem' }}>
-                  Se detaljer
-                </NavLink>
-                {project.links && project.links.map((link, index) => (
-                  <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" style={{ marginRight: '1rem' }}>
-                    {link.text}
-                  </a>
-                ))}
-              </div>
+              {project.image && (
+                <img src={project.image} alt={project.title} className="project-image" />
+              )}
+              <section className="project-info">
+                <h2>{project.title}</h2>
+                <p><strong>Year:</strong> {project.year}</p>
+                <p>{project.description}</p>
+                <div>
+                  <strong>Tags:</strong> {project.tags?.join(', ')}
+                </div>
+                <div style={{ marginTop: '1rem' }}>
+                  <NavLink to={`/projects/${project.id}`} style={{ marginRight: '1rem' }}>
+                    DETAILS
+                  </NavLink>
+                  {project.links && project.links.map((link, index) => (
+                    <a
+                      key={index}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ marginRight: '1rem' }}
+                    >
+                      {link.text}
+                    </a>
+                  ))}
+                </div>
+              </section>
             </div>
           ))}
         </div>

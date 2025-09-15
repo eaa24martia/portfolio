@@ -6,7 +6,7 @@
     "description": "Et projekt om Steno-metoden.",
     "tags": ["HTML", "CSS", "JS"],
     "image": "./img/steno-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "Se projekt"}]
+    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "SEE PROJECT"}]
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "Et UX-projekt med fokus på øloplevelse.",
     "tags": ["UX", "Design", "Frontend"],
     "image": "./img/zero-buzz-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "Se projekt"}]
+    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "SEE PROJECT"}]
   },
   {
     "id": 5,
@@ -24,7 +24,7 @@
     "description": "Et projekt med radar-tema.",
     "tags": ["HTML", "JS", "Design"],
     "image": "./img/radar-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "Se projekt"}]
+    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "SEE PROJECT"}]
   },
    {
     "id": 3,
@@ -33,7 +33,7 @@
     "description": "Et responsivt webprojekt.",
     "tags": ["Responsive", "HTML", "CSS"],
     "image": "./img/tbc-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "Se projekt"}]
+    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "SEE PROJECT"}]
   }
  
 ]
