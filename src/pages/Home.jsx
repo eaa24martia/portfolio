@@ -28,7 +28,7 @@ export default function Home() {
   title="Let's work together!"
   image="./public/img/logo.png"
   className="work-together"
-  link={{ text: "Learn More", href: "/about" }}
+  link={{ text: "Learn More", href: "/contact" }}
 />
   <Footer />
 

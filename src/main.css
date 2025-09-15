@@ -510,6 +510,55 @@ h1 {
   color: #4B694E;
 }
 
+.scroller-inner {
+  display: inline-flex;
+  gap: 4rem;
+  animation: scroll 20s linear infinite;
+  will-change: transform;
+}
+
+.scroller-item {
+  font-family: "chelsea-market-pro", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4B694E;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  white-space: nowrap;
+  padding: 1.5rem;
+}
+
+.scroller-item img {
+  height: 40px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+.scroller-inner::after {
+  content: attr(data-content);
+  display: inline-flex;
+  gap: 2rem;
+  /* Duplicate content for seamless looping */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroller-outer {
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
 .work-together {
   color: #2a2422;
   display: flex;
