@@ -85,6 +85,7 @@ body {
 .header-logo {
   height: 7rem;
   width: auto;
+  
 }
 
 .header.hidden {
@@ -100,6 +101,17 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
     flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navigation .nav-item {
+    list-style: none;
+}
+
+.navigation li {
+    list-style: none;
 }
 
 /* Global element styles */
@@ -127,13 +139,13 @@ h1 {
   flex-wrap: wrap;
   text-align: center;
   min-height: 60vh;
-
 }
 
 .home-hero img {
   max-width: 500px; 
   width: 100%;
   height: auto;
+  
 }
 
 .home-hero section:first-child {
@@ -448,6 +460,7 @@ h1 {
 }
 
 .more-about-me {
+  color: #2a2422;
   display: flex;
   justify-content: space-evenly;
   align-items: center;  
@@ -466,10 +479,379 @@ h1 {
 }
 
 .more-about-me section:first-child {
-  max-width: 35rem;
+  max-width: 40rem;
+  font-size: 2rem;
   display: flex;
+  align-items: center;
   flex-direction: column;
   text-align: center;
+  gap: 1rem;  
   gap: 2rem;  
   margin-top: 2rem;
 }
+
+/* Section link button styling */
+.section-link {
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  font-size: 1rem;
+  font-family: "chelsea-market-pro", sans-serif;
+  font-weight: 500;
+  color: #4B694E;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  background-color: #FFAD59;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.section-link:hover {
+  background: #8Cbf8f;
+  color: #4B694E;
+}
+
+.scroller-inner {
+  display: inline-flex;
+  gap: 4rem;
+  animation: scroll 20s linear infinite;
+  will-change: transform;
+}
+
+.scroller-item {
+  font-family: "chelsea-market-pro", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4B694E;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  white-space: nowrap;
+  padding: 1.5rem;
+}
+
+.scroller-item img {
+  height: 40px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+.scroller-inner::after {
+  content: attr(data-content);
+  display: inline-flex;
+  gap: 2rem;
+  /* Duplicate content for seamless looping */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroller-outer {
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.work-together {
+  color: #2a2422;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 60vh;
+  background-color: #4B694E;
+
+}
+
+.work-together img {
+  max-width: 500px; 
+  width: 100%;
+  height: auto;
+}
+
+.work-together section:first-child {
+  max-width: 40rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;  
+  gap: 2rem;  
+  margin-top: 2rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+   align-items: flex-start;
+  justify-content: space-between;
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+   justify-content: center;
+  align-items: center;
+}
+
+.footer-contact img {
+  height: 6rem;
+  width: auto;
+}
+
+.nav-section-footer {
+  font-family: "chelsea-market-pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -3rem;
+  gap: 1rem;
+}
+
+.nav-section-footer ul {
+  font-family: "chelsea-market-pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 2rem;
+}
+
+.social-icons-a {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.social-icons-a i {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons-a i:hover {
+  color: #8Cbf8f !important;
+}
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #4B694E;
+  }
+
+/* Hamburger Menu Styles - Hidden on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 1rem;
+  background: none;
+  border: none;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background: #4B694E;
+  margin: 3px 0;
+  transition: 0.3s;
+  
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.mobile-social-icons {
+  display: none;
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  
+  .social-icons,
+  .cv-section {
+    display: none;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 1rem;
+    z-index: 1001;
+  }
+
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background: #4B694E;
+    margin: 3px 0;
+    transition: 0.3s;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    background: #4B694E;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding: 2rem;
+    list-style: none;
+  }
+
+  .navigation.active {
+    right: 0;
+  }
+
+  .navigation .nav-item {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+  }
+
+  .navigation a {
+    color: #FAF3DE;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  .navigation a:hover {
+    color: #FFAD59;
+    background: rgba(255, 173, 89, 0.1);
+    border-radius: 0.5rem;
+  }
+
+  /* Mobile menu social icons */
+  .navigation .mobile-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .navigation .mobile-social-icons i {
+    color: #FAF3DE;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .navigation .mobile-social-icons i:hover {
+    color: #FFAD59;
+  }
+
+  /* Mobile CV button */
+  .navigation .mobile-cv {
+    margin-top: 2rem;
+  }
+
+  .navigation .mobile-cv a {
+    font-size: 1rem;
+    font-family: "chelsea-market-pro", sans-serif;
+    font-weight: 500;
+    color: #4B694E;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    background-color: #FFAD59;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+  }
+
+  .navigation .mobile-cv a:hover {
+    background-color: #8Cbf8f;
+    color: #4B694E;
+  }
+
+  footer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding: 4rem;
+  flex-wrap: wrap;
+  align-items: center;
+  }
+
+  .footer-navigation {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5rem;
+  }
+
+}
+
+
+
+
