@@ -31,14 +31,14 @@ export default function Projects() {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div>
+    <section className="projects-page">
       <h1>Projects</h1>
       {projects.length === 0 ? (
         <p>No projects found.</p>
       ) : (
-        <div>
+        <div className="projects-grid">
           {projects.map((project) => (
-            <div key={project.id} style={{ marginBottom: '2rem', padding: '1rem', border: '1px solid #ccc' }}>
+            <div key={project.id} className="project-container">
               <h2>{project.title}</h2>
               <p><strong>Year:</strong> {project.year}</p>
               <p>{project.description}</p>
@@ -59,6 +59,6 @@ export default function Projects() {
           ))}
         </div>
       )}
-    </div>
+    </section>
   );
 }

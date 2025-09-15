@@ -30,7 +30,6 @@ export default function Home() {
   className="work-together"
   link={{ text: "Learn More", href: "/contact" }}
 />
-  <Footer />
 
 </main>
 
