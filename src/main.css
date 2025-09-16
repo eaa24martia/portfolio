@@ -1277,19 +1277,20 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  min-height: 60vh;
   color: #2a2422;
+  padding: 5rem 2rem;
+  gap: 3rem;
 }
 
 .who-am-i img {
-  max-width: 500px; 
+  max-width: 100%; 
   width: 100%;
   height: auto;
   
 }
 
 .who-am-i section:first-child {
-  max-width: 35rem;
+  max-width: 34rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1300,31 +1301,70 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
-  margin-top: 5rem;
+  padding: 5rem;
   font-size: 1.5rem;
   text-align: center;
   font-family: "chelsea-market-pro", sans-serif;
   color: #2a2422;
-}
-
-.art-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
-  margin-top: 5rem;
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: "chelsea-market-pro", sans-serif;
-  color: #2a2422;
+  background-color: #7fb684;
 }
 
 .art-section-container {
-  font-size: 1.5rem;
-  font-family: "chelsea-market-pro", sans-serif;
-  color: #2a2422;
-  padding: 10rem 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  font-family: "chelsea-market-pro", sans-serif;
+  color: #2a2422;
   gap: 2rem;
+  padding: 5rem;
+  font-size: 1.5rem;
+}
+
+.art-section-container img {
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.art-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+
+  .art-sections {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .competencies {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .competencies {
+  font-size: 1rem;
+}
+}
+
+.contact-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "chelsea-market-pro", sans-serif;
+  color: #2a2422;
+  gap: 2rem;
+  padding: 5rem;
+  font-size: 1.5rem;
+
 }
