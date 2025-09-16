@@ -1,6 +1,7 @@
 import Top from "../components/Top";
 import Section from "../components/Section";
 import Work from "../components/Work";
+import Art from "../components/Art";
 
 export default function About() {
   return (
@@ -13,6 +14,7 @@ export default function About() {
        className="who-am-i"
      />
       <Work />
+      <Art />
    </section>
   );
 }

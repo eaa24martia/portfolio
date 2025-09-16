@@ -1295,3 +1295,36 @@ footer {
   text-align: center;
   gap: 2rem;  
 }
+
+.competencies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "chelsea-market-pro", sans-serif;
+  color: #2a2422;
+}
+
+.art-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "chelsea-market-pro", sans-serif;
+  color: #2a2422;
+}
+
+.art-section-container {
+  font-size: 1.5rem;
+  font-family: "chelsea-market-pro", sans-serif;
+  color: #2a2422;
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}

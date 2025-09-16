@@ -6,7 +6,7 @@ export default function Work () {
   return (
     <section>
 
-        <section>
+        <section className="competencies">
                 <div>
                 <h2>What I love doing</h2>
                     <p>information architecture</p>
