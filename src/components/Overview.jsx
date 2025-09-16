@@ -6,7 +6,7 @@ export default function Overview({ project }) {
   return (
     <section className="overview-section">
       <h2>Project Overview</h2>
-      <div className="overview-grid">
+      <div className="overview-container">
         <div className="overview-item">
           <h3>Client</h3>
           <p>{project.client}</p>

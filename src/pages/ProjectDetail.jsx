@@ -48,27 +48,29 @@ export default function ProjectDetail() {
 
   return (
     <main>
+      <section className="detail-image">
+        <img src={project.image} alt={project.title} />
+        <a href={project.links[0].url} target="_blank" rel="noopener noreferrer" className="project-link">
+          {project.links[0].text}
+        </a>
+      </section>
 
-   
-    <section className="detail-image">
-      <img src={project.image} alt={project.title} />
-      <a href={project.links[0].url} target="_blank" rel="noopener noreferrer" className="project-link">
-        {project.links[0].text}
-      </a>
-    </section>
+      <section>
+        <Detail project={project.sections?.main || {}} />
+      </section>
+      
 
-        <section>
-       <Detail
-        project={{
-          title: project.title,
-          description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. I'm open for `new` and collaborations. Feel free to reach out!",
-          image: "/public/img/logo.png",
-          className: "project-name-section",
-        }}
-      />
+      <section>
+        <Overview project={project} />
+      </section>
 
-      <Overview project={project} />
-    </section>
-     </main>
+      <section>
+
+      <Detail project={project.sections?.discover || {}} />
+      <Detail project={project.sections?.define || {}} />
+      <Detail project={project.sections?.develop || {}} />
+      <Detail project={project.sections?.deliver || {}} />
+      </section>
+    </main>
   );
 }

@@ -1139,6 +1139,7 @@ footer {
 }
 
 .project-name-section {
+  padding: 5rem 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;  
@@ -1146,6 +1147,7 @@ footer {
   flex-wrap: wrap;
   text-align: center;
   min-height: 60vh;
+  gap: 4rem
 }
 
 .project-name-section img {
@@ -1162,4 +1164,134 @@ footer {
   text-align: center;
   gap: 2rem;  
   margin-top: 2rem;
+}
+
+.overview-section {
+   font-family: "chelsea-market-pro", sans-serif;
+    display: flex;
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #2a2422;
+    flex-direction: column;
+}
+
+.overview-container {
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.overview-item {
+    flex: 1 1 200px;
+    max-width: 300px;
+    background: #4b694e;
+    color: #faf3de;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.overview-item li {
+    list-style: none;
+}
+
+.project-name-section2 {
+  background-color: #4B694E;
+  color: #2a2422;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 60vh;
+  gap: 4rem
+}
+
+.project-name-section2 img {
+  max-width: 500px; 
+  width: 100%;
+  height: auto;
+  
+}
+
+.project-name-section2 section:first-child {
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;  
+  margin-top: 2rem;
+}
+
+.about-me-top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 4rem;
+  padding: 10rem 0rem;
+}
+
+.about-me-top img {
+  max-width: 600px; 
+  width: 100%;
+  height: auto;
+}
+
+.about-me-text {
+  max-width: 40rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.about-me-text i {
+  font-size: 5rem;
+  animation: aboutMeIconMove 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes aboutMeIconMove {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+
+.who-am-i {
+  background-color: #4B694E;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 60vh;
+  color: #2a2422;
+}
+
+.who-am-i img {
+  max-width: 500px; 
+  width: 100%;
+  height: auto;
+  
+}
+
+.who-am-i section:first-child {
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;  
 }

@@ -6,11 +6,43 @@
     "description": "Et projekt om Steno-metoden.",
     "tags": ["HTML", "CSS", "JS"],
     "image": "/img/steno-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "PROTOTYPE"}],
+    "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "SEE PROJECT"}],
     "client": "Steno Project",
-    "team": "2 people",
-    "time": "4 weeks",
-    "focus": ["Design System", "Interaction Design", "Testing", "Prototyping"]
+    "team": "1 person", 
+    "time": "2 weeks",
+    "focus": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    "sections": {
+      "main": {
+        "title": "Project",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+       "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "discover": {
+        "title": "Discover",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "define": {
+        "title": "Define",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "className": "project-name-section2"
+      },
+      "develop": {
+        "title": "Develop",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "deliver": {
+        "title": "Deliver",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "className": "project-name-section2"
+      }
+    }
   },
   {
     "id": 2,
@@ -19,42 +51,134 @@
     "description": "Et UX-projekt med fokus på øloplevelse.",
     "tags": ["UX", "Design", "Frontend"],
     "image": "/img/zero-buzz-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "PROTOTYPE"}],
+    "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "SEE PROJECT"}],
     "client": "UX Beer Project",
-    "team": "4 people",
-    "time": "3 weeks",
-    "focus": ["User Research", "Prototyping", "Usability Testing"]
+    "team": "3 people",
+    "time": "4 weeks", 
+    "focus": ["UX Research", "Design", "Frontend Development", "User Testing"],
+    "sections": {
+       "main": {
+        "title": "Project",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"},
+      "discover": {
+        "title": "Discover",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "define": {
+        "title": "Define",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "className": "project-name-section2"
+      },
+      "develop": {
+        "title": "Develop",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "deliver": {
+        "title": "Deliver",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "className": "project-name-section2"
+      }
+    }
   },
   {
     "id": 5,
-    "title": "Radar Project",
+    "title": "Radar Project", 
     "year": 2024,
     "description": "Et projekt med radar-tema.",
     "tags": ["HTML", "JS", "Design"],
     "image": "/img/radar-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "PROTOTYPE"}],
+    "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "SEE PROJECT"}],
     "client": "Radar Project",
-    "team": "1 person",
-    "time": "4 weeks",
-    "focus": ["Design System", "Interaction Design", "Testing", "Prototyping"]
+    "team": "2 people",
+    "time": "3 weeks",
+    "focus": ["HTML", "JavaScript", "Design", "Animation"],
+    "sections": {
+       "main": {
+        "title": "Project",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+       "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "discover": {
+        "title": "Discover",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "define": {
+        "title": "Define",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "className": "project-name-section2"
+      },
+      "develop": {
+        "title": "Develop",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "deliver": {
+        "title": "Deliver",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "className": "project-name-section2"
+      }
+    }
   },
-   {
+  {
     "id": 3,
     "title": "Responsive TBC Project",
     "year": 2024,
-    "description": "Et responsivt webprojekt.",
+    "description": "Et responsivt webprojekt.", 
     "tags": ["Responsive", "HTML", "CSS"],
     "image": "/img/tbc-project.png",
-    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "PROTOTYPE"}],
+    "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "SEE PROJECT"}],
     "client": "Responsive TBC Project",
     "team": "4 people",
     "time": "3 weeks",
-    "focus": ["Design System", "Interaction Design", "Testing", "Prototyping"]
+    "focus": ["Design System", "Interaction Design", "Testing", "Prototyping"],
+    "sections": {
+       "main": {
+        "title": "Project",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+       "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "discover": {
+        "title": "Discover",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+       "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "define": {
+        "title": "Define",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "className": "project-name-section2"
+      },
+      "develop": {
+        "title": "Develop",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "className": "project-name-section"
+      },
+      "deliver": {
+        "title": "Deliver",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "className": "project-name-section2"
+      }
+    }
   }
- 
 ]
-
-
 
 
 
