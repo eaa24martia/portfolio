@@ -38,31 +38,6 @@ body {
   padding: 1rem 3rem;
 }
 
-.cv-header {
-  font-size: 1rem;
-  font-family: "chelsea-market-pro", sans-serif;
-  font-weight: 500;
-  color: #4B694E;
-  text-decoration: none;
-  padding: 1rem 1.5rem;
-  border-radius: 10rem;
-  background-color: #FFAD59;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
-}
-
-.cv-header:hover {
-  background-color: #8Cbf8f;
-  border-color: #8Cbf8f;
-  color: #4B694E;
-}
-
-.cv-section {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -9rem;
-}
-
 .social-icons {
   display: flex;
   justify-content: flex-start;
@@ -108,20 +83,21 @@ body {
 
 .navigation .nav-item {
     list-style: none;
+    text-decoration: none;
 }
 
 .navigation li {
     list-style: none;
+    text-decoration: none;
 }
 
-/* Global element styles */
-a {
+.navigation a {
   font-size: 24px;
   font-weight: 500;
      color: #4B694E;
   text-decoration: inherit;
 }
-a:hover {
+.navigation a:hover {
   color: #8Cbf8f;
 }
 
@@ -634,6 +610,18 @@ footer {
   text-decoration: none;
   list-style: none;
   gap: 2rem;
+}
+
+.nav-section-footer a {
+  font-size: 1.2rem;
+  font-family: "chelsea-market-pro", sans-serif;
+  font-weight: 500;
+     color: #4B694E;
+  text-decoration: inherit;
+}
+
+.nav-section-footer a:hover {
+  color: #8Cbf8f;
 }
 
 .social-icons-a {
@@ -1360,15 +1348,84 @@ footer {
 }
 
 .contact-page-container {
+  position: relative;
+  overflow: visible; /* allow the rotator to stick out */
+  padding: 5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "chelsea-market-pro", sans-serif;
-  color: #2a2422;
   gap: 2rem;
-  padding: 5rem;
-  font-size: 1.5rem;
-
+  z-index: 0;
 }
+
+.contact-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-page-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* keep content above the rotator */
+.contact-page-container > * { position: relative; z-index: 2; }
+
+.rotator-wrap {
+  position: absolute;
+  top: 50%;    /* vertical center */
+  left: 50%;   /* horizontal center */
+  transform: translate(-50%, -50%); /* true center */
+  width: 150vmin;   /* responsive size (80% of smaller screen side) */
+  height: 150vmin;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.rotator-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform-origin: 50% 50%;
+  will-change: transform;
+  animation: spin 60s linear infinite;
+  opacity: 0.85;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+/* responsive example: smaller on small screens */
+@media (min-width: 600px) and (max-width: 600px) {
+  .rotator-wrap { width: 180px; height: 180px; top: 5%; }
+}
+
+.download-cv {
+  font-size: 1rem;
+  font-family: "chelsea-market-pro", sans-serif;
+  font-weight: 500;
+  color: #4B694E;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  background-color: #FFAD59;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.download-cv a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.download-cv:hover {
+  background-color: #8Cbf8f;
+  border-color: #8Cbf8f;
+  color: #4B694E;
+}
+
