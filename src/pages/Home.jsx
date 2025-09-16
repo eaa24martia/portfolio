@@ -2,7 +2,6 @@ import Section from "../components/Section";
 import Slider from "../components/Slider";
 import Competencies from "../components/Competencies";
 import ScrollText from "../components/Scroll-text";
-import Footer from "../components/Footer";
 
 export default function Home() {
   return (

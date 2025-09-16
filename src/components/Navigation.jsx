@@ -5,7 +5,7 @@ export default function Navigation() {
 
   useEffect(() => {
     const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
+    const navMenu = document.querySelector(".navigation");
 
     if (hamburger && navMenu) {
       const handleClick = () => {
@@ -37,6 +37,20 @@ export default function Navigation() {
   <li className="nav-item">
     <NavLink to="/contact">CONTACT</NavLink>
   </li>
+  
+  {/* Mobile social icons */}
+  <div className="mobile-social-icons">
+    <i className="fab fa-linkedin" style={{ color: '#FAF3DE' }}></i>
+    <i className="fab fa-github" style={{ color: '#FAF3DE' }}></i>
+    <i className="fab fa-instagram" style={{ color: '#FAF3DE' }}></i>
+  </div>
+
+  {/* Mobile CV button */}
+  <div className="mobile-cv">
+    <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+      DOWNLOAD CV
+    </a>
+  </div>
 </nav>
 
 <div className="hamburger">

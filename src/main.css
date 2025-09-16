@@ -701,6 +701,10 @@ footer {
   display: none;
 }
 
+.mobile-cv {
+  display: none;
+}
+
 
 /* Tablet */
 @media (max-width: 768px) {
@@ -710,12 +714,15 @@ footer {
   justify-content: center;
   align-items: center;
 }
-  
-  
-  .social-icons,
-  .cv-section {
-    display: none;
-  }
+
+.social-icons,
+.cv-section {
+  display: none;
+}
+
+.mobile-cv {
+  display: block;
+}
   
   .hamburger {
     display: flex;
@@ -806,10 +813,7 @@ footer {
     color: #FFAD59;
   }
 
-  /* Mobile CV button */
-  .navigation .mobile-cv {
-    margin-top: 2rem;
-  }
+ 
 
   .navigation .mobile-cv a {
     font-size: 1rem;

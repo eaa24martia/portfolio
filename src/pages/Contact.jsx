@@ -9,7 +9,7 @@ export default function Contact() {
       <h2>tvebakmartin@gmail.com</h2>
       <h2>+45 60 69 25 05</h2>
 
-      <img src="" alt="" />
+      <img src="/img/about-me.png" alt="Image of myself" />
     </section>
   );
 }
