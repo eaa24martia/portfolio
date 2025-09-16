@@ -20,12 +20,22 @@ body {
   color: #3e463b;
   line-height: 1.5;
   background: #FAF3DE;
+  padding-top: 120px;
 }
 
 .header-container {
-  background: #00000011;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.header-container.hidden {
+  transform: translateY(-100%) !important;
 }
 
 .header {
@@ -61,10 +71,6 @@ body {
   height: 7rem;
   width: auto;
   
-}
-
-.header.hidden {
-  transform: translateY(-100%);
 }
 
 .navigation {

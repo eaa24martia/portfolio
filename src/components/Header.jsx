@@ -1,19 +1,65 @@
+import { useEffect, useState } from "react";
 import Navigation from "./Navigation";
 
 export default function Header() {
- return (
-  <>
-  <header className="header-container">
-    <Navigation />
-    <section className="header">
-      <section className="social-icons">
-        <i className="fa-brands fa-linkedin" style={{color: "#4b694e"}}></i>
-        <i className="fa-brands fa-square-instagram" style={{color: "#4b694e"}}></i>
-        <i className="fa-brands fa-square-facebook" style={{color: "#4b694e"}}></i>
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+
+    const setupTrigger = () => {
+      const trigger = document.createElement('div');
+      trigger.style.height = '200px';
+      trigger.style.width = '100%';
+      trigger.style.pointerEvents = 'none';
+      trigger.id = 'scroll-trigger';
+      
+      document.body.insertBefore(trigger, document.body.firstChild);
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const entry = entries[0];
+          
+          setIsVisible(entry.isIntersecting);
+        },
+        {
+          threshold: 0
+        }
+      );
+
+      observer.observe(trigger);
+
+      return () => {
+        observer.disconnect();
+        if (trigger && trigger.parentNode) {
+          trigger.parentNode.removeChild(trigger);
+        }
+      };
+    };
+
+    const timer = setTimeout(setupTrigger, 100);
+    
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
+  return (
+    <>
+    <header className={`header-container ${isVisible ? '' : 'hidden'}`}>
+      <Navigation />
+      <section className="header">
+        <section className="social-icons">
+          <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
+          <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
+          <i className="fa-brands fa-square-facebook" style={{ color: "#4b694e" }}></i>
+        </section>
+        <img
+          src="/img/tvebak-green.png"
+          alt="Portfolio Logo"
+          className="header-logo"
+        />
       </section>
-      <img src="/img/tvebak-green.png" alt="Portfolio Logo" className="header-logo" />
-    </section>
-  </header>
-  </>
-);
+    </header>
+    </>
+  );
 }
