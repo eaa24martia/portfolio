@@ -8,7 +8,6 @@ export default function Header() {
 
     const setupTrigger = () => {
       const trigger = document.createElement('div');
-      trigger.style.height = '200px';
       trigger.style.width = '100%';
       trigger.style.pointerEvents = 'none';
       trigger.id = 'scroll-trigger';

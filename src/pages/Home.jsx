@@ -6,6 +6,7 @@ import ScrollText from "../components/Scroll-text";
 export default function Home() {
   return (
 <main>
+  <section className="hero-background-image">
   <Section
   subtitle="Hej, I'm Martin"
   title="Multimedia Designer"
@@ -13,6 +14,7 @@ export default function Home() {
   image="./public/img/logo.png"
   className="home-hero"
 />
+  </section>
   <Slider /> 
   <Competencies />
    <Section

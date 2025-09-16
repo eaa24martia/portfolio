@@ -20,7 +20,6 @@ body {
   color: #3e463b;
   line-height: 1.5;
   background: #FAF3DE;
-  padding-top: 120px;
 }
 
 .header-container {
@@ -141,6 +140,7 @@ h1 {
 
 .slider-section {
   background: #4B694E;
+  padding: 5rem 0rem;
 }
 
 .slider-h2 {
@@ -451,7 +451,7 @@ h1 {
   text-align: center;
   min-height: 60vh;
   background-color: #4B694E;
-
+  padding: 5rem 0rem;
 }
 
 .more-about-me img {
@@ -553,7 +553,7 @@ h1 {
   text-align: center;
   min-height: 60vh;
   background-color: #4B694E;
-
+  padding: 5rem 0rem;
 }
 
 .work-together img {
@@ -937,6 +937,31 @@ footer {
 
 }
 
+/* Hero background image */
+.hero-background-image {
+  background-image: url('/img/hero-background.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 15rem 0rem 4rem;
+}
+
+.hero-background-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.hero-background-image > * {
+  position: relative;
+  z-index: 2;
+}
+
 .projects-page {
   display: flex;
   flex-direction: column;
@@ -944,6 +969,7 @@ footer {
   align-items: center;
   padding: 2rem;
   margin: 0 auto;
+  padding: 20rem 0rem 0rem;
 }
 
 .projects-grid {
