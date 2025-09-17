@@ -68,6 +68,12 @@ return (
                         <NavLink to="/contact" onClick={scrollToHeader}>CONTACT</NavLink>
                     </li>
                 </ul>
+
+                    <div className="mobile-cv-footer">
+                        <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                        SHOW CV
+                        </a>
+                    </div>
             </section>
         </section>
     </footer>
