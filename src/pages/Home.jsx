@@ -11,7 +11,7 @@ export default function Home() {
   subtitle="Hej, I'm Martin"
   title="Multimedia Designer"
   tagline="A danish Multimedia Design student passionate about improving outdated digital experiences and building new ones. Specialized in UX and visual design, while sharpening my frontend programming skills."
-  image="./public/img/logo.png"
+  image="/img/about-me.png"
   className="home-hero"
 />
   </section>
@@ -20,14 +20,14 @@ export default function Home() {
    <Section
   subtitle="Want to know more"
   title="About me?"
-  image="./public/img/logo.png"
+  image="/img/about-me.png"
   className="more-about-me"
   link={{ text: "Learn More", href: "/about" }}
 />
   <ScrollText />
 <Section
   title="Let's work together!"
-  image="./public/img/logo.png"
+  image="/img/about-me.png"
   className="work-together"
   link={{ text: "Learn More", href: "/contact" }}
 />
