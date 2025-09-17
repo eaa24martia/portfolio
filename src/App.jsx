@@ -6,13 +6,14 @@ import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import ProjectDetail from "./pages/ProjectDetail";
 import Footer from "./components/Footer";
-import Fade from "./components/Fade";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
    
   return (
     <BrowserRouter basename={import.meta.env.DEV ? "/" : "/portfolio/"}>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

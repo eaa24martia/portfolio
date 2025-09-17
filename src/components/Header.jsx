@@ -50,9 +50,30 @@ export default function Header() {
       <section className="header">
         <Fade>
         <section className="social-icons">
-          <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
-          <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
-          <i className="fa-brands fa-square-facebook" style={{ color: "#4b694e" }}></i>
+          <a
+                    href="https://www.linkedin.com/in/tvebak"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
+                </a>
+                <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                >
+                    <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
+                </a>
+                <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                >
+                    <i className="fa-brands fa-square-facebook" style={{ color: "#4b694e" }}></i>
+                </a>
         </section>
         </Fade>
         <img

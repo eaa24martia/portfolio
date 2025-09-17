@@ -1002,7 +1002,7 @@ footer {
   z-index: 2;
 }
 
-.projects-page {
+#projects-page {
   background-image: url('/img/projects-background.png'); 
   background-size: cover;
   background-position: center;

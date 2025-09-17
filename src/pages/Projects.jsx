@@ -31,7 +31,7 @@ export default function Projects() {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <section className="projects-page">
+    <section id="projects-page">
       <Fade>
       <h1>Projects</h1>
       </Fade>

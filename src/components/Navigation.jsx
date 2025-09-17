@@ -41,15 +41,36 @@ export default function Navigation() {
   
   {/* Mobile social icons */}
   <div className="mobile-social-icons">
-    <i className="fab fa-linkedin" style={{ color: '#FAF3DE' }}></i>
-    <i className="fab fa-github" style={{ color: '#FAF3DE' }}></i>
-    <i className="fab fa-instagram" style={{ color: '#FAF3DE' }}></i>
+     <a
+                    href="https://www.linkedin.com/in/tvebak"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <i className="fa-brands fa-linkedin" style={{ color: "#faf3de" }}></i>
+                </a>
+                <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                >
+                    <i className="fa-brands fa-square-instagram" style={{ color: "#faf3de" }}></i>
+                </a>
+                <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                >
+                    <i className="fa-brands fa-square-facebook" style={{ color: "#faf3de" }}></i>
+                </a>
   </div>
 
   {/* Mobile CV button */}
   <div className="mobile-cv">
     <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-      DOWNLOAD CV
+      SHOW CV
     </a>
   </div>
 </nav>

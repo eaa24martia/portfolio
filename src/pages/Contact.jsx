@@ -18,16 +18,37 @@ export default function Contact() {
 
         <div className="download-cv">
           <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-            DOWNLOAD CV
+            SHOW CV
           </a>
         </div>
         </div>
         </Fade>
 
       <section className="social-icons-a">
-        <i className="fa-brands fa-linkedin" style={{color: "#4b694e"}}></i>
-        <i className="fa-brands fa-square-instagram" style={{color: "#4b694e"}}></i>
-        <i className="fa-brands fa-square-facebook" style={{color: "#4b694e"}}></i>
+       <a
+                    href="https://www.linkedin.com/in/tvebak"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
+                </a>
+                <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                >
+                    <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
+                </a>
+                <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                >
+                    <i className="fa-brands fa-square-facebook" style={{ color: "#4b694e" }}></i>
+                </a>
       </section>
     </section>
   );
