@@ -1015,7 +1015,7 @@ footer {
   align-items: center;
   padding: 2rem;
   margin: 0 auto;
-  padding: 20rem 0rem 0rem;
+  padding: 20rem 0rem 7rem;
 }
 
 .projects-grid {
@@ -1075,22 +1075,24 @@ footer {
 }
 
 .project-info a {
-  font-size: 1.5rem;
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  color: #2a2422;
-  font-family: "chelsea-market-pro", sans-serif;
+  background: #FFAD59;
+  color: #4B694E;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10rem;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  transition: background-color 0.3s;
 }
 
 .project-info a:hover {
-  color: #8cbf8f;
+  background: #8Cbf8f;
+  color: #4B694E;
 }
 
-
-/* Different blob shapes for each project */
 .project-container:nth-child(1) {
   border-radius: 32% 68% 57% 43% / 38% 38% 62% 62%;
+  background: #8cbf8f;
 }
 
 .project-container:nth-child(1):hover {
@@ -1099,6 +1101,7 @@ footer {
 
 .project-container:nth-child(2) {
   border-radius: 64% 36% 47% 53% / 68% 74% 26% 32%;
+  background: #FFAD59;
 }
 
 .project-container:nth-child(2):hover {
@@ -1107,6 +1110,7 @@ footer {
 
 .project-container:nth-child(3) {
   border-radius: 73% 27% 36% 64% / 42% 58% 42% 58%;
+  background: #FFAD59;
 }
 
 .project-container:nth-child(3):hover {
@@ -1115,6 +1119,7 @@ footer {
 
 .project-container:nth-child(4) {
   border-radius: 48% 52% 68% 32% / 71% 29% 71% 29%;
+  background: #7fb684; 
 }
 
 .project-container:nth-child(4):hover {
@@ -1123,6 +1128,7 @@ footer {
 
 .project-container:nth-child(5) {
   border-radius: 61% 39% 24% 76% / 55% 45% 55% 45%;
+  background: #7fb684; 
 }
 
 .project-container:nth-child(5):hover {
@@ -1131,6 +1137,7 @@ footer {
 
 .project-container:nth-child(6) {
   border-radius: 35% 65% 78% 22% / 67% 33% 67% 33%;
+  background: #FFAD59; 
 }
 
 .project-container:nth-child(6):hover {
@@ -1139,6 +1146,7 @@ footer {
 
 .project-container:nth-child(7) {
   border-radius: 82% 18% 43% 57% / 28% 72% 28% 72%;
+  background: #7fb684
 }
 
 .project-container:nth-child(7):hover {
@@ -1147,6 +1155,7 @@ footer {
 
 .project-container:nth-child(8) {
   border-radius: 29% 71% 54% 46% / 83% 17% 83% 17%;
+  background: #FFAD59;
 }
 
 .project-container:nth-child(8):hover {
@@ -1156,24 +1165,20 @@ footer {
 /* For projects beyond 8, cycle through variations */
 .project-container:nth-child(n+9) {
   border-radius: 45% 55% 62% 38% / 51% 49% 51% 49%;
+  background: #7fb684; 
 }
 
 .project-container:nth-child(n+9):hover {
   border-radius: 62% 38% 45% 55% / 49% 51% 49% 51%;
 }
 
-.project-container:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-   background: #121212;
+.project-container:hover .project-image{
+  filter: blur(6px);
 }
 
-.project-container:hover .project-info a {
-  color: #FFAD59;
-  text-decoration: underline;
-}
 
 .project-container:hover .project-info {
-  color: #ffffff;
+  color: #4B694E;
 }
 
 .detail-image {

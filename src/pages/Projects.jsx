@@ -53,7 +53,7 @@ export default function Projects() {
                   <strong>Tags:</strong> {project.tags?.join(', ')}
                 </div>
                 <div style={{ marginTop: '1rem' }}>
-                  <NavLink to={`/projects/${project.id}`} style={{ marginRight: '1rem' }}>
+                  <NavLink to={`/projects/${project.id}`} className="project-link" target="_blank" style={{ marginRight: '1rem' }}>
                     DETAILS
                   </NavLink>
                   {project.links && project.links.map((link, index) => (

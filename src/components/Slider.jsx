@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Fade from './Fade.jsx';
+import { NavLink } from 'react-router-dom';
 
 export default function Slider() {
   const [projects, setProjects] = useState([]);
@@ -107,14 +108,20 @@ export default function Slider() {
                       ))}
                     </div>
                     {project.links && project.links[0] && (
-                      <a
-                        href={project.links[0].url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="project-link"
-                      >
-                        {project.links[0].text}
-                      </a>
+                      <div>
+                        <NavLink to={`/projects/${project.id}`} className="project-link" target="_blank" style={{ marginRight: '1rem' }}>
+                          DETAILS
+                        </NavLink>
+                        <a
+                          href={project.links[0].url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="project-link"
+                          style={{ marginRight: '1rem' }}
+                        >
+                          {project.links[0].text}
+                        </a>
+                      </div>
                     )}
                   </div>
                 </div>
