@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Fade from './Fade.jsx';
 
 export default function Top() {
   useEffect(() => {
@@ -45,10 +46,12 @@ export default function Top() {
       <img src="/img/parralax3.png" alt="" className="corner corner-3" />
       <img src="/img/parralax4.png" alt="" className="corner corner-4" />
 
+        <Fade>
       <section className="about-me-text">
         <h1>Yep, that's me</h1>
         <i className="fa-solid fa-arrow-down" style={{ color: '#4B694E' }}></i>
       </section>
+      </Fade>
     </section>
   );
 }

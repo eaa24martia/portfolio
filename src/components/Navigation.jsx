@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router";
+import Fade from "./Fade.jsx";
 
 export default function Navigation() {
 
@@ -23,8 +24,8 @@ export default function Navigation() {
     return(
       <section>
 
-      
-<nav className="navigation">
+      <Fade>
+      <nav className="navigation">
   <li className="nav-item">
     <NavLink to="/" end> HOME</NavLink>
   </li>
@@ -58,6 +59,7 @@ export default function Navigation() {
       <span className="bar"></span>
       <span className="bar"></span>
 </div>
+</Fade>
 
 </section>
 

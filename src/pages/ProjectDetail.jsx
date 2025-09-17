@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import Detail from "../components/Detail.jsx";
 import Overview from "../components/Overview.jsx";
+import Fade from "../components/Fade.jsx";
 
 export default function ProjectDetail() {
   const [project, setProject] = useState({});
@@ -48,17 +49,18 @@ export default function ProjectDetail() {
 
   return (
     <main>
+      <Fade>
       <section className="detail-image">
         <img src={project.image} alt={project.title} />
         <a href={project.links[0].url} target="_blank" rel="noopener noreferrer" className="project-link">
           {project.links[0].text}
         </a>
       </section>
+      </Fade>
 
       <section>
         <Detail project={project.sections?.main || {}} />
       </section>
-      
 
       <section>
         <Overview project={project} />

@@ -1,8 +1,10 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router";
+import Fade from "./Fade.jsx";
 
 export default function Footer() {
   return (
+   <Fade>
     <footer>
              <section className="footer-contact">
                     <img src="/public/img/tvebak-green.png" alt="Logo Image" />
@@ -45,5 +47,6 @@ export default function Footer() {
                     </section>     
             </section>
     </footer>
+    </Fade>
   );
 }

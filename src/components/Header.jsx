@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Navigation from "./Navigation";
+import Fade from "./Fade.jsx";
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(true);
@@ -43,15 +44,17 @@ export default function Header() {
   }, []);
 
   return (
-    <>
+    
     <header className={`header-container ${isVisible ? '' : 'hidden'}`}>
       <Navigation />
       <section className="header">
+        <Fade>
         <section className="social-icons">
           <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
           <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
           <i className="fa-brands fa-square-facebook" style={{ color: "#4b694e" }}></i>
         </section>
+        </Fade>
         <img
           src="/img/tvebak-green.png"
           alt="Portfolio Logo"
@@ -59,6 +62,6 @@ export default function Header() {
         />
       </section>
     </header>
-    </>
+  
   );
 }

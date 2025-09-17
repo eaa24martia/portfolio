@@ -1,9 +1,10 @@
-
+import Fade from "./Fade.jsx";
 
 export default function Overview({ project }) {
   if (!project) return null;
   
   return (
+    <Fade>
     <section className="overview-section">
       <h2>Project Overview</h2>
       <div className="overview-container">
@@ -29,5 +30,6 @@ export default function Overview({ project }) {
         </div>
       </div>
     </section>
+    </Fade>
   );
 }

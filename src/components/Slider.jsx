@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Fade from './Fade.jsx';
 
 export default function Slider() {
   const [projects, setProjects] = useState([]);
@@ -48,6 +49,7 @@ export default function Slider() {
 
   return (
     <section className="slider-section">
+        <Fade>
       <h2 className="slider-h2">My Projects</h2>
 
       <div className="slider-background">
@@ -139,6 +141,7 @@ export default function Slider() {
           </button>
         </section>
       </div>
+      </Fade>
     </section>
   );
 }

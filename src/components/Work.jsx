@@ -1,11 +1,12 @@
 
-
+import Fade from "./Fade.jsx";
 
 export default function Work () {
   
   return (
+  
     <section>
-
+  <Fade>
         <section className="competencies">
                 <div>
                 <h2>What I love doing</h2>
@@ -39,7 +40,8 @@ export default function Work () {
                     <p>new programming languages</p>
                 </div>
         </section>
-
+</Fade>
     </section>
+    
   );
 }

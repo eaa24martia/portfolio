@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import ProjectDetail from "./pages/ProjectDetail";
 import Footer from "./components/Footer";
+import Fade from "./components/Fade";
 
 
 function App() {

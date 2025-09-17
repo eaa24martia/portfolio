@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router';
+import Fade from "../components/Fade";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -31,10 +32,13 @@ export default function Projects() {
 
   return (
     <section className="projects-page">
+      <Fade>
       <h1>Projects</h1>
+      </Fade>
       {projects.length === 0 ? (
         <p>No projects found.</p>
       ) : (
+        <Fade>
         <div className="projects-grid">
           {projects.map((project) => (
             <div key={project.id} className="project-container">
@@ -68,6 +72,7 @@ export default function Projects() {
             </div>
           ))}
         </div>
+        </Fade>
       )}
     </section>
   );

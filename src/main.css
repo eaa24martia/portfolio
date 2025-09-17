@@ -22,6 +22,8 @@ body {
   background: #FAF3DE;
 }
 
+
+
 .header-container {
   position: fixed;
   top: 0;
@@ -55,7 +57,7 @@ body {
   gap: 1rem;
   font-size: 1.5rem;
   align-items: flex-start;
-  margin-top: -9rem;
+  margin-top: -5rem;
 }
 
 .social-icons i {
@@ -360,6 +362,7 @@ h1 {
   margin-top: 2rem;
   font-size: 2rem;
   margin-bottom: 2rem;
+  font-family: "chelsea-market-pro", sans-serif;
 }
 
 .competency-icons {
@@ -1043,10 +1046,10 @@ footer {
 .project-container {
   padding: 2rem;
   width: 100%;
-  max-width: 80%;
+  max-width: 90%;
   aspect-ratio: 1;
   border-radius: 32% 68% 57% 43% / 38% 38% 62% 62%;
-  background: repeating-linear-gradient(110deg, #4b694e, #8cbf8f);
+  background: #4b694e;
   transition: border-radius 0.6s ease-in-out, box-shadow 0.3s ease;
   overflow: hidden;
   position: relative;
@@ -1368,7 +1371,7 @@ footer {
   flex-wrap: wrap;
   text-align: center;
   color: #2a2422;
-  padding: 5rem 2rem;
+  padding: 10rem 2rem;
   gap: 3rem;
 }
 
@@ -1396,7 +1399,6 @@ footer {
   text-align: center;
   font-family: "chelsea-market-pro", sans-serif;
   color: #2a2422;
-  background-color: #7fb684;
 }
 
 .art-section-container {
@@ -1525,5 +1527,17 @@ footer {
   background-color: #8Cbf8f;
   border-color: #8Cbf8f;
   color: #4B694E;
+}
+
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 1.8s ease;
+  font-family: "chelsea-market-pro", sans-serif;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 

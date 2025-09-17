@@ -1,4 +1,4 @@
-
+import Fade from "../components/Fade.jsx";
 
 export default function Contact() {
   return (
@@ -8,6 +8,7 @@ export default function Contact() {
         <img className="rotator-img" src="/img/contact-background.png" alt="" />
       </div>
 
+    <Fade>
       <div className="contact-page-content">
         <h1>Let's talk</h1>
         <h2>tvebakmartin@gmail.com</h2>
@@ -21,6 +22,7 @@ export default function Contact() {
           </a>
         </div>
         </div>
+        </Fade>
 
       <section className="social-icons-a">
         <i className="fa-brands fa-linkedin" style={{color: "#4b694e"}}></i>
