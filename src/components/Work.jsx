@@ -8,37 +8,44 @@ export default function Work () {
     <section>
   <Fade>
         <section className="competencies">
+            <Fade>
                 <div>
                 <h2>What I love doing</h2>
-                    <p>information architecture</p>
-                    <p>user flows</p>
-                    <p>wireframing</p>
-                    <p>prototyping</p>
+                    <p>Digital art</p>
+                    <p>UI/UX design</p>
+                    <p>Mockups</p>
+                    <p>Prototyping</p>
                 </div>
+            </Fade>
 
+            <Fade>
                 <div>
                 <h2>What I can do</h2>
-                    <p>user research</p>
-                    <p>usability testing</p>
-                    <p>visual design</p>
-                    <p>front-end development</p>
+                    <p>User research</p>
+                    <p>Usability testing</p>
+                    <p>Visual design</p>
+                    <p>Programming</p>
                 </div>
+            </Fade>
 
+            <Fade>
                 <div>
                 <h2>What I use</h2>
-                    <p>motion design</p>
-                    <p>3D design</p>
-                    <p>AR/VR</p>
-                    <p>back-end development</p>
+                    <p>Figma</p>
+                    <p>Adobe Creative Cloud</p>
+                    <p>Visual Studio Code</p>
+                    <p>PaintTool SAI</p>
                 </div>
+            </Fade>
 
+            <Fade>
                 <div>
                 <h2>What I'm learning</h2>
-                    <p>AI tools</p>
-                    <p>no-code tools</p>
-                    <p>new design tools</p>
-                    <p>new programming languages</p>
+                    <p>JavaScript</p>
+                    <p>React</p>
+                    <p>Rive</p>
                 </div>
+            </Fade>
         </section>
 </Fade>
     </section>

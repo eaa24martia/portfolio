@@ -22,7 +22,16 @@ body {
   background: #FAF3DE;
 }
 
+h4, h3, p {
+  font-family: "basic-sans", sans-serif;
+}
 
+h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #2a2422;
+}
+  
 
 .header-container {
   position: fixed;
@@ -491,7 +500,7 @@ h1 {
   text-align: center;
   min-height: 60vh;
   background-color: #4B694E;
-  padding: 5rem 0rem;
+  padding: 1rem 0rem;
 }
 
 .more-about-me img {
@@ -508,7 +517,6 @@ h1 {
   flex-direction: column;
   text-align: center;
   gap: 1rem;  
-  gap: 2rem;  
   margin-top: 2rem;
 }
 
@@ -593,7 +601,7 @@ h1 {
   text-align: center;
   min-height: 60vh;
   background-color: #4B694E;
-  padding: 5rem 0rem;
+  padding: 2rem 0rem;
 }
 
 .work-together img {
@@ -1395,6 +1403,34 @@ footer {
   gap: 2rem;  
 }
 
+.fun-facts {
+  background-color: #4B694E;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #2a2422;
+  padding: 10rem 2rem;
+  gap: 3rem;
+}
+
+.fun-facts img {
+  max-width: 100%; 
+  width: 100%;
+  height: auto;
+  
+}
+
+.fun-facts section:first-child {
+  max-width: 34rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;  
+}
+
 .competencies {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1445,11 +1481,8 @@ footer {
     grid-template-columns: 1fr;
     gap: 2rem;
     padding: 2rem;
+    font-size: 1rem;
   }
-
-  .competencies {
-  font-size: 1rem;
-}
 }
 
 .contact-page-container {

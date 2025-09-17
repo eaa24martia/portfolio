@@ -25,14 +25,14 @@ export default function Home() {
     title="About me?"
     image="/img/about-me.png"
     className="more-about-me"
-    link={{ text: "Learn More", href: "/about" }}
+    link={{ text: "LEARN MORE", href: "/about" }}
     />
   <ScrollText />
 <Section
   title="Let's work together!"
   image="/img/about-me.png"
   className="work-together"
-  link={{ text: "Learn More", href: "/contact" }}
+  link={{ text: "CONTACT ME", href: "/contact" }}
 />
 
 </main>

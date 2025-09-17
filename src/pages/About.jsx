@@ -9,11 +9,19 @@ export default function About() {
      <Top />
       <Section
        title="Who am I?"
-       tagline="A danish Multimedia Design student passionate about improving outdated digital experiences and building new ones. Specialized in UX and visual design, while sharpening my frontend programming skills."
+       tagline="I’m Martin Andersen, a 21-year-old Multimedia Design student from Denmark, currently studying at Business Academy Aarhus. I’ve always loved being creative, which is why I chose Multimedia Design in the first place."
+       tagline2="I’m especially passionate about UX & Design, as it allows me to craft digital experiences where creativity meets functionality. Along the way, I also discovered a strong interest in programming. I enjoy how it brings my designs to life, which motivates me and inspires me to push even further with the next project. "
        image="https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image"
        className="who-am-i"
      />
       <Work />
+      <Section
+       title="Fun facts"
+       tagline="I create under the alias “Tvebak”. The name goes back to my childhood, when my parents used to call me “Tvebak”, which is the Danish word for crispy, double-baked bun. It stuck with me, and now I use it as my creative identity, which you can see in my logo. "
+       tagline2="I’m currently learning Dutch and exploring Dutch culture, which is one of the reasons I’m excited about internship opportunities in the Netherlands."
+       image="https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image"
+       className="fun-facts"
+     />
       <Art />
    </section>
   );
