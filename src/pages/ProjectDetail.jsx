@@ -15,7 +15,7 @@ export default function ProjectDetail() {
     const fetchProject = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/projects.json');
+        const response = await fetch('./projects.json');
         if (!response.ok) {
           throw new Error('Failed to fetch project');
         }

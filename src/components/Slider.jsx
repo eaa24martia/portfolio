@@ -18,7 +18,7 @@ export default function Slider() { //Definerer en React komponent med navnet Sli
   useEffect(() => {
     const loadProjects = async () => { // Asynkron funktion til at hente projektdata
       try { // Forsøger at hente data
-        const response = await fetch('/projects.json'); // Henter data fra projects.json
+        const response = await fetch('./projects.json'); // Henter data fra projects.json
         if (!response.ok) { // Hvis svaret ikke er ok, kastes en fejl
           throw new Error(`HTTP error! status: ${response.status}`);
         }
