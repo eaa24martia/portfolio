@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { NavLink } from "react-router";
 import Fade from "./Fade.jsx";
 
@@ -8,14 +8,14 @@ export default function Footer() {
       window.scrollTo(0, 0);
       document.documentElement.scrollTop = 0;
       document.body.scrollTop = 0;
-    }, 1000);
+    }, 0);
   };
 
 return (
  <Fade>
     <footer>
         <section className="footer-contact">
-            <img src={`${import.meta.env.BASE_URL}img/tvebak-green.png`} alt="Logo Image" />
+            <img src="./img/tvebak-green.webp" alt="Logo Image" />
             <p>tvebakmartin@gmail.com</p>
             <p>+45 60 69 25 05</p>
 
@@ -68,6 +68,12 @@ return (
                         <NavLink to="/contact" onClick={scrollToHeader}>CONTACT</NavLink>
                     </li>
                 </ul>
+
+                    <div className="mobile-cv-footer">
+                        <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                        SHOW CV
+                        </a>
+                    </div>
             </section>
         </section>
     </footer>
