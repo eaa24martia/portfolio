@@ -77,7 +77,7 @@ export default function Header() {
         </section>
         </Fade>
         <img
-          src={`${import.meta.env.BASE_URL}img/tvebak-green.webp`}
+          src={import.meta.env.DEV ? "/img/tvebak-green.webp" : "/portfolio/img/tvebak-green.webp"}
           alt="Portfolio Logo"
           className="header-logo"
         />

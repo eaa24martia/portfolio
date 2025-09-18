@@ -1,5 +1,5 @@
 
-import { NavLink } from "react-router";
+import { NavLink } from "react-router-dom";
 import Fade from "./Fade.jsx";
 
 export default function Footer() {
@@ -15,7 +15,7 @@ return (
  <Fade>
     <footer>
         <section className="footer-contact">
-            <img src={`${import.meta.env.BASE_URL}img/tvebak-green.webp`} alt="Logo Image" />
+            <img src={import.meta.env.DEV ? "/img/tvebak-green.webp" : "/portfolio/img/tvebak-green.webp"} alt="Logo Image" />
             <p>tvebakmartin@gmail.com</p>
             <p>+45 60 69 25 05</p>
 
