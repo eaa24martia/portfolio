@@ -15,7 +15,7 @@ export default function ProjectDetail() {
     const fetchProject = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/projects.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}projects.json`);
         if (!response.ok) {
           throw new Error('Failed to fetch project');
         }
@@ -51,7 +51,7 @@ export default function ProjectDetail() {
     <main>
       <Fade>
       <section className="detail-image">
-        <img src={project.image} alt={project.title} />
+        <img src={project.image?.startsWith('/') ? project.image : `${import.meta.env.BASE_URL}${project.image}`} alt={project.title} />
         <a href={project.links[0].url} target="_blank" rel="noopener noreferrer" className="project-link">
           {project.links[0].text}
         </a>
