@@ -15,7 +15,7 @@ return (
  <Fade>
     <footer>
         <section className="footer-contact">
-            <img src="/public/img/tvebak-green.webp" alt="Logo Image" />
+            <img src="/img/tvebak-green.webp" alt="Logo Image" />
             <p>tvebakmartin@gmail.com</p>
             <p>+45 60 69 25 05</p>
 
