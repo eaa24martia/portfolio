@@ -16,7 +16,7 @@ html, body {
 
 body {
   font-family: "basic-sans", sans-serif;
-  cursor: url('/img/cursor-logo.webp'), auto;
+  cursor: url('./img/cursor-logo.webp'), auto;
   color: #3e463b;
   line-height: 1.5;
   background: #FAF3DE;
@@ -1013,7 +1013,7 @@ footer {
 
 /* Hero background image */
 .hero-background-image {
-  background-image: url('/img/hero-background.webp'); /* Replace with your image path */
+  background-image: url('./img/hero-background.webp'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1037,7 +1037,7 @@ footer {
 }
 
 #projects-page {
-  background-image: url('/img/projects-background.webp'); 
+  background-image: url('./img/projects-background.webp'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1216,7 +1216,7 @@ footer {
 }
 
 .detail-image {
-    background-image: url('/img/projects-background.webp'); 
+    background-image: url('./img/projects-background.webp'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
