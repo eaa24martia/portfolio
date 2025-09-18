@@ -16,7 +16,7 @@ html, body {
 
 body {
   font-family: "basic-sans", sans-serif;
-  cursor: url('./img/cursor-logo.webp'), auto;
+  cursor: url('/img/cursor-logo.webp'), auto;
   color: #3e463b;
   line-height: 1.5;
   background: #FAF3DE;
