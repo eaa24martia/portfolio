@@ -15,13 +15,14 @@ export default function ProjectDetail() {
     const fetchProject = async () => {
       try {
         setLoading(true);
-        const response = await fetch('./projects.json');
+        const response = await fetch('/projects.json');
         if (!response.ok) {
           throw new Error('Failed to fetch project');
         }
         const data = await response.json();
 
         const projects = Array.isArray(data) ? data : [data];
+        // Ensure id comparison works for both string and number
         const foundProject = projects.find(project => String(project.id) === id);
 
         if (!foundProject) {

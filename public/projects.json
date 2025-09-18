@@ -5,7 +5,7 @@
     "year": 2025,
     "description": "An interactive project for Steno Museum.",
     "tags": ["HTML", "CSS", "JS"],
-    "image": "./img/steno-project.webp",
+    "image": "../img/steno-project.webp",
     "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "CHECK OUT"}],
     "client": "Steno Project",
     "team": "1 person", 
