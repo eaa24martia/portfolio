@@ -1216,6 +1216,7 @@ footer {
 }
 
 .detail-image {
+    background-image: url('./img/projects-background.webp'); 
     background-image: url('/img/projects-background.webp'); 
     background-size: cover;
     background-position: center;
