@@ -10,10 +10,10 @@ export default function FadeInSection({ children }) {
       (entries) => {
         if (entries[0].isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(ref.current); // kun animere én gang
+          observer.unobserve(ref.current); 
         }
       },
-      { threshold: 0.2 } // 20% af elementet skal være synligt
+      { threshold: 0.2 } 
     );
 
     if (ref.current) observer.observe(ref.current);

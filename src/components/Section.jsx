@@ -1,6 +1,6 @@
 import Fade from "./Fade.jsx";
 
-export default function Section({ title, subtitle, tagline, tagline2, image, className, link }) {
+export default function Section({ title, subtitle, tagline, tagline2, tagline3, image, className, link }) {
   return (
     <section className={`section ${className}`}>
       <Fade>
@@ -9,6 +9,7 @@ export default function Section({ title, subtitle, tagline, tagline2, image, cla
           <h1>{title}</h1>
           <h4>{tagline}</h4>
           <h4>{tagline2}</h4>
+          <h4>{tagline3}</h4>
           {link && (
             <a href={link.href} className="project-link">
               {link.text}

@@ -22,7 +22,6 @@ export default function ProjectDetail() {
         const data = await response.json();
 
         const projects = Array.isArray(data) ? data : [data];
-        // Ensure id comparison works for both string and number
         const foundProject = projects.find(project => String(project.id) === id);
 
         if (!foundProject) {

@@ -35,7 +35,7 @@ export default function Competencies() {
     <section className="competencies-container">
       <h2>What I work with</h2>
       <div className="watercolours-container">
-        <img src="./img/watercolours.png" alt="Paint palette" className="palette-bg" /> 
+        <img src="./img/watercolours.webp" alt="Paint palette" className="palette-bg" /> 
         <div className="competency-icons">
           <div className="competency-icon" data-tooltip="Figma"><FigmaIcon /></div>
           <div className="competency-icon" data-tooltip="Photoshop"><PhotoshopIcon /></div>

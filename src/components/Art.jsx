@@ -12,7 +12,7 @@ export default function Art () {
      <Fade>
    <section className="art-section">
         <section>
-            <img src="/img/blub.png" alt="Digital Art 1" />
+            <img src="/img/blub.webp" alt="Digital Art 1" />
         </section>
     </section>
     </Fade>
@@ -20,7 +20,7 @@ export default function Art () {
   <Fade>
      <section className="art-section2">
         <section>
-            <img src="/img/jinx-watercolor.png" alt="Digital Art 1" />
+            <img src="/img/jinx-watercolor.webp" alt="Digital Art 1" />
         </section>
     </section>
     </Fade>
@@ -28,7 +28,7 @@ export default function Art () {
     <Fade>
      <section className="art-section3">
         <section>
-            <img src="/img/lifeweaver.png" alt="Digital Art 1" />
+            <img src="/img/lifeweaver.webp" alt="Digital Art 1" />
         </section>
     </section>
     </Fade>
@@ -36,7 +36,7 @@ export default function Art () {
     <Fade>
      <section className="art-section4">
         <section>
-            <img src="/img/avatar.png" alt="Digital Art 1" />
+            <img src="/img/avatar.webp" alt="Digital Art 1" />
         </section>
     </section>
     </Fade>

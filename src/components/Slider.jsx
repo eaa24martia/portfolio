@@ -2,50 +2,59 @@ import { useState, useEffect } from 'react';
 import Fade from './Fade.jsx';
 import { NavLink } from 'react-router-dom';
 
-export default function Slider() {
+// Importere useState og useEffect fra React
+// Importere NavLink fra react-router for navigation
+// Importere Fade komponenten for fade-in effekt
+
+export default function Slider() { //Definerer en React komponent med navnet Slider
+
+  //Opretter tilstande til at håndtere projekter, nuværende indeks, indlæsningstilstand og fejltilstand med Reats useState hook
   const [projects, setProjects] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // Når slider-komponenten loades første gang, hentes projektdata fra en JSON-fil ved hjælp af useEffect hook
   useEffect(() => {
-    const loadProjects = async () => {
-      try {
-        const response = await fetch('/projects.json');
-        if (!response.ok) {
+    const loadProjects = async () => { // Asynkron funktion til at hente projektdata
+      try { // Forsøger at hente data
+        const response = await fetch('/projects.json'); // Henter data fra projects.json
+        if (!response.ok) { // Hvis svaret ikke er ok, kastes en fejl
           throw new Error(`HTTP error! status: ${response.status}`);
         }
+
+        // Hvis data hentes korrekt, opdateres projekttilstanden og det nuværende indeks sættes til 0
         const data = await response.json();
-        setProjects(data);
-        setCurrentIndex(0);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
+        setProjects(data); // Antager at data er et array af projekter
+        setCurrentIndex(0); // Starter slideren ved det første projekt
+      } catch (err) { // Hvis der opstår en fejl under hentning, opdateres fejltilstanden
+        setError(err.message); 
+      } finally { // Uanset om hentningen lykkes eller fejler, sættes indlæsningstilstanden til false
+        setLoading(false); // Indlæsning er færdig
       }
     };
 
-    loadProjects();
+    loadProjects(); // Kalder funktionen til at hente projekter, når komponenten loades
   }, []);
 
-  const nextSlide = () => {
+  const nextSlide = () => { // Funktion til at gå til næste slide
     setCurrentIndex((prev) => (prev + 1) % projects.length);
   };
 
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + projects.length) % projects.length);
+  const prevSlide = () => { // Funktion til at gå til forrige slide
+    setCurrentIndex((prev) => (prev - 1 + projects.length) % projects.length); // Sikrer at indekset forbliver inden for grænserne
   };
 
   if (loading) {
-    return <div className="slide-container">Loading projects...</div>;
+    return <div className="slide-container">Loading projects...</div>; // Viser en indlæsningsmeddelelse, mens projekterne hentes
   }
 
   if (error) {
-    return <div className="slide-container">Error loading projects: {error}</div>;
+    return <div className="slide-container">Error loading projects: {error}</div>; // Viser en fejlmeddelelse, hvis der opstår en fejl under hentning
   }
 
   if (projects.length === 0) {
-    return <div className="slide-container">No projects found.</div>;
+    return <div className="slide-container">No projects found.</div>; // Viser en besked, hvis der ikke findes nogen projekter
   }
 
   return (

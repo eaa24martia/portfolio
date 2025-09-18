@@ -5,7 +5,7 @@ export default function Contact() {
     <section className="contact-page-container">
       {/* decorative rotating image (keeps it simple to debug) */}
       <div className="rotator-wrap" aria-hidden="true">
-        <img className="rotator-img" src="/img/contact-background.png" alt="" />
+        <img className="rotator-img" src="/img/contact-background.webp" alt="" />
       </div>
 
     <Fade>
@@ -14,7 +14,7 @@ export default function Contact() {
         <h2>tvebakmartin@gmail.com</h2>
         <h2>+45 60 69 25 05</h2>
 
-        <img src="/img/about-me.png" alt="Image of myself" />
+        <img src="/img/about-me.webp" alt="Image of myself" />
 
         <div className="download-cv">
           <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
