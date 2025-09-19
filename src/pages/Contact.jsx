@@ -17,7 +17,7 @@ export default function Contact() {
         <img src="./img/about-me.webp" alt="Image of myself" />
 
         <div className="download-cv">
-          <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/ComingSoon" target="" rel="noopener noreferrer">
             SHOW CV
           </a>
         </div>
@@ -34,16 +34,16 @@ export default function Contact() {
                     <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
+                    href="/ComingSoon"
+                    target=""
                     rel="noopener noreferrer"
                     aria-label="Instagram"
                 >
                     <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
+                    href="/ComingSoon"
+                    target=""
                     rel="noopener noreferrer"
                     aria-label="Facebook"
                 >

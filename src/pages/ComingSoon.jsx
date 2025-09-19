@@ -9,12 +9,11 @@ export default function ComingSoon() {
         <section className="soon-container">
             <h1>Coming Soon</h1>
             <h4>This page is under construction. Please check back later!</h4>
-            <img src="./img/logo.webp" alt="Coming Soon" />
+            <section className="go-back">
+            <a href="/">GO TO START</a>
+            </section>
 
-        <section className="go-back">
-            <a href="/">GO BACK</a>
         </section>
-     </section>
     </Fade>
   );
 }

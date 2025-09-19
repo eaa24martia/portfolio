@@ -50,16 +50,16 @@ export default function Navigation() {
                     <i className="fa-brands fa-linkedin" style={{ color: "#faf3de" }}></i>
                 </a>
                 <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
+                    href="/ComingSoon"
+                    target=""
                     rel="noopener noreferrer"
                     aria-label="Instagram"
                 >
                     <i className="fa-brands fa-square-instagram" style={{ color: "#faf3de" }}></i>
                 </a>
                 <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
+                    href="/ComingSoon"
+                    target=""
                     rel="noopener noreferrer"
                     aria-label="Facebook"
                 >
@@ -69,7 +69,7 @@ export default function Navigation() {
 
   {/* Mobile CV button */}
   <div className="mobile-cv">
-    <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+    <a href="/ComingSoon" target="" rel="noopener noreferrer">
       SHOW CV
     </a>
   </div>
