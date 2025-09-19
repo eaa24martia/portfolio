@@ -46,7 +46,7 @@ return (
                 </a>
             </section>
 
-            <section>
+            <section className="copyright">
                 <p>© 2025 Martin Andersen. All rights reserved.</p>
             </section>
         </section>
