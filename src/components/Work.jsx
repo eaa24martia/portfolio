@@ -9,7 +9,7 @@ export default function Work () {
   <Fade>
         <section className="competencies">
             <Fade>
-                <div>
+                <div className="competency1">
                 <h2>What I love doing</h2>
                     <p>Digital art</p>
                     <p>UI/UX design</p>
@@ -19,7 +19,7 @@ export default function Work () {
             </Fade>
 
             <Fade>
-                <div>
+                <div className="competency2">
                 <h2>What I can do</h2>
                     <p>User research</p>
                     <p>Usability testing</p>
@@ -29,7 +29,7 @@ export default function Work () {
             </Fade>
 
             <Fade>
-                <div>
+                <div className="competency3">
                 <h2>What I use</h2>
                     <p>Figma</p>
                     <p>Adobe Creative Cloud</p>
@@ -39,7 +39,7 @@ export default function Work () {
             </Fade>
 
             <Fade>
-                <div>
+                <div className="competency4">
                 <h2>What I'm learning</h2>
                     <p>JavaScript</p>
                     <p>React</p>

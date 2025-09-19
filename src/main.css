@@ -384,13 +384,14 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr); 
   place-items: center;
-  
+  cursor: default;
   padding: 5% 20%;
 }
 
 .competency-icon svg {
   width: clamp(4rem, 8vw, 6rem);
   height: clamp(4rem, 8vw, 6rem);
+  cursor: default;
 }
 
 
@@ -1472,6 +1473,31 @@ footer {
   font-family: "chelsea-market-pro", sans-serif;
   color: #2a2422;
 }
+
+.competencies div {
+  border-radius: 5rem;
+}
+
+.competency1 {
+   background-color: #ff6999;
+   padding: 1.5rem 0rem 1rem;
+}
+
+.competencies div:nth-child(2) {
+  background-color: #80b0f8;
+  padding: 1.5rem 0rem 1rem;
+}
+
+.competencies div:nth-child(3) {
+  background-color: #c17aff;
+  padding: 1.5rem 0rem 1rem;
+}
+
+.competencies div:nth-child(4) {
+  background-color: #70d578;
+  padding: 1.5rem 0rem 1rem;
+}
+
 
 .art-section-container {
   display: flex;
