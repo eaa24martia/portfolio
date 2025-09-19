@@ -1494,6 +1494,11 @@ footer {
   object-fit: contain;
 }
 
+.art-section-container .art-section4 {
+  height: auto;
+  width: 25rem;
+}
+
 .art-sections {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

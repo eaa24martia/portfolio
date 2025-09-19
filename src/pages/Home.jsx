@@ -12,7 +12,7 @@ export default function Home() {
         <Section
         subtitle="Hej, I'm Martin"
         title="Multimedia Designer"
-        tagline="A danish Multimedia Design student passionate about improving outdated digital experiences and building new ones. Specialized in UX and visual design, while sharpening my frontend programming skills."
+        tagline="I'm a Danish Multimedia Design student passionate about improving outdated digital experiences and building new ones. Specialized in UX and visual design, while sharpening my frontend programming skills."
         image="./img/about-me.webp"
         className="home-hero"
         />
@@ -25,14 +25,14 @@ export default function Home() {
     title="About me?"
     image="./img/about-me.webp"
     className="more-about-me"
-    link={{ text: "LEARN MORE", href: "/about" }}
+    link={{ text: "LEARN MORE", href: "/portfolio/about" }}
     />
   <ScrollText />
 <Section
   title="Let's work together!"
   image="./img/about-me.webp"
   className="work-together"
-  link={{ text: "CONTACT ME", href: "/contact" }}
+  link={{ text: "CONTACT ME", href: "/portfolio/contact" }}
 />
 
 </main>

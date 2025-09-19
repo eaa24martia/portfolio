@@ -10,7 +10,7 @@ export default function About() {
       <Section
        title="Who am I?"
        tagline="I’m Martin Andersen, a 21-year-old Multimedia Design student from Denmark, currently studying at Business Academy Aarhus. I’ve always loved being creative, which is why I chose Multimedia Design in the first place."
-       tagline2="I’m especially passionate about UX & Design, as it allows me to craft digital experiences where creativity meets functionality. Along the way, I also discovered a strong interest in programming, which allows me to bring my designs to life."
+       tagline2="I’m especially passionate about UX & Design, as it allows me to craft digital experiences where creativity meets functionality. Along the way, I also discovered an interest in programming, which allows me to bring my designs to life."
        tagline3="I also like a good team where you can spark new ideas together and even come with different perspectives. This motivates me and inspires me to push even further with the next project."
        image="https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image"
        className="who-am-i"
