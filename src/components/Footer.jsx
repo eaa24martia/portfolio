@@ -29,7 +29,7 @@ return (
                     <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="/ComingSoon"
+                    href="/portfolio/ComingSoon"
                     target=""
                     rel="noopener noreferrer"
                     aria-label="Instagram"
@@ -37,7 +37,7 @@ return (
                     <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="/ComingSoon"
+                    href="/portfolio/ComingSoon"
                     target=""
                     rel="noopener noreferrer"
                     aria-label="Facebook"
@@ -70,7 +70,7 @@ return (
                 </ul>
 
                     <div className="mobile-cv-footer">
-                        <a href="/ComingSoon" target="" rel="noopener noreferrer">
+                        <a href="/portfolio/ComingSoon" target="" rel="noopener noreferrer">
                         SHOW CV
                         </a>
                     </div>

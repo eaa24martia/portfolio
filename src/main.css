@@ -1608,6 +1608,7 @@ footer {
 
 .soon-container {
   background-image: url('./img/projects-background.webp');
+  background-image: url('/img/projects-background.webp');
   padding: 25rem 2rem 20rem;
   gap: 2rem;
   display: flex;
