@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import ProjectDetail from "./pages/ProjectDetail";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
    
@@ -21,6 +21,7 @@ function App() {
         <Route path="/projects/:id" element={<ProjectDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/ComingSoon" element={<ComingSoon />} />
       </Routes>
          <Footer />
     </BrowserRouter>

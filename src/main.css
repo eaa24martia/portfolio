@@ -1606,3 +1606,38 @@ footer {
   transform: translateY(0);
 }
 
+.soon-container {
+  background-image: url('./img/projects-background.webp');
+  padding: 20rem 0rem 7rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+}
+.soon-container img {
+  max-width: 30%;
+  width: 100%;
+}
+
+.go-back a {
+    font-size: 2rem;
+    font-family: "chelsea-market-pro", sans-serif;
+    font-weight: 500;
+    color: #4B694E;
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    background-color: #FFAD59;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+  }
+
+  .go-back a:hover {
+    background-color: #8Cbf8f;
+    color: #4B694E;
+  }
