@@ -59,7 +59,7 @@ export default function Header() {
                     <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="./ComingSoon"
+                    href="/portfolio/ComingSoon"
                     target=""
                     rel="noopener noreferrer"
                     aria-label="Instagram"
@@ -67,7 +67,7 @@ export default function Header() {
                     <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="./ComingSoon"
+                    href="/portfolio/ComingSoon"
                     target=""
                     rel="noopener noreferrer"
                     aria-label="Facebook"
