@@ -8,38 +8,38 @@
     "image": "/portfolio/img/steno-project.webp",
     "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "CHECK OUT"}],
     "client": "Steno Project",
-    "team": "1 person", 
-    "time": "2 weeks",
+    "team": "2 people", 
+    "time": "4 weeks",
     "focus": ["HTML", "CSS", "JavaScript", "Responsive Design"],
     "sections": {
       "main": {
         "title": "Project",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "This exam project focuses on creating an interactive digital storytelling experience for the Steno Museum in Aarhus. The goal is to develop a multimedia solution that complements a physical exhibition, engaging visitors, especially children and young people through interactivity. We chose to create an interactive experience about menstruation, featuring a quiz and a game where users help Susi the monster.",
        "image": "/portfolio/img/mens-marie-pc.webp",
         "className": "project-name-section"
       },
       "discover": {
         "title": "Discover",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "description": "In the discover phase of the double diamond we did desk and field research to learn about our audience. Here we made interviews and based on our findings, we focused on menstruation for the Steno Museum’s “The Overlooked Body” exhibition.",
+        "image": "/portfolio/img/discover.webp",
         "className": "project-name-section"
       },
       "define": {
         "title": "Define",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "description": "We organized our research insights with affinity diagramming and identified key focus points: interaction, engagement, and age-appropriate content. With the use of empathy mapping and a Value Proposition Canvas, we learned that children (12–14) respond best to playful, interactive exhibits with quizzes or games. Segmentation and our personas (Oliwia and Lukas) helped us design a solution that is both fun and educational, making sensitive topics like menstruation approachable and engaging.",
+        "image": "/portfolio/img/steno-museet.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "description": "First we created moodboards and a shared visual style/identity using the “Grainy Gradient” trend. We also designed user flows for a quiz and the Susi-Cycle game, where children help Susi through her menstrual cycle, using interactive choices and animations to reinforce learning. All digital elements were hand-drawn in a digital way to make the experience playful and approachable. Characters like Susi and Mens-Marie guide users and reduce text. We applied design and interaction principles to ensure clarity, engagement, and usability, and tested the hi-fi prototype with children to refine the interface.",
+        "image": "/portfolio/img/susi.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "description": "We built two main features: an interactive quiz with scoring and pop-up infographics, and the Susi-Cycle game, where players help Susi through her menstrual cycle with animated feedback. All elements are dynamically updated, visually guided, and hand-drawn for a child-friendly experience. The project was developed collaboratively on GitHub, with HTML/CSS validated and a flowchart mapping the user journey.",
+        "image": "/portfolio/img/steno-project.webp",
         "className": "project-name-section2"
       }
     }
