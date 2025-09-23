@@ -53,36 +53,36 @@
     "image": "/portfolio/img/zero-buzz-project.webp",
     "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "CHECK OUT"}],
     "client": "UX Beer Project",
-    "team": "3 people",
-    "time": "4 weeks", 
-    "focus": ["UX Research", "Design", "Frontend Development", "User Testing"],
+    "team": "4 people",
+    "time": "3 weeks", 
+    "focus": ["UX Research", "Design", "User Testing"],
     "sections": {
        "main": {
         "title": "Project",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "This project was a fictive webshop for ZeroBuzz Brew, a non-alcoholic brewery. The goal is to create a user-friendly platform and visual identity that promote alcohol-free beer as a fun and socially accepted choice. The work includes an interactive prototype, usability testing, and a design manual supporting the brand’s mission of encouraging a healthier drinking culture.",
         "image": "/portfolio/img/zero-buzz-pc.webp",
         "className": "project-name-section"},
       "discover": {
         "title": "Discover",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "We combined desk and field research to explore young people’s attitudes toward non-alcoholic beer. Desk research showed a rising demand driven by health and lifestyle trends, while interviews revealed that social pressure, stigma, and cultural drinking norms strongly affect their choices. These insights formed the foundation for the next design phase.",
         "image": "/portfolio/img/discover.webp",
         "className": "project-name-section"
       },
       "define": {
         "title": "Define",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Using affinity diagramming, we identified key insights such as stigma, peer pressure, and the importance of taste in choosing non-alcoholic beer. From this, we developed How Might We questions, two personas, and a Value Proposition Canvas to link user needs with solutions. Finally, we designed a simple sitemap and interaction flow, leading to a Figma prototype for testing.",
         "image": "/portfolio/img/define-beer.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "We built a Figma prototype and tested it through five high-fidelity usability tests using the think-aloud method. The feedback was positive, with only minor issues that were quickly fixed. Based on the results, we created user flows to visualize the customer journey and ensure intuitive navigation. We also refined the design through UX writing, onboarding with an interactive quiz, and a strong visual identity supported by moodboards, logo design, and illustrations.",
         "image": "/portfolio/img/develop-beer.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "The final solution is a functional webshop coded in HTML, CSS, and JavaScript, featuring a shopping cart with LocalStorage and an interactive product slider. We structured the code for clarity, accessibility, and SEO, and collaborated via GitHub with over 200 commits. Concept tests confirmed that the site was easy to navigate, with only minor UX adjustments suggested for future iterations.",
         "image": "/portfolio/img/zero-buzz-project.webp",
         "className": "project-name-section2"
       }
