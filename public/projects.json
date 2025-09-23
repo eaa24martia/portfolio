@@ -161,19 +161,19 @@
       "define": {
         "title": "Define",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "image": "/portfolio/img/define-tbc.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image": "https://placehold.co/600x400/4b694e/faf3de?text=Placeholder+Image",
+        "image": "/portfolio/img/develop-tbc.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image": "https://placehold.co/600x400/faf3de/4b694e?text=Placeholder+Image",
+        "image": "/portfolio/img/tbc-project.webp",
         "className": "project-name-section2"
       }
     }
