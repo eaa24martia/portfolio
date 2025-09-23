@@ -103,31 +103,31 @@
     "sections": {
        "main": {
         "title": "Project",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "The project focused on redesigning the website for Radar, a music venue in Aarhus known for its experimental and innovative profile. The goal was to create a stronger digital presence that reflects Radar’s identity, engages both artists and audiences, and provides practical features such as event visibility, donation options, and improved communication channels. The redesign aimed not only to modernize the website’s aesthetics but also to support Radar’s mission of inclusivity, community, and artistic growth.",
        "image": "/portfolio/img/radar-pc-mobil.webp",
         "className": "project-name-section"
       },
       "discover": {
         "title": "Discover",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Through interviews and observations, several insights were gathered: Radar should feel inclusive and accessible to everyone; artists want more visibility and a place to connect with fans; audiences seek easier access to event information and a clearer understanding of Radar’s identity; and Radar needs to communicate its mission and values more effectively. In addition, a keyword analysis revealed opportunities for improving SEO and promoting events.",
         "image": "/portfolio/img/discover.webp",
         "className": "project-name-section"
       },
       "define": {
         "title": "Define",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "The findings from define were structured with affinity diagrams and Value Proposition Canvases for both artists and audiences. The key pains included: difficulty donating, lack of fan–artist interaction, and challenges in discovering events. The key gains included: supporting artistic growth, easy event access, and feeling part of a community. From this, two personas were created (artist + audience), sharpening the project’s focus on inclusivity, visibility, and support.",
         "image": "/portfolio/img/define-radar.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Based on the defined challenges, ideas were explored through mind maps, moodboards, wireframes, and mockups. Retrofuturism was selected as the visual identity because it combines Radar’s experimental history with a futuristic outlook. User testing of mockups gave feedback such as positive reactions to the color palette, but some concerns about buttons being too “loud.” Iterations refined these design elements into a consistent visual identity.",
         "image": "/portfolio/img/develop-radar.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "description": "The final solution was the redesigned, coded website with responsive design and improved technical SEO. Features like a donations page, events overview, and forum strengthened Radar’s digital presence. Usability tests showed that users found the site visually engaging and easy to navigate, while also recognizing Radar’s values and identity more clearly. The final product delivered both improved functionality and a strong, future-oriented brand expression.",
         "image": "/portfolio/img/radar-project.webp",
         "className": "project-name-section2"
       }
