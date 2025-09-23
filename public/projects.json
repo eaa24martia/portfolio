@@ -97,9 +97,9 @@
     "image": "/portfolio/img/radar-project.webp",
     "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "CHECK OUT"}],
     "client": "Radar Project",
-    "team": "2 people",
-    "time": "3 weeks",
-    "focus": ["HTML", "JavaScript", "Design", "Animation"],
+    "team": "1 person",
+    "time": "4 weeks",
+    "focus": ["HTML", "JavaScript", "Design"],
     "sections": {
        "main": {
         "title": "Project",
@@ -148,31 +148,31 @@
     "sections": {
        "main": {
         "title": "Project",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "This project was our first responsive website. It focused on redesigning The Burger Concept’s website with a special Holiday Edition. The goal was to add a seasonal digital experience that brings Christmas spirit to the brand, while staying true to its existing visual identity. A new “Holiday Concept” menu was introduced on the website, featuring an Info page, a Christmas menu with new food and drinks, and an interactive advent calendar with competitions, prizes, and discounts to engage customers and attract more visitors during the holiday season.",
        "image": "/portfolio/img/tbc-pc-mobile.webp",
         "className": "project-name-section"
       },
       "discover": {
         "title": "Discover",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "User research through interviews and brainstorming revealed several important insights: people strongly associate Christmas with flavors such as pork roast, duck, gravy, and traditional desserts; customers are interested in competitions and interactive features like a Christmas calendar; warm drinks such as cocoa and mulled wine are highly requested during the winter season; vegetarian and vegan options should also be included to ensure accessibility; and Christmas is closely linked to colors, atmosphere, and togetherness. These insights confirmed that the Holiday Concept should focus on both seasonal food experiences and fun, interactive elements to create engagement.",
        "image": "/portfolio/img/discover.webp",
         "className": "project-name-section"
       },
       "define": {
         "title": "Define",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "With the insights structured in an affinity diagram and Value Proposition Canvas, pains and gains were identified. Pains included: difficulties navigating menus, or a calendar that could feel too complicated. Gains included: easy navigation, engaging prizes, and a cozy Christmas atmosphere. A persona, Anders Andersen, was created — a budget-conscious student who enjoys eating out with friends, wants affordable Christmas meals, and appreciates competitions to win discounts. This defined the key focus: usability, affordability, and Christmas spirit.",
         "image": "/portfolio/img/define-tbc.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "The development phase explored creative directions through moodboards, wireframes, logos, product design, infographics, and mockups. Festive visuals combined The Burger Concept’s colors with Christmas elements, including a seasonal logo, playful infographics, a branded to-go cup, a Christmas landing page, and a digital advent calendar. Concept testing ensured a fun, simple, and usable holiday experience.",
         "image": "/portfolio/img/develop-tbc.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "The website was implemented responsively with HTML, CSS, semantic tags, and optimized images, ensuring clean, structured code. The final Holiday Concept microsite was festive, user-friendly, and on-brand, enhancing the customer experience with seasonal offerings, driving engagement through the advent calendar and competitions, and strengthening The Burger Concept’s digital presence during a competitive season.",
         "image": "/portfolio/img/tbc-project.webp",
         "className": "project-name-section2"
       }
