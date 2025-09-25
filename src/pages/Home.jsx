@@ -23,7 +23,7 @@ export default function Home() {
     <Section
     subtitle="Want to know more"
     title="About me?"
-    image="./img/about-me.webp"
+    image="./img/big-me.webp"
     className="more-about-me"
     link={{ text: "LEARN MORE", href: "/portfolio/about" }}
     />
