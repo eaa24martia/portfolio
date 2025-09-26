@@ -10,7 +10,7 @@ export default function ComingSoon() {
             <h1>Coming Soon</h1>
             <h4>This page is under construction. Please check back later!</h4>
             <section className="go-back">
-            <a href="/portfolio">GO TO START</a>
+            <a href="/">GO TO START</a>
             </section>
 
         </section>

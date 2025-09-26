@@ -15,7 +15,7 @@ export default function ProjectDetail() {
     const fetchProject = async () => {
       try {
         setLoading(true);
-        const response = await fetch(import.meta.env.DEV ? "/projects.json" : "/portfolio/projects.json");
+        const response = await fetch(import.meta.env.DEV ? "/projects.json" : "/projects.json");
         if (!response.ok) {
           throw new Error('Failed to fetch project');
         }
@@ -51,8 +51,8 @@ export default function ProjectDetail() {
     <main>
       <Fade>
       <section className="detail-image">
-        <img src={project.image?.startsWith('/portfolio/') 
-          ? (import.meta.env.DEV ? project.image.replace('/portfolio/', '/') : project.image)
+        <img src={project.image?.startsWith('/') 
+          ? (import.meta.env.DEV ? project.image.replace('/', '/') : project.image)
           : project.image} 
           alt={project.title} />
         <a href={project.links[0].url} target="_blank" rel="noopener noreferrer" className="project-link">

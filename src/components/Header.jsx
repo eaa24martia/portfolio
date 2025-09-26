@@ -59,7 +59,7 @@ export default function Header() {
                     <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="/portfolio/ComingSoon"
+                    href="/ComingSoon"
                     target=""
                     rel="noopener noreferrer"
                     aria-label="Instagram"
@@ -67,7 +67,7 @@ export default function Header() {
                     <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="/portfolio/ComingSoon"
+                    href="/ComingSoon"
                     target=""
                     rel="noopener noreferrer"
                     aria-label="Facebook"
@@ -77,7 +77,7 @@ export default function Header() {
         </section>
         </Fade>
         <img
-          src={`${import.meta.env.DEV ? "/" : "/portfolio/"}img/tvebak-green.webp`}
+          src="/img/tvebak-green.webp"
           alt="Portfolio Logo"
           className="header-logo"
         />

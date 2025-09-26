@@ -15,7 +15,7 @@ return (
  <Fade>
     <footer>
         <section className="footer-contact">
-            <img src={`${import.meta.env.DEV ? "/" : "/portfolio/"}img/tvebak-green.webp`} alt="Logo Image" />
+            <img src="/img/tvebak-green.webp" alt="Logo Image" />
             <p>tvebakmartin@gmail.com</p>
             <p>+45 60 69 25 05</p>
 
@@ -29,7 +29,7 @@ return (
                     <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="/portfolio/ComingSoon"
+                    href="/ComingSoon"
                     target=""
                     rel="noopener noreferrer"
                     aria-label="Instagram"
@@ -37,7 +37,7 @@ return (
                     <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
                 </a>
                 <a
-                    href="/portfolio/ComingSoon"
+                    href="/ComingSoon"
                     target=""
                     rel="noopener noreferrer"
                     aria-label="Facebook"
@@ -70,7 +70,7 @@ return (
                 </ul>
 
                     <div className="mobile-cv-footer">
-                        <a href="/portfolio/ComingSoon" target="" rel="noopener noreferrer">
+                        <a href="/ComingSoon" target="" rel="noopener noreferrer">
                         SHOW CV
                         </a>
                     </div>
