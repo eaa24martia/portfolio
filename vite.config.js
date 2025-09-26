@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
 
   // Change base path when building for production
   if (command !== "serve") {
-    config.base = "portfolio"; // 👈 Replace with your GitHub repository name
+    config.base = "/"; // 👈 Replace with your GitHub repository name
   }
 
   return config;
