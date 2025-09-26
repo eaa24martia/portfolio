@@ -5,7 +5,7 @@
     "year": 2025,
     "description": "An interactive project for Steno Museum.",
     "tags": ["HTML", "CSS", "JS"],
-    "image": "./img/steno-project.webp",
+    "image": "/img/steno-project.webp",
     "links": [{"url": "https://eaa24martia.github.io/steno-project/", "text": "CHECK OUT"}],
     "client": "Steno Project",
     "team": "2 people", 
@@ -15,31 +15,31 @@
       "main": {
         "title": "Project",
         "description": "This exam project focuses on creating an interactive digital storytelling experience for the Steno Museum in Aarhus. The goal is to develop a multimedia solution that complements a physical exhibition, engaging visitors, especially children and young people through interactivity. We chose to create an interactive experience about menstruation, featuring a quiz and a game where users help Susi the monster.",
-       "image": "./img/mens-marie-pc.webp",
+       "image": "/img/mens-marie-pc.webp",
         "className": "project-name-section"
       },
       "discover": {
         "title": "Discover",
         "description": "In the discover phase of the double diamond we did desk and field research to learn about our audience. Here we made interviews and based on our findings, we focused on menstruation for the Steno Museum’s “The Overlooked Body” exhibition.",
-        "image": "./img/discover.webp",
+        "image": "/img/discover.webp",
         "className": "project-name-section"
       },
       "define": {
         "title": "Define",
         "description": "We organized our research insights with affinity diagramming and identified key focus points: interaction, engagement, and age-appropriate content. With the use of empathy mapping and a Value Proposition Canvas, we learned that children (12–14) respond best to playful, interactive exhibits with quizzes or games. Segmentation and our personas (Oliwia and Lukas) helped us design a solution that is both fun and educational, making sensitive topics like menstruation approachable and engaging.",
-        "image": "./img/steno-museet.webp",
+        "image": "/img/steno-museet.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
         "description": "First we created moodboards and a shared visual style/identity using the “Grainy Gradient” trend. We also designed user flows for a quiz and the Susi-Cycle game, where children help Susi through her menstrual cycle, using interactive choices and animations to reinforce learning. All digital elements were hand-drawn in a digital way to make the experience playful and approachable. Characters like Susi and Mens-Marie guide users and reduce text. We applied design and interaction principles to ensure clarity, engagement, and usability, and tested the hi-fi prototype with children to refine the interface.",
-        "image": "./img/susi.webp",
+        "image": "/img/susi.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
         "description": "We built two main features: an interactive quiz with scoring and pop-up infographics, and the Susi-Cycle game, where players help Susi through her menstrual cycle with animated feedback. All elements are dynamically updated, visually guided, and hand-drawn for a child-friendly experience. The project was developed collaboratively on GitHub, with HTML/CSS validated and a flowchart mapping the user journey.",
-        "image": "./img/steno-project.webp",
+        "image": "/img/steno-project.webp",
         "className": "project-name-section2"
       }
     }
@@ -50,7 +50,7 @@
     "year": 2025,
     "description": "A project with focus on JavaScript",
     "tags": ["UX", "Design", "JS"],
-    "image": "./img/zero-buzz-project.webp",
+    "image": "/img/zero-buzz-project.webp",
     "links": [{"url": "https://eaa24martia.github.io/UX-beer-project/", "text": "CHECK OUT"}],
     "client": "UX Beer Project",
     "team": "4 people",
@@ -60,30 +60,30 @@
        "main": {
         "title": "Project",
         "description": "This project was a fictive webshop for ZeroBuzz Brew, a non-alcoholic brewery. The goal is to create a user-friendly platform and visual identity that promote alcohol-free beer as a fun and socially accepted choice. The work includes an interactive prototype, usability testing, and a design manual supporting the brand’s mission of encouraging a healthier drinking culture.",
-        "image": "./img/zero-buzz-pc.webp",
+        "image": "/img/zero-buzz-pc.webp",
         "className": "project-name-section"},
       "discover": {
         "title": "Discover",
         "description": "We combined desk and field research to explore young people’s attitudes toward non-alcoholic beer. Desk research showed a rising demand driven by health and lifestyle trends, while interviews revealed that social pressure, stigma, and cultural drinking norms strongly affect their choices. These insights formed the foundation for the next design phase.",
-        "image": "./img/discover.webp",
+        "image": "/img/discover.webp",
         "className": "project-name-section"
       },
       "define": {
         "title": "Define",
         "description": "Using affinity diagramming, we identified key insights such as stigma, peer pressure, and the importance of taste in choosing non-alcoholic beer. From this, we developed How Might We questions, two personas, and a Value Proposition Canvas to link user needs with solutions. Finally, we designed a simple sitemap and interaction flow, leading to a Figma prototype for testing.",
-        "image": "./img/define-beer.webp",
+        "image": "/img/define-beer.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
         "description": "We built a Figma prototype and tested it through five high-fidelity usability tests using the think-aloud method. The feedback was positive, with only minor issues that were quickly fixed. Based on the results, we created user flows to visualize the customer journey and ensure intuitive navigation. We also refined the design through UX writing, onboarding with an interactive quiz, and a strong visual identity supported by moodboards, logo design, and illustrations.",
-        "image": "./img/develop-beer.webp",
+        "image": "/img/develop-beer.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
         "description": "The final solution is a functional webshop coded in HTML, CSS, and JavaScript, featuring a shopping cart with LocalStorage and an interactive product slider. We structured the code for clarity, accessibility, and SEO, and collaborated via GitHub with over 200 commits. Concept tests confirmed that the site was easy to navigate, with only minor UX adjustments suggested for future iterations.",
-        "image": "./img/zero-buzz-project.webp",
+        "image": "/img/zero-buzz-project.webp",
         "className": "project-name-section2"
       }
     }
@@ -94,7 +94,7 @@
     "year": 2024,
     "description": "First exam project, making a website for Radar",
     "tags": ["HTML", "JS", "Design"],
-    "image": "./img/radar-project.webp",
+    "image": "/img/radar-project.webp",
     "links": [{"url": "https://eaa24martia.github.io/radar-project/", "text": "CHECK OUT"}],
     "client": "Radar Project",
     "team": "1 person",
@@ -104,31 +104,31 @@
        "main": {
         "title": "Project",
         "description": "The project focused on redesigning the website for Radar, a music venue in Aarhus known for its experimental and innovative profile. The goal was to create a stronger digital presence that reflects Radar’s identity, engages both artists and audiences, and provides practical features such as event visibility, donation options, and improved communication channels. The redesign aimed not only to modernize the website’s aesthetics but also to support Radar’s mission of inclusivity, community, and artistic growth.",
-       "image": "./img/radar-pc-mobil.webp",
+       "image": "/img/radar-pc-mobil.webp",
         "className": "project-name-section"
       },
       "discover": {
         "title": "Discover",
         "description": "Through interviews and observations, several insights were gathered: Radar should feel inclusive and accessible to everyone; artists want more visibility and a place to connect with fans; audiences seek easier access to event information and a clearer understanding of Radar’s identity; and Radar needs to communicate its mission and values more effectively. In addition, a keyword analysis revealed opportunities for improving SEO and promoting events.",
-        "image": "./img/discover.webp",
+        "image": "/img/discover.webp",
         "className": "project-name-section"
       },
       "define": {
         "title": "Define",
         "description": "The findings from define were structured with affinity diagrams and Value Proposition Canvases for both artists and audiences. The key pains included: difficulty donating, lack of fan–artist interaction, and challenges in discovering events. The key gains included: supporting artistic growth, easy event access, and feeling part of a community. From this, two personas were created (artist + audience), sharpening the project’s focus on inclusivity, visibility, and support.",
-        "image": "./img/define-radar.webp",
+        "image": "/img/define-radar.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
         "description": "Based on the defined challenges, ideas were explored through mind maps, moodboards, wireframes, and mockups. Retrofuturism was selected as the visual identity because it combines Radar’s experimental history with a futuristic outlook. User testing of mockups gave feedback such as positive reactions to the color palette, but some concerns about buttons being too “loud.” Iterations refined these design elements into a consistent visual identity.",
-        "image": "./img/develop-radar.webp",
+        "image": "/img/develop-radar.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
           "description": "The final solution was the redesigned, coded website with responsive design and improved technical SEO. Features like a donations page, events overview, and forum strengthened Radar’s digital presence. Usability tests showed that users found the site visually engaging and easy to navigate, while also recognizing Radar’s values and identity more clearly. The final product delivered both improved functionality and a strong, future-oriented brand expression.",
-        "image": "./img/radar-project.webp",
+        "image": "/img/radar-project.webp",
         "className": "project-name-section2"
       }
     }
@@ -139,7 +139,7 @@
     "year": 2024,
     "description": "First responsive website project", 
     "tags": ["Responsive", "HTML", "CSS"],
-    "image": "./img/tbc-project.webp",
+    "image": "/img/tbc-project.webp",
     "links": [{"url": "https://eaa24martia.github.io/responsive-tbc-project/", "text": "CHECK OUT"}],
     "client": "Responsive TBC Project",
     "team": "4 people",
@@ -149,31 +149,31 @@
        "main": {
         "title": "Project",
         "description": "This project was our first responsive website. It focused on redesigning The Burger Concept’s website with a special Holiday Edition. The goal was to add a seasonal digital experience that brings Christmas spirit to the brand, while staying true to its existing visual identity. A new “Holiday Concept” menu was introduced on the website, featuring an Info page, a Christmas menu with new food and drinks, and an interactive advent calendar with competitions, prizes, and discounts to engage customers and attract more visitors during the holiday season.",
-       "image": "./img/tbc-pc-mobile.webp",
+       "image": "/img/tbc-pc-mobile.webp",
         "className": "project-name-section"
       },
       "discover": {
         "title": "Discover",
         "description": "User research through interviews and brainstorming revealed several important insights: people strongly associate Christmas with flavors such as pork roast, duck, gravy, and traditional desserts; customers are interested in competitions and interactive features like a Christmas calendar; warm drinks such as cocoa and mulled wine are highly requested during the winter season; vegetarian and vegan options should also be included to ensure accessibility; and Christmas is closely linked to colors, atmosphere, and togetherness. These insights confirmed that the Holiday Concept should focus on both seasonal food experiences and fun, interactive elements to create engagement.",
-       "image": "./img/discover.webp",
+       "image": "/img/discover.webp",
         "className": "project-name-section"
       },
       "define": {
         "title": "Define",
         "description": "With the insights structured in an affinity diagram and Value Proposition Canvas, pains and gains were identified. Pains included: difficulties navigating menus, or a calendar that could feel too complicated. Gains included: easy navigation, engaging prizes, and a cozy Christmas atmosphere. A persona, Anders Andersen, was created — a budget-conscious student who enjoys eating out with friends, wants affordable Christmas meals, and appreciates competitions to win discounts. This defined the key focus: usability, affordability, and Christmas spirit.",
-        "image": "./img/define-tbc.webp",
+        "image": "/img/define-tbc.webp",
         "className": "project-name-section2"
       },
       "develop": {
         "title": "Develop",
         "description": "The development phase explored creative directions through moodboards, wireframes, logos, product design, infographics, and mockups. Festive visuals combined The Burger Concept’s colors with Christmas elements, including a seasonal logo, playful infographics, a branded to-go cup, a Christmas landing page, and a digital advent calendar. Concept testing ensured a fun, simple, and usable holiday experience.",
-        "image": "./img/develop-tbc.webp",
+        "image": "/img/develop-tbc.webp",
         "className": "project-name-section"
       },
       "deliver": {
         "title": "Deliver",
         "description": "The website was implemented responsively with HTML, CSS, semantic tags, and optimized images, ensuring clean, structured code. The final Holiday Concept microsite was festive, user-friendly, and on-brand, enhancing the customer experience with seasonal offerings, driving engagement through the advent calendar and competitions, and strengthening The Burger Concept’s digital presence during a competitive season.",
-        "image": "./img/tbc-project.webp",
+        "image": "/img/tbc-project.webp",
         "className": "project-name-section2"
       }
     }
