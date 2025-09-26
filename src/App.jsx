@@ -12,7 +12,7 @@ import ComingSoon from "./pages/ComingSoon";
 function App() {
    
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/portfolio/"}>
+    <BrowserRouter basename="/">
       <ScrollToTop />
       <Header />
       <Routes>
