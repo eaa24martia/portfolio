@@ -157,7 +157,7 @@ h1 {
   padding: 5rem 0rem;
   z-index: 1;
 
-  background-image: url('./img/section-background.svg');
+  background-image: url('../img/section-background.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
@@ -508,7 +508,7 @@ h1 {
   background-color: #4B694E;
   padding: 3rem 0rem 5rem;
 
-  background-image: url('./img/section-background.svg');
+  background-image: url('../img/section-background.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
@@ -617,7 +617,7 @@ h1 {
   min-height: 60vh;
   background-color: #4B694E;
 
-  background-image: url('./img/section-background.svg');
+  background-image: url('../img/section-background.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
@@ -1432,7 +1432,7 @@ footer {
   padding: 10rem 2rem;
   gap: 3rem;
 
-  background-image: url('./img/section-background.svg');
+  background-image: url('../img/section-background.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
@@ -1466,7 +1466,7 @@ footer {
   gap: 3rem;
 
 
-  background-image: url('./img/section-background.svg');
+  background-image: url('../img/section-background.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
