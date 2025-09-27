@@ -128,7 +128,7 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;  
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
   min-height: 60vh;
@@ -156,6 +156,11 @@ h1 {
   background: #4B694E;
   padding: 5rem 0rem;
   z-index: 1;
+
+  background-image: url('./img/section-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
 }
 
 .slider-h2 {
@@ -501,7 +506,12 @@ h1 {
   text-align: center;
   min-height: 60vh;
   background-color: #4B694E;
-  padding: 1rem 0rem;
+  padding: 3rem 0rem 5rem;
+
+  background-image: url('./img/section-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
 }
 
 .more-about-me img {
@@ -606,6 +616,11 @@ h1 {
   text-align: center;
   min-height: 60vh;
   background-color: #4B694E;
+
+  background-image: url('./img/section-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
 }
 
 .work-together img {
@@ -621,8 +636,8 @@ h1 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  gap: 1rem;  
-  gap: 2rem;  
+  gap: 1rem;
+  margin-right: 8rem;
 }
 
 footer {
@@ -1329,7 +1344,7 @@ footer {
   flex-wrap: wrap;
   text-align: center;
   min-height: 60vh;
-  gap: 4rem
+  gap: 4rem;
 }
 
 .project-name-section2 img {
@@ -1416,6 +1431,11 @@ footer {
   color: #2a2422;
   padding: 10rem 2rem;
   gap: 3rem;
+
+  background-image: url('./img/section-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
 }
 
 .who-am-i img {
@@ -1426,7 +1446,7 @@ footer {
 }
 
 .who-am-i section:first-child {
-  max-width: 34rem;
+  max-width: 39rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1444,6 +1464,12 @@ footer {
   color: #2a2422;
   padding: 10rem 2rem;
   gap: 3rem;
+
+
+  background-image: url('./img/section-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
 }
 
 .fun-facts img {
