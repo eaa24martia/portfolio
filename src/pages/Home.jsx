@@ -13,7 +13,7 @@ export default function Home() {
         subtitle="Hej, I'm Martin"
         title="Multimedia Designer"
         tagline="I'm a Danish Multimedia Design student passionate about improving outdated digital experiences and building new ones. Specialized in UX and visual design, while sharpening my frontend programming skills."
-        image="./img/about-me.webp"
+        image="./img/big-me.webp"
         className="home-hero"
         />
     </Fade>
@@ -23,14 +23,14 @@ export default function Home() {
     <Section
     subtitle="Want to know more"
     title="About me?"
-    image="./img/about-me.webp"
+    image="./img/draw-water.webp"
     className="more-about-me"
     link={{ text: "LEARN MORE", href: "/about" }}
     />
   <ScrollText />
 <Section
   title="Let's work together!"
-  image="./img/big-me.webp"
+  image="./img/blue-shirt.webp"
   className="work-together"
   link={{ text: "CONTACT ME", href: "/contact" }}
 />
