@@ -39,7 +39,7 @@ export default function Top() {
 
   return (
     <section className="about-me-top">
-      <img src="./img/about-me.webp" alt="" className="about-me-bg" />
+      <img src="./img/outside-water.webp" alt="" className="about-me-bg" />
 
       <img src="./img/parralax1.webp" alt="" className="corner corner-1" />
       <img src="./img/parralax2.webp" alt="" className="corner corner-2" />
