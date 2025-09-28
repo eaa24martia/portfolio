@@ -17,7 +17,7 @@ export default function Contact() {
         <img src="./img/big-me.webp" alt="Image of myself" />
 
         <div className="download-cv">
-          <a href="/ComingSoon" target="" rel="noopener noreferrer">
+          <a href="./img/MartinAndersenCV.pdf" target="" rel="noopener noreferrer">
             SHOW CV
           </a>
         </div>

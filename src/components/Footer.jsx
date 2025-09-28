@@ -70,7 +70,7 @@ return (
                 </ul>
 
                     <div className="mobile-cv-footer">
-                        <a href="/ComingSoon" target="" rel="noopener noreferrer">
+                        <a href="./img/MartinAndersenCV.pdf" target="_blank" rel="noopener noreferrer">
                         SHOW CV
                         </a>
                     </div>
