@@ -69,7 +69,7 @@ export default function Navigation() {
 
   {/* Mobile CV button */}
   <div className="mobile-cv">
-    <a href="./img/MartinAndersenCV.pdf" target="" rel="noopener noreferrer">
+    <a href="./img/MartinAndersenCV.pdf" target="_blank" rel="noopener noreferrer">
       SHOW CV
     </a>
   </div>
