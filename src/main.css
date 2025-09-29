@@ -1432,17 +1432,21 @@ footer {
   padding: 10rem 2rem;
   gap: 3rem;
 
+  color: #FAF3DE;
   background-image: url('../img/section-background.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
 }
 
+.who-am-i h4 {
+    color: #FAF3DE;
+}
+
 .who-am-i img {
   max-width: 100%; 
   width: 100%;
   height: auto;
-  
 }
 
 .who-am-i section:first-child {
@@ -1461,15 +1465,19 @@ footer {
   flex-direction: row-reverse;
   flex-wrap: wrap;
   text-align: center;
-  color: #2a2422;
   padding: 10rem 2rem;
   gap: 3rem;
+  color: #FAF3DE;
 
 
   background-image: url('../img/section-background.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
+}
+
+.fun-facts h4 {
+    color: #FAF3DE;
 }
 
 .fun-facts img {
