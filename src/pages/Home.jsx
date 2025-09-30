@@ -31,6 +31,7 @@ export default function Home() {
 <Section
   title="Let's work together!"
   image="./img/blue-shirt.webp"
+  imageSmall="./img/big-me.webp"
   className="work-together"
   link={{ text: "CONTACT ME", href: "/contact" }}
 />

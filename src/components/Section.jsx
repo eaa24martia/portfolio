@@ -1,15 +1,15 @@
 import Fade from "./Fade.jsx";
 
-export default function Section({ title, subtitle, tagline, tagline2, tagline3, image, className, link }) {
+export default function Section({ title, subtitle, tagline, tagline2, tagline3, image, imageSmall, className, link }) {
   return (
     <section className={`section ${className}`}>
       <Fade>
         <section>
-          <h3>{subtitle}</h3>
-          <h1>{title}</h1>
-          <h4>{tagline}</h4>
-          <h4>{tagline2}</h4>
-          <h4>{tagline3}</h4>
+          {subtitle && <h3>{subtitle}</h3>}
+          {title && <h1>{title}</h1>}
+          {tagline && <h4>{tagline}</h4>}
+          {tagline2 && <h4>{tagline2}</h4>}
+          {tagline3 && <h4>{tagline3}</h4>}
           {link && (
             <a href={link.href} className="project-link">
               {link.text}
@@ -19,7 +19,12 @@ export default function Section({ title, subtitle, tagline, tagline2, tagline3, 
       </Fade>
       <Fade>
         <section>
-          <img src={image} alt={title} />
+          <picture>
+            {imageSmall && (
+              <source media="(max-width: 1282px)" srcSet={imageSmall} />
+            )}
+            <img src={image} alt={title || subtitle} />
+          </picture>
         </section>
       </Fade>
     </section>

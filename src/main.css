@@ -640,6 +640,10 @@ h1 {
   margin-right: 8rem;
 }
 
+.work-together picture {
+  margin-bottom: -0.8rem;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -791,9 +795,29 @@ footer {
   display: none;
 }
 
+@media (max-width: 1282px) {
+ .work-together {
+    justify-content: center;     /* center horizontally */
+    align-items: center;         
+    text-align: center;         
+    gap: 2rem;                  
+    padding: 5rem 3rem;   
+      
+  }
+
+  .work-together section:first-child {
+    margin-right: 0;
+  }
+
+  .work-together img {
+    max-width: 100%;              
+    height: auto;
+  }
+}
 
 /* Tablet */
 @media (max-width: 768px) {
+
 
 .header {
   display: flex;
