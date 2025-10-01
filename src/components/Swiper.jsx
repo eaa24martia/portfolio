@@ -21,7 +21,7 @@ export default function SwiperComponent() {
   useEffect(() => {
     const loadProjects = async () => {
       try {
-        const response = await fetch(import.meta.env.DEV ? "/projects.json" : "/portfolio/projects.json");
+        const response = await fetch(import.meta.env.DEV ? "/projects.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -114,8 +114,8 @@ export default function SwiperComponent() {
                   <div className="image-content">
                     <div className="card-image">
                       <img
-                        src={project.image?.startsWith('/portfolio/') 
-                          ? (import.meta.env.DEV ? project.image.replace('/portfolio/', '/') : project.image)
+                        src={project.image?.startsWith('/') 
+                          ? (import.meta.env.DEV ? project.image.replace('/') : project.image)
                           : project.image || "https://tinypic.host/images/2022/12/19/img_avatar.png"}
                         alt={project.title || "Project image"}
                         className="card-img"
