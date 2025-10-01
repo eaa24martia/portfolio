@@ -21,11 +21,11 @@ export default function SwiperComponent() {
   useEffect(() => {
     const loadProjects = async () => {
       try {
-        const response = await fetch(import.meta.env.DEV ? "/projects.json");
+        const response = await fetch(import.meta.env.DEV ? "projects.json" : "/portfolio/projects.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-
+        
         const data = await response.json();
         setProjects(data);
       } catch (err) {
