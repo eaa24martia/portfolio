@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Fade from './Fade.jsx';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router';
 
 // Importere useState og useEffect fra React
 // Importere NavLink fra react-router for navigation

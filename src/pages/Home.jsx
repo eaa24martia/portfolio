@@ -1,5 +1,5 @@
 import Section from "../components/Section";
-import Slider from "../components/Slider";
+import Swiper from "../components/Swiper";
 import Competencies from "../components/Competencies";
 import ScrollText from "../components/Scroll-text";
 import Fade from "../components/Fade";
@@ -18,14 +18,14 @@ export default function Home() {
         />
     </Fade>
   </section>
-    <Slider /> 
+    <Swiper /> 
     <Competencies />
     <Section
-    subtitle="Want to know more"
-    title="About me?"
+    title="Want to know more?"
     image="./img/draw-water.webp"
     className="more-about-me"
     link={{ text: "LEARN MORE", href: "/about" }}
+    textClassName="section-text"
     />
   <ScrollText />
 <Section
@@ -34,6 +34,7 @@ export default function Home() {
   imageSmall="./img/big-me.webp"
   className="work-together"
   link={{ text: "CONTACT ME", href: "/contact" }}
+  textClassName="section-text"
 />
 
 </main>

@@ -14,6 +14,7 @@ export default function About() {
        tagline3="I also like a good team where you can spark new ideas together and even come with different perspectives. This motivates me and inspires me to push even further with the next project."
        image="./img/pc-water.webp"
        className="who-am-i"
+      textClassName="section-text2"
      />
       <Work />
       <Section
@@ -22,6 +23,7 @@ export default function About() {
        tagline2="I’m currently learning Dutch and exploring Dutch culture, which is one of the reasons I’m excited about internship opportunities in the Netherlands."
        image="./img/logo.webp"
        className="fun-facts"
+       textClassName="section-text2"
      />
       <Art />
    </section>

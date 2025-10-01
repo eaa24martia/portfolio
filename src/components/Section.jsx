@@ -1,10 +1,10 @@
 import Fade from "./Fade.jsx";
 
-export default function Section({ title, subtitle, tagline, tagline2, tagline3, image, imageSmall, className, link }) {
+export default function Section({ title, subtitle, tagline, tagline2, tagline3, image, imageSmall, className, link, textClassName}) {
   return (
-    <section className={`section ${className}`}>
+       <section className={`section ${className}`}>
       <Fade>
-        <section>
+         <section className={textClassName || ""}>
           {subtitle && <h3>{subtitle}</h3>}
           {title && <h1>{title}</h1>}
           {tagline && <h4>{tagline}</h4>}
