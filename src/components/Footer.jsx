@@ -28,22 +28,6 @@ return (
                 >
                     <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
                 </a>
-                <a
-                    href="/ComingSoon"
-                    target=""
-                    rel="noopener noreferrer"
-                    aria-label="Instagram"
-                >
-                    <i className="fa-brands fa-square-instagram" style={{ color: "#4b694e" }}></i>
-                </a>
-                <a
-                    href="/ComingSoon"
-                    target=""
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-                >
-                    <i className="fa-brands fa-square-facebook" style={{ color: "#4b694e" }}></i>
-                </a>
             </section>
 
             <section className="copyright">

@@ -49,22 +49,6 @@ export default function Navigation() {
                 >
                     <i className="fa-brands fa-linkedin" style={{ color: "#faf3de" }}></i>
                 </a>
-                <a
-                    href="/ComingSoon"
-                    target=""
-                    rel="noopener noreferrer"
-                    aria-label="Instagram"
-                >
-                    <i className="fa-brands fa-square-instagram" style={{ color: "#faf3de" }}></i>
-                </a>
-                <a
-                    href="/ComingSoon"
-                    target=""
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-                >
-                    <i className="fa-brands fa-square-facebook" style={{ color: "#faf3de" }}></i>
-                </a>
   </div>
 
   {/* Mobile CV button */}
