@@ -1767,7 +1767,7 @@ footer {
 
 .swiper {
   overflow: visible !important; /* Override Swiper's default overflow: hidden */
-  height: 25rem;
+  height: 30rem;
 }
 
 .swiper-wrapper {
@@ -1941,7 +1941,7 @@ footer {
 }
 
 .swiper-pagination {
-  top: 28.7rem !important;
+  top: 33.7rem !important;
 }
 
 .swiper-navigation-icon {
