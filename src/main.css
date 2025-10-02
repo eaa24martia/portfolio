@@ -582,7 +582,6 @@ h1 {
   background-color: #FAF3DE;
   padding: 3rem 2rem;
   border-radius: 5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .section-text2 {
@@ -632,7 +631,7 @@ h1 {
   min-height: 60vh;
   background-color: #4B694E;
 
-  background-image: url('../img/section-background.svg');
+  background-image: url('../img/work-background.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
@@ -1534,6 +1533,11 @@ footer {
   text-align: center;
   font-family: "chelsea-market-pro", sans-serif;
   color: #2a2422;
+
+  background-image: url('../img/competencies-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
 }
 
 .competencies div {
@@ -1828,6 +1832,7 @@ footer {
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
