@@ -59,13 +59,25 @@ export default function Header() {
                     <i className="fa-brands fa-linkedin" style={{ color: "#4b694e" }}></i>
                 </a>
         </section>
+
+        
         </Fade>
         <img
           src="/img/tvebak-green.webp"
           alt="Portfolio Logo"
           className="header-logo"
         />
+
+        <div className="mobile-cv2-container">
+          <div className="mobile-cv2">
+    <a href="./img/MartinAndersenCV.pdf" target="_blank" rel="noopener noreferrer">
+      SHOW CV
+    </a>
+        </div>
+  </div>
       </section>
+
+      
     </header>
   
   );
