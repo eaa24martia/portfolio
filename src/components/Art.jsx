@@ -3,7 +3,7 @@ import Fade from "./Fade.jsx";
 export default function Art () {
   
   return (
-    <Fade>
+   
 <section className="art-section-container">
         <h2>My digital art</h2>
 
@@ -44,6 +44,5 @@ export default function Art () {
         </section>
 
 </section>
-</Fade>
   );
 }

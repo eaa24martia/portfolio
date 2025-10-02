@@ -1572,10 +1572,16 @@ footer {
   align-items: center;
   text-align: center;
   font-family: "chelsea-market-pro", sans-serif;
-  color: #2a2422;
+  color:#FAF3DE;
   gap: 2rem;
-  padding: 5rem;
+  padding: 1rem 0rem 5rem;
   font-size: 1.5rem;
+
+
+  background-image: url('../img/section-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .art-section-container img {
@@ -1595,7 +1601,11 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  width: 100%;
+  width: 75%;
+  border-radius: 5%;
+  padding: 2rem;
+
+  background-color: #FAF3DE;
 }
 
 @media (max-width: 900px) {
