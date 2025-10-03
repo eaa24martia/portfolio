@@ -984,18 +984,6 @@ footer {
   margin-bottom: 5rem;
   }
 
-  .competencies-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 2rem;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
 .competency-icons {
   position: absolute;
   top: 0;
@@ -2025,4 +2013,7 @@ footer {
   margin-top: -5rem;
 }
 
+.competencies-container {
+  display: none;
+}
 }
