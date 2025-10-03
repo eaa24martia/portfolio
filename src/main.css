@@ -1879,15 +1879,7 @@ footer {
   pointer-events: auto !important; /* Force enable pointer events on all interactive elements */
 }
 
-@media (max-width: 500px) {
-  .swiper_container {
-    height: 35rem;
-  }
-  .swiper-slide {
-    width: 18rem !important;
-    height: 26rem !important;
-  }
-}
+
 
 .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {
@@ -1999,4 +1991,38 @@ footer {
 .mobile-cv2:hover {
     background-color: #8Cbf8f;
     color: #4B694E;
+}
+
+@media (max-width: 400px) {
+  
+  .home-hero section:first-child {
+  padding: 0rem 2rem 0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .swiper_container {
+    height: 35rem;
+    width: 18rem;
+    margin: 0 auto;
+  }
+  .swiper-slide {
+    width: 18rem !important;
+    height: 26rem !important;
+  }
+
+  .swiper-pagination {
+  top: 28.7rem !important;
+}
+
+.slider-controler {
+  position: relative;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  margin-top: -5rem;
+}
+
 }
