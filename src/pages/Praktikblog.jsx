@@ -19,21 +19,7 @@ export default function Praktikblog() {
       ]
     },
 
-      {
-      day: 1,
-      date: "7. januar 2026",
-      spontanlog: [
-        //"Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
-        //"Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
-        //"Jeg glæder mig til at lære mere i de kommende dage."
-      ],
-      // Use array for multiple paragraphs with space between them
-      refleksionslog: [
-        //"Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
-        //"Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
-        //"Jeg glæder mig til at lære mere i de kommende dage."
-      ]
-    },
+      
    
     // Add more days here as needed
   ];
