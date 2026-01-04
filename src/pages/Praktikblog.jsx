@@ -7,15 +7,31 @@ export default function Praktikblog() {
       day: 1,
       date: "6. januar 2026",
       spontanlog: [
-        "Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
-        "Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
-        "Jeg glæder mig til at lære mere i de kommende dage."
+        //"Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
+        //"Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
+        //"Jeg glæder mig til at lære mere i de kommende dage."
       ],
       // Use array for multiple paragraphs with space between them
       refleksionslog: [
-        "Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
-        "Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
-        "Jeg glæder mig til at lære mere i de kommende dage."
+        //"Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
+        //"Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
+        //"Jeg glæder mig til at lære mere i de kommende dage."
+      ]
+    },
+
+      {
+      day: 1,
+      date: "7. januar 2026",
+      spontanlog: [
+        //"Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
+        //"Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
+        //"Jeg glæder mig til at lære mere i de kommende dage."
+      ],
+      // Use array for multiple paragraphs with space between them
+      refleksionslog: [
+        //"Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
+        //"Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
+        //"Jeg glæder mig til at lære mere i de kommende dage."
       ]
     },
    
@@ -38,8 +54,8 @@ export default function Praktikblog() {
             <table className="blog-table">
               <thead>
                 <tr>
-                  <th scope="col">Spontanlog – hvad der skete</th>
-                  <th scope="col">Refleksionslog – hvad jeg tænker om det</th>
+                  <th scope="col">Spontanlog – Hvad der skete</th>
+                  <th scope="col">Refleksionslog – Hvad jeg tænker om det</th>
                 </tr>
               </thead>
               <tbody>
