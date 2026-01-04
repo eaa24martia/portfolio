@@ -18,8 +18,6 @@ export default function Praktikblog() {
         //"Jeg glæder mig til at lære mere i de kommende dage."
       ]
     },
-
-      
    
     // Add more days here as needed
   ];
@@ -37,6 +35,7 @@ export default function Praktikblog() {
         {blogEntries.map((entry) => (
           <article key={entry.day}>
             <h2>Dag {entry.day} – {entry.date}</h2>
+            
             <table className="blog-table">
               <thead>
                 <tr>
