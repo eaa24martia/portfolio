@@ -8,6 +8,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import ComingSoon from "./pages/ComingSoon";
+import Praktikblog from "./pages/Praktikblog";
 
 function App() {
    
