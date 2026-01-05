@@ -18,6 +18,10 @@ export default function Praktikblog() {
         //"Jeg glæder mig til at lære mere i de kommende dage."
       ]
     },
+
+   
+
+    
    
     // Add more days here as needed
   ];
@@ -25,15 +29,17 @@ export default function Praktikblog() {
   return (
     <Fade>
       <section className="praktikblog-container">
-        <h1>Praktikblog</h1>
-        <p>
-          Denne blog bruges som refleksions- og logbog i forbindelse med mit praktikophold.
-        </p>
-        <hr />
+        <div className="praktikblog-header">
+          <h1>Praktikblog</h1>
+          <p>
+            Denne blog bruges som refleksions- og logbog i forbindelse med mit praktikophold.
+          </p>
+          <hr />
+        </div>
         
         {/* Automatically render all blog entries */}
-        {blogEntries.map((entry) => (
-          <article key={entry.day}>
+        {blogEntries.map((entry, index) => (
+          <article key={entry.day} className={`blog-entry blog-entry-${(index % 2) + 1}`}>
             <h2>Dag {entry.day} – {entry.date}</h2>
             
             <table className="blog-table">

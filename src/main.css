@@ -2231,26 +2231,33 @@ footer {
 }
 
 .praktikblog-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
   padding: 20rem 2rem 4rem;
 }
 
-.praktikblog-container h1 {
+.praktikblog-header {
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+}
+
+.praktikblog-header h1 {
   text-align: center;
   margin-bottom: 1rem;
   font-family: "chelsea-market-pro", sans-serif;
   color: #4B694E;
 }
 
-.praktikblog-container > p {
+.praktikblog-header > p {
   text-align: center;
   font-size: 1.2rem;
   margin-bottom: 2rem;
   color: #2a2422;
 }
 
-.praktikblog-container hr {
+.praktikblog-header hr {
   border: none;
   border-top: 2px solid #4B694E;
   margin: 2rem 0;
@@ -2258,7 +2265,23 @@ footer {
 
 .praktikblog-container article {
   margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 2.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+/* Different colored backgrounds for each blog entry */
+.blog-entry-1 {
+  background-image: url('../img/brown-section.svg');
+}
+
+.blog-entry-2 {
+  background-image: none;
+}
+
+
 
 .praktikblog-container article h2 {
   font-family: "chelsea-market-pro", sans-serif;
