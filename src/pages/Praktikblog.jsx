@@ -7,15 +7,16 @@ export default function Praktikblog() {
       day: 1,
       date: "6. januar 2026",
       spontanlog: [
-        //"Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
-        //"Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
-        //"Jeg glæder mig til at lære mere i de kommende dage."
+        "Hej, ",
+        "Så er den hårdeste dag overstået. En nervepirrende dag fyldt med nervøsitet og sommerfugle i maven. Dog har det alligevel været en god dag og jeg er SÅ stolt af mig selv.",
+        "Jeg ankommer til praktikstedet kl. 9.30. Jeg er meget nervøs og kulden udenfor hjælper ikke ligefrem, men det sker. Jeg træder ind i det lille rum og bliver mødt af mennesker jeg aldrig har set. Men jeg får heldigvis øjenkontakt med Noa, som er min kontaktperson i Rotterzwam. Det er en lille virksomhed, men en hyggelig en. Jeg er glad for, at jeg har fået muligheden for at være med i et cirkulært firma som Rotterzwam. ",
+        "Til at starte med får jeg en lille præsentation af hele holdet. Sjovt nok, så er de alle samlet i dag. Jeg bliver præsenteret for alle, men jeg må indrømme at jeg er forvirret over alle de navne, men det kommer nok. Herefter snakker Noa og jeg lidt sammen og her får jeg en rundvisning af hele Rotterzwam og alle de forskellige svampe og produkter som de har. Det var meget interessant og kan godt mærke, at jeg lige selv skal have lavet min research på svampe. Derefter sætter vi os i bygningen ved siden af, da Noa og jeg primært skal arbejde sammen, men selvfølgelig også med de andre. Men hun står for det grafiske. Hun giver mig en introduktion igen og her får vi snakket om mit skema og hvad jeg eventuelt kunne tænke mig at lave, men selvfølgelig så jeg kan tilkoble mig det til mine læringsmål. Senere på dagen går vi tilbage. Jeg får lov til at sidde lidt for mig selv, da resten af teamet skal til et møde, hvilket ikke var interessant for mig. Imens laver jeg en opgave, hvor jeg skal sidde og kigge på nogle emails som Rotterzwam sender ud til deres growkit, hvor man selv kan dyrke svampe. De vil nemlig gerne redesigne det. ",
+        "Teamet kommer tilbage senere, hvorefter Noa og jeg sparrer med hinanden omkring idéer og hvad jeg kunne hjælpe Rotterzwam med i de kommende uger. Vi bliver enige om, at det ville være en god idé, at jeg står hovedsageligt for growkits og deres redesign, så det passer til deres nye visuelle identitet. ",
+        "Det var stort set dagen. Jeg har brugt dagen på at være spændt og nervøs, men alligevel så gik det. Det gik bedre end jeg forventede og er faktisk spændt på i morgen. "
       ],
       // Use array for multiple paragraphs with space between them
       refleksionslog: [
-        //"Jeg følte mig velkommen og fik hurtigt en forståelse for projektets mål. Det var spændende at se, hvordan teamet arbejder sammen, og jeg ser frem til at bidrage.",
-        //"Det var interessant at observere arbejdskulturen. Jeg bemærkede, at kommunikationen var meget åben og direkte.",
-        //"Jeg glæder mig til at lære mere i de kommende dage."
+       
       ]
     },
 
