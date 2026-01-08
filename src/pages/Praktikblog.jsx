@@ -20,6 +20,37 @@ export default function Praktikblog() {
       ]
     },
 
+     {
+      day: 2,
+      date: "7. januar 2026",
+      spontanlog: [
+       "Hej igen, ", 
+       "Selvom at det kun er min anden dag I Rotterzwam, så har hele Holland desværre været så uheldig, at det har stort set været lukket ned. ", 
+       "Offentlig transport har ikke fungeret optimalt, hvilket har gjort at hele Rotterzwams team har arbejdet hjemmefra.", 
+       "Men trods, at vi har arbejdet hjemme og at det ikke er optimalt for en praktikant som mig, der lige er startet, så har det alligevel gået godt. ", 
+       "Jeg har fået flere opgaver af Noa, som jeg skal have lavet og opfyldt inden ugen er omme. I dag har jeg brugt dagen på, at researche. Min første opgave var at finde inspiration til Growkit-supportsiden. Jeg skulle kigge på forskellige hjemmesider, manualer, instruktioner, animationer og andre visuelle elementer, som kunne give idéer til layout, funktionalitet og visuel stil. Hertil lavede jeg en oversigt I Figma over de forskellige kilder og forsøgte at formulere, hvad jeg præcist kunne lide ved dem. Her fandt jeg frem til, at jeg virkelig godt kan lide “playful minimalist illustrations”, da det allerede passer til den nye eksisterende visuelle identitet, som Noa arbejder på. ", 
+       "I morgen skal jeg vise hende, hvad jeg har fået researchet og så kan vi gå videre ud fra det. Glæder mig til at høre, hvad hun har at sige og hvad jeg eventuelt kan forbedre :) "
+      ],
+      // Use array for multiple paragraphs with space between them
+      refleksionslog: [
+       
+      ]
+    },
+
+     {
+      day: 3,
+      date: "8. januar 2026",
+      spontanlog: [
+       "Så er det blevet dag 3. ", 
+       "I dag bliver det bare en kort spontanlog. Jeg har brugt ret meget energi foran computeren, hvor min primære opgave har været at lave research på Rotterzwam og deres grow kit emails. Selvom jeg allerede havde undersøgt virksomheden inden praktikstart, har meget af det alligevel overrasket mig. Især Rotterzwams mission om cirkulær økonomi og hele deres historie. Deres mission går meget ud på den cirkulære økonomi, men også samarbejdet med andre og hele deres netværk. ",
+       "Efter I dag er jeg faktisk blevet ret taknemmelig for, at jeg har fået muligheden for at være I praktik I Rotterzwam. En virksomhed, der tror på en fremtid med cirkulær økonomi, mens de samarbejder med andre I deres omkreds og netværk. "
+      ],
+      // Use array for multiple paragraphs with space between them
+      refleksionslog: [
+       
+      ]
+    },
+
    
 
     
