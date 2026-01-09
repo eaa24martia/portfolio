@@ -51,6 +51,40 @@ export default function Praktikblog() {
       ]
     },
 
+       {
+      day: 2,
+      date: "7. januar 2026",
+      spontanlog: [
+       "Hej igen, ", 
+       "Selvom at det kun er min anden dag I Rotterzwam, så har hele Holland desværre været så uheldig, at det har stort set været lukket ned. ", 
+       "Offentlig transport har ikke fungeret optimalt, hvilket har gjort at hele Rotterzwams team har arbejdet hjemmefra.", 
+       "Men trods, at vi har arbejdet hjemme og at det ikke er optimalt for en praktikant som mig, der lige er startet, så har det alligevel gået godt. ", 
+       "Jeg har fået flere opgaver af Noa, som jeg skal have lavet og opfyldt inden ugen er omme. I dag har jeg brugt dagen på, at researche. Min første opgave var at finde inspiration til Growkit-supportsiden. Jeg skulle kigge på forskellige hjemmesider, manualer, instruktioner, animationer og andre visuelle elementer, som kunne give idéer til layout, funktionalitet og visuel stil. Hertil lavede jeg en oversigt I Figma over de forskellige kilder og forsøgte at formulere, hvad jeg præcist kunne lide ved dem. Her fandt jeg frem til, at jeg virkelig godt kan lide “playful minimalist illustrations”, da det allerede passer til den nye eksisterende visuelle identitet, som Noa arbejder på. ", 
+       "I morgen skal jeg vise hende, hvad jeg har fået researchet og så kan vi gå videre ud fra det. Glæder mig til at høre, hvad hun har at sige og hvad jeg eventuelt kan forbedre :) "
+      ],
+      // Use array for multiple paragraphs with space between them
+      refleksionslog: [
+       
+      ]
+    },
+
+     {
+      day: 4,
+      date: "9. januar 2026",
+      spontanlog: [
+        "Hej igen, ",
+        "Så er den første uge overstået! Det har virkelig været en spændende uge, men også en, der har drænet min energi. Men ikke fordi det er dårligt, men bare fordi jeg har skulle vænne mig til så meget nyt.",
+        "I dag har jeg brugt dagen på, at køre rundt med Noa. De leverer varer ud til forskellige firmaer og butikker. I dag var vi ude og levere nogle af vores “Grow Kits” til “Niewe Instituut”, som egentlig er et slags museum. Lige nu har de nemlig udstillinger, der har meget af gøre med svampe og fungi. Så jeg fik også lige en rundvisning og fik lov til at gå rundt der, meget spændende. På den måde kunne vi også få lidt inspiration til projekter og opgaver.",
+        "Derefter tog vi tilbage til “Farmen”, som de kalder det. Her gik jeg I gang med, at lave forskellige koncepter til grow kit support siden I figma. Jeg fokuserede især meget på, hvordan home page siden til grow kit skal se ud, da det skal informere kunderne om meget. ",
+        "Ellers har jeg ikke lavet så meget andet I dag. Synes det har været en hyggelig dag og jeg er glad for, at jeg lærer Rotterdam og deres offentlige transport bedre at kende hver dag. ",
+        "Hej hej!"
+      ],
+      // Use array for multiple paragraphs with space between them
+      refleksionslog: [
+       
+      ]
+    },
+
    
 
     
