@@ -1,5 +1,3 @@
-import Fade from "../components/Fade";
-
 export default function Praktikblog() {
   // Store all your daily entries here - just add new objects to this array
   const blogEntries = [
@@ -51,23 +49,6 @@ export default function Praktikblog() {
       ]
     },
 
-       {
-      day: 2,
-      date: "7. januar 2026",
-      spontanlog: [
-       "Hej igen, ", 
-       "Selvom at det kun er min anden dag I Rotterzwam, så har hele Holland desværre været så uheldig, at det har stort set været lukket ned. ", 
-       "Offentlig transport har ikke fungeret optimalt, hvilket har gjort at hele Rotterzwams team har arbejdet hjemmefra.", 
-       "Men trods, at vi har arbejdet hjemme og at det ikke er optimalt for en praktikant som mig, der lige er startet, så har det alligevel gået godt. ", 
-       "Jeg har fået flere opgaver af Noa, som jeg skal have lavet og opfyldt inden ugen er omme. I dag har jeg brugt dagen på, at researche. Min første opgave var at finde inspiration til Growkit-supportsiden. Jeg skulle kigge på forskellige hjemmesider, manualer, instruktioner, animationer og andre visuelle elementer, som kunne give idéer til layout, funktionalitet og visuel stil. Hertil lavede jeg en oversigt I Figma over de forskellige kilder og forsøgte at formulere, hvad jeg præcist kunne lide ved dem. Her fandt jeg frem til, at jeg virkelig godt kan lide “playful minimalist illustrations”, da det allerede passer til den nye eksisterende visuelle identitet, som Noa arbejder på. ", 
-       "I morgen skal jeg vise hende, hvad jeg har fået researchet og så kan vi gå videre ud fra det. Glæder mig til at høre, hvad hun har at sige og hvad jeg eventuelt kan forbedre :) "
-      ],
-      // Use array for multiple paragraphs with space between them
-      refleksionslog: [
-       
-      ]
-    },
-
      {
       day: 4,
       date: "9. januar 2026",
@@ -81,7 +62,12 @@ export default function Praktikblog() {
       ],
       // Use array for multiple paragraphs with space between them
       refleksionslog: [
-       
+       "I min første uge hos Rotterzwam har jeg primært haft fokus på at finde mig til rette i virksomheden. Jeg har skulle forstå arbejdskulturen, opgaverne og virksomhedens værdier og mission. Det har været en uge med mange nye indtryk, og jeg har oplevet, hvordan det er at starte i en international og mindre virksomhed, hvor samarbejde og fleksibilitet spiller en stor rolle. ",
+       "(Læringsmål 2) I forhold til mine læringsmål om at arbejde i en international arbejdskultur, så har jeg allerede fået en bedre forståelse for, hvordan samarbejdet på tværs af sprog og arbejdsvaner fungerer i praksis. Dele af ugen har været hjemmearbejde på grund af for meget sne i Holland, så allerede her er jeg blevet udsat for selvstændigt arbejde, hvor kommunikation foregik digitalt, og hvor jeg selv skal tage ansvar for at få opfyldt mine opgaver. ",
+       "Det har været en udfordring, men samtidig har det gjort mig mere tryg ved at arbejde selvstændigt og samtidig skulle strukturere min tid. ",
+       "(Læringsmål 3) I forhold til mit mål om at planlægge og strukturere kreative projekter har jeg især arbejdet med research og idéudvikling. I løbet af ugen har jeg researchet forskellige hjemmesider og step-by-step guides, så jeg er forberedt til at arbejde med grow kit support-siden. Jeg har analyseret de forskellige emails som brugerne får tilsendt, når de har købt et grow kit, samt fundet frem til hvilke visuelle og funktionelle elementer, der kunne fungere godt. Jeg har arbejdet med at omsætte teorien fra studiet til praksis ved at samle inspiration, identificere visuelle elementer og begynde at udvikle konkrete koncepter i Figma. ",
+       "(Læringsmål 5) Jeg har også arbejdet med at forstå, hvordan en bæredygtig virksomhed arbejder med kommunikation, produktion og branding. Gennem rundvisning, research og samtaler med Noa har jeg fået en større forståelse for Rotterzwams fokus på cirkulær økonomi, deres mission og hvordan deres produkter, kommunikation og visuelle identitet hænger sammen. Jeg har fået meget ud af min research og det er inspirerende at se, hvordan bæredygtighed ikke blot er et budskab, men faktisk en del af hele virksomhedens arbejde. ",
+       "Samlet set har første uge været både udfordrende og lærerig. Jeg har været nervøs, men også oplevet, at jeg hurtigt er faldet mere til ro og føler mig mere tryg i mine opgaver. Jeg ser frem til de kommende uger, hvor jeg kan arbejde mere konkret med grow kit support-siden og generelt deres visuelle redesign og fortsætte med at udvikle mine faglige og personlige kompetencer!"
       ]
     },
 
@@ -93,15 +79,14 @@ export default function Praktikblog() {
   ];
 
   return (
-    <Fade>
-      <section className="praktikblog-container">
-        <div className="praktikblog-header">
-          <h1>Praktikblog</h1>
-          <p>
-            Denne blog bruges som refleksions- og logbog i forbindelse med mit praktikophold.
-          </p>
-          <hr />
-        </div>
+    <section className="praktikblog-container">
+      <div className="praktikblog-header">
+        <h1>Praktikblog</h1>
+        <p>
+          Denne blog bruges som refleksions- og logbog i forbindelse med mit praktikophold.
+        </p>
+        <hr />
+      </div>
         
         {/* Automatically render all blog entries */}
         {blogEntries.map((entry, index) => (
@@ -141,6 +126,5 @@ export default function Praktikblog() {
         ))}
         
       </section>
-    </Fade>
   );
 }
