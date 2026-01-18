@@ -1,82 +1,160 @@
+import { useState } from "react";
+
 export default function Praktikblog() {
-  // Store all your daily entries here - just add new objects to this array
-  const blogEntries = [
-    {
-      day: 1,
-      date: "6. januar 2026",
-      spontanlog: [
-        "Hej, ",
-        "Så er den hårdeste dag overstået. En nervepirrende dag fyldt med nervøsitet og sommerfugle i maven. Dog har det alligevel været en god dag og jeg er SÅ stolt af mig selv.",
-        "Jeg ankommer til praktikstedet kl. 9.30. Jeg er meget nervøs og kulden udenfor hjælper ikke ligefrem, men det sker. Jeg træder ind i det lille rum og bliver mødt af mennesker jeg aldrig har set. Men jeg får heldigvis øjenkontakt med Noa, som er min kontaktperson i Rotterzwam. Det er en lille virksomhed, men en hyggelig en. Jeg er glad for, at jeg har fået muligheden for at være med i et cirkulært firma som Rotterzwam. ",
-        "Til at starte med får jeg en lille præsentation af hele holdet. Sjovt nok, så er de alle samlet i dag. Jeg bliver præsenteret for alle, men jeg må indrømme at jeg er forvirret over alle de navne, men det kommer nok. Herefter snakker Noa og jeg lidt sammen og her får jeg en rundvisning af hele Rotterzwam og alle de forskellige svampe og produkter som de har. Det var meget interessant og kan godt mærke, at jeg lige selv skal have lavet min research på svampe. Derefter sætter vi os i bygningen ved siden af, da Noa og jeg primært skal arbejde sammen, men selvfølgelig også med de andre. Men hun står for det grafiske. Hun giver mig en introduktion igen og her får vi snakket om mit skema og hvad jeg eventuelt kunne tænke mig at lave, men selvfølgelig så jeg kan tilkoble mig det til mine læringsmål. Senere på dagen går vi tilbage. Jeg får lov til at sidde lidt for mig selv, da resten af teamet skal til et møde, hvilket ikke var interessant for mig. Imens laver jeg en opgave, hvor jeg skal sidde og kigge på nogle emails som Rotterzwam sender ud til deres growkit, hvor man selv kan dyrke svampe. De vil nemlig gerne redesigne det. ",
-        "Teamet kommer tilbage senere, hvorefter Noa og jeg sparrer med hinanden omkring idéer og hvad jeg kunne hjælpe Rotterzwam med i de kommende uger. Vi bliver enige om, at det ville være en god idé, at jeg står hovedsageligt for growkits og deres redesign, så det passer til deres nye visuelle identitet. ",
-        "Det var stort set dagen. Jeg har brugt dagen på at være spændt og nervøs, men alligevel så gik det. Det gik bedre end jeg forventede og er faktisk spændt på i morgen. "
-      ],
-      // Use array for multiple paragraphs with space between them
-      refleksionslog: [
-       
+  const [selectedWeek, setSelectedWeek] = useState(1);
+  const [lightboxImage, setLightboxImage] = useState(null);
+  
+  // Organize all your daily entries by week
+  const weekData = {
+    1: {
+      title: "Uge 1",
+      dateRange: "6. januar - 9. januar 2026",
+      entries: [
+        {
+          day: 1,
+          date: "6. januar 2026",
+          image: "",
+          spontanlog: [
+            "Hej, ",
+            "Så er den hårdeste dag overstået. En nervepirrende dag fyldt med nervøsitet og sommerfugle i maven. Dog har det alligevel været en god dag og jeg er SÅ stolt af mig selv.",
+            "Jeg ankommer til praktikstedet kl. 9.30. Jeg er meget nervøs og kulden udenfor hjælper ikke ligefrem, men det sker. Jeg træder ind i det lille rum og bliver mødt af mennesker jeg aldrig har set. Men jeg får heldigvis øjenkontakt med Noa, som er min kontaktperson i Rotterzwam. Det er en lille virksomhed, men en hyggelig en. Jeg er glad for, at jeg har fået muligheden for at være med i et cirkulært firma som Rotterzwam. ",
+            "Til at starte med får jeg en lille præsentation af hele holdet. Sjovt nok, så er de alle samlet i dag. Jeg bliver præsenteret for alle, men jeg må indrømme at jeg er forvirret over alle de navne, men det kommer nok. Herefter snakker Noa og jeg lidt sammen og her får jeg en rundvisning af hele Rotterzwam og alle de forskellige svampe og produkter som de har. Det var meget interessant og kan godt mærke, at jeg lige selv skal have lavet min research på svampe. Derefter sætter vi os i bygningen ved siden af, da Noa og jeg primært skal arbejde sammen, men selvfølgelig også med de andre. Men hun står for det grafiske. Hun giver mig en introduktion igen og her får vi snakket om mit skema og hvad jeg eventuelt kunne tænke mig at lave, men selvfølgelig så jeg kan tilkoble mig det til mine læringsmål. Senere på dagen går vi tilbage. Jeg får lov til at sidde lidt for mig selv, da resten af teamet skal til et møde, hvilket ikke var interessant for mig. Imens laver jeg en opgave, hvor jeg skal sidde og kigge på nogle emails som Rotterzwam sender ud til deres growkit, hvor man selv kan dyrke svampe. De vil nemlig gerne redesigne det. ",
+            "Teamet kommer tilbage senere, hvorefter Noa og jeg sparrer med hinanden omkring idéer og hvad jeg kunne hjælpe Rotterzwam med i de kommende uger. Vi bliver enige om, at det ville være en god idé, at jeg står hovedsageligt for growkits og deres redesign, så det passer til deres nye visuelle identitet. ",
+            "Det var stort set dagen. Jeg har brugt dagen på at være spændt og nervøs, men alligevel så gik det. Det gik bedre end jeg forventede og er faktisk spændt på i morgen. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 2,
+          date: "7. januar 2026",
+          image: "/img/dag-2.png",
+          spontanlog: [
+           "Hej igen, ", 
+           "Selvom at det kun er min anden dag I Rotterzwam, så har hele Holland desværre været så uheldig, at det har stort set været lukket ned. ", 
+           "Offentlig transport har ikke fungeret optimalt, hvilket har gjort at hele Rotterzwams team har arbejdet hjemmefra.", 
+           "Men trods, at vi har arbejdet hjemme og at det ikke er optimalt for en praktikant som mig, der lige er startet, så har det alligevel gået godt. ", 
+           "Jeg har fået flere opgaver af Noa, som jeg skal have lavet og opfyldt inden ugen er omme. I dag har jeg brugt dagen på, at researche. Min første opgave var at finde inspiration til Growkit-supportsiden. Jeg skulle kigge på forskellige hjemmesider, manualer, instruktioner, animationer og andre visuelle elementer, som kunne give idéer til layout, funktionalitet og visuel stil. Hertil lavede jeg en oversigt I Figma over de forskellige kilder og forsøgte at formulere, hvad jeg præcist kunne lide ved dem. Her fandt jeg frem til, at jeg virkelig godt kan lide “playful minimalist illustrations”, da det allerede passer til den nye eksisterende visuelle identitet, som Noa arbejder på. ", 
+           "I morgen skal jeg vise hende, hvad jeg har fået researchet og så kan vi gå videre ud fra det. Glæder mig til at høre, hvad hun har at sige og hvad jeg eventuelt kan forbedre :) "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 3,
+          date: "8. januar 2026",
+          image: "/img/dag-3.png",
+          spontanlog: [
+           "Så er det blevet dag 3. ", 
+           "I dag bliver det bare en kort spontanlog. Jeg har brugt ret meget energi foran computeren, hvor min primære opgave har været at lave research på Rotterzwam og deres grow kit emails. Selvom jeg allerede havde undersøgt virksomheden inden praktikstart, har meget af det alligevel overrasket mig. Især Rotterzwams mission om cirkulær økonomi og hele deres historie. Deres mission går meget ud på den cirkulære økonomi, men også samarbejdet med andre og hele deres netværk. ",
+           "Efter I dag er jeg faktisk blevet ret taknemmelig for, at jeg har fået muligheden for at være I praktik I Rotterzwam. En virksomhed, der tror på en fremtid med cirkulær økonomi, mens de samarbejder med andre I deres omkreds og netværk. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 4,
+          date: "9. januar 2026",
+          image: "/img/dag-4.png",
+          spontanlog: [
+            "Hej igen, ",
+            "Så er den første uge overstået! Det har virkelig været en spændende uge, men også en, der har drænet min energi. Men ikke fordi det er dårligt, men bare fordi jeg har skulle vænne mig til så meget nyt.",
+            "I dag har jeg brugt dagen på, at køre rundt med Noa. De leverer varer ud til forskellige firmaer og butikker. I dag var vi ude og levere nogle af vores “Grow Kits” til “Niewe Instituut”, som egentlig er et slags museum. Lige nu har de nemlig udstillinger, der har meget af gøre med svampe og fungi. Så jeg fik også lige en rundvisning og fik lov til at gå rundt der, meget spændende. På den måde kunne vi også få lidt inspiration til projekter og opgaver.",
+            "Derefter tog vi tilbage til “Farmen”, som de kalder det. Her gik jeg I gang med, at lave forskellige koncepter til grow kit support siden I figma. Jeg fokuserede især meget på, hvordan home page siden til grow kit skal se ud, da det skal informere kunderne om meget. ",
+            "Ellers har jeg ikke lavet så meget andet I dag. Synes det har været en hyggelig dag og jeg er glad for, at jeg lærer Rotterdam og deres offentlige transport bedre at kende hver dag. ",
+            "Hej hej!"
+          ],
+          refleksionslog: [
+           "I min første uge hos Rotterzwam har jeg primært haft fokus på at finde mig til rette i virksomheden. Jeg har skulle forstå arbejdskulturen, opgaverne og virksomhedens værdier og mission. Det har været en uge med mange nye indtryk, og jeg har oplevet, hvordan det er at starte i en international og mindre virksomhed, hvor samarbejde og fleksibilitet spiller en stor rolle. ",
+           "(Læringsmål 2) I forhold til mine læringsmål om at arbejde i en international arbejdskultur, så har jeg allerede fået en bedre forståelse for, hvordan samarbejdet på tværs af sprog og arbejdsvaner fungerer i praksis. Dele af ugen har været hjemmearbejde på grund af for meget sne i Holland, så allerede her er jeg blevet udsat for selvstændigt arbejde, hvor kommunikation foregik digitalt, og hvor jeg selv skal tage ansvar for at få opfyldt mine opgaver. ",
+           "Det har været en udfordring, men samtidig har det gjort mig mere tryg ved at arbejde selvstændigt og samtidig skulle strukturere min tid. ",
+           "(Læringsmål 3) I forhold til mit mål om at planlægge og strukturere kreative projekter har jeg især arbejdet med research og idéudvikling. I løbet af ugen har jeg researchet forskellige hjemmesider og step-by-step guides, så jeg er forberedt til at arbejde med grow kit support-siden. Jeg har analyseret de forskellige emails som brugerne får tilsendt, når de har købt et grow kit, samt fundet frem til hvilke visuelle og funktionelle elementer, der kunne fungere godt. Jeg har arbejdet med at omsætte teorien fra studiet til praksis ved at samle inspiration, identificere visuelle elementer og begynde at udvikle konkrete koncepter i Figma. ",
+           "(Læringsmål 5) Jeg har også arbejdet med at forstå, hvordan en bæredygtig virksomhed arbejder med kommunikation, produktion og branding. Gennem rundvisning, research og samtaler med Noa har jeg fået en større forståelse for Rotterzwams fokus på cirkulær økonomi, deres mission og hvordan deres produkter, kommunikation og visuelle identitet hænger sammen. Jeg har fået meget ud af min research og det er inspirerende at se, hvordan bæredygtighed ikke blot er et budskab, men faktisk en del af hele virksomhedens arbejde. ",
+           "Samlet set har første uge været både udfordrende og lærerig. Jeg har været nervøs, men også oplevet, at jeg hurtigt er faldet mere til ro og føler mig mere tryg i mine opgaver. Jeg ser frem til de kommende uger, hvor jeg kan arbejde mere konkret med grow kit support-siden og generelt deres visuelle redesign og fortsætte med at udvikle mine faglige og personlige kompetencer!"
+          ]
+        }
       ]
     },
 
-     {
-      day: 2,
-      date: "7. januar 2026",
-      spontanlog: [
-       "Hej igen, ", 
-       "Selvom at det kun er min anden dag I Rotterzwam, så har hele Holland desværre været så uheldig, at det har stort set været lukket ned. ", 
-       "Offentlig transport har ikke fungeret optimalt, hvilket har gjort at hele Rotterzwams team har arbejdet hjemmefra.", 
-       "Men trods, at vi har arbejdet hjemme og at det ikke er optimalt for en praktikant som mig, der lige er startet, så har det alligevel gået godt. ", 
-       "Jeg har fået flere opgaver af Noa, som jeg skal have lavet og opfyldt inden ugen er omme. I dag har jeg brugt dagen på, at researche. Min første opgave var at finde inspiration til Growkit-supportsiden. Jeg skulle kigge på forskellige hjemmesider, manualer, instruktioner, animationer og andre visuelle elementer, som kunne give idéer til layout, funktionalitet og visuel stil. Hertil lavede jeg en oversigt I Figma over de forskellige kilder og forsøgte at formulere, hvad jeg præcist kunne lide ved dem. Her fandt jeg frem til, at jeg virkelig godt kan lide “playful minimalist illustrations”, da det allerede passer til den nye eksisterende visuelle identitet, som Noa arbejder på. ", 
-       "I morgen skal jeg vise hende, hvad jeg har fået researchet og så kan vi gå videre ud fra det. Glæder mig til at høre, hvad hun har at sige og hvad jeg eventuelt kan forbedre :) "
-      ],
-      // Use array for multiple paragraphs with space between them
-      refleksionslog: [
-       
-      ]
-    },
+    2: {
+      title: "Uge 2",
+      dateRange: "13. januar - 16. januar 2026",
+      entries: [
+        {
+          day: 5,
+          date: "13. januar 2026",
+          image: "/img/dag-5.png",
+          spontanlog: [
+            "Så er det starten på den anden uge af mit praktikforløb! Det har været en god dag I dag. Jeg er blevet sat mere ind I tingene og vores plan har ændret sig. ",
+            "I dag har teamet brugt dagen på at få diskuteret, hvad fremtiden skal være for Rotterzwam. Vi er I gang med en rebranding af hele den visuelle identitet, hvilket også er derfor jeg er blevet sat til omgangen af at lave en ny growkit support side. Planen var, at jeg allerede nu skulle gå I gang med illustrationer og hele design delen af support-siden, men efter møder I dag, så er Noa og jeg blevet enige om, at jeg burde hjælpe med selve det label, der er rundt om Grow kit’et. Der skal nemlig bestilles nye growkits hjem og vi vil gerne have, at det bliver med den nye rebranding. ",
+            "Selve mødet var rart at være en del af. Jeg følte mig mere en del af hele holdet, fordi jeg også fik lov til at komme med min mening. Men også generelt bare, at være med til et møde med teamet. Her fik vi også snakket om marketing osv. ",
+            "Senere på dagen skulle Noa og jeg også have et møde sammen med Mark, som jeg kalder “the boss”. Vi skulle sætte ham ind I, hvad planen helt præcist er med growkit support siden og hvad den skal bruges til. Her havde han også sine meninger, så det tog vi selvfølgelig til os. ",
+            "Men det var rart at være en del af, fordi Mark forstår ikke helt, hvor lang tid hele processen med at lave en rebranding af growkit’et kan tage. Så Noa hjalp mig til at give en tidsestimering af, hvor lang tid det ville tage. På den måde fik jeg et indblik I, hvordan man altså skal komme med en tidsestimering, da kunderne ofte ikke ved, hvor lang tid det faktisk kan tage. ",
+            "Men resten af dagen brugte jeg på at komme med idéer og forslag til, hvordan forskellige illustrationer kunne se ud. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
 
-     {
-      day: 3,
-      date: "8. januar 2026",
-      spontanlog: [
-       "Så er det blevet dag 3. ", 
-       "I dag bliver det bare en kort spontanlog. Jeg har brugt ret meget energi foran computeren, hvor min primære opgave har været at lave research på Rotterzwam og deres grow kit emails. Selvom jeg allerede havde undersøgt virksomheden inden praktikstart, har meget af det alligevel overrasket mig. Især Rotterzwams mission om cirkulær økonomi og hele deres historie. Deres mission går meget ud på den cirkulære økonomi, men også samarbejdet med andre og hele deres netværk. ",
-       "Efter I dag er jeg faktisk blevet ret taknemmelig for, at jeg har fået muligheden for at være I praktik I Rotterzwam. En virksomhed, der tror på en fremtid med cirkulær økonomi, mens de samarbejder med andre I deres omkreds og netværk. "
-      ],
-      // Use array for multiple paragraphs with space between them
-      refleksionslog: [
-       
-      ]
-    },
+         {
+          day: 6,
+          date: "14. januar 2026",
+          image: "",
+          spontanlog: [
+           "I dag har været en stille og rolig dag. Strømmen var gået allerede da jeg mødte ind, så der var lidt problemer der. Men heldigvis var var strøm og internet I den anden bygning, som de kalder “de kroon”. Det er blandt andet der, hvor de laver de forskellige labels og grow kits. ",
+           "Her sad vi I noget tid og jeg arbejdede på de nye forskellige sketches og illustrationer til growkit labelet. Noa og jeg havde snakket om, at det ville være en god idé, at hun satte mig ind I hele den visuelle identitet’s rebranding. Så hun havde et helt powerpoint, som hun gerne ville vise mig. Det brugte hun ret lang tid på, men jeg er glad for det, fordi nu forstår jeg meget bedre hele den visuelle identitet. ",
+           "Herefter var strømmen heldigvis kommet tilbage. Jeg fortsatte med mit arbejde med illustrationer og senere tog jeg med ud og afleverede nogle svampe til en restaurant I Rotterdam. ",
+           "Men stort set hele dagen har gået på at forstå den visuelle identitet og lave illustrationer til det nye growkit. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
 
-     {
-      day: 4,
-      date: "9. januar 2026",
-      spontanlog: [
-        "Hej igen, ",
-        "Så er den første uge overstået! Det har virkelig været en spændende uge, men også en, der har drænet min energi. Men ikke fordi det er dårligt, men bare fordi jeg har skulle vænne mig til så meget nyt.",
-        "I dag har jeg brugt dagen på, at køre rundt med Noa. De leverer varer ud til forskellige firmaer og butikker. I dag var vi ude og levere nogle af vores “Grow Kits” til “Niewe Instituut”, som egentlig er et slags museum. Lige nu har de nemlig udstillinger, der har meget af gøre med svampe og fungi. Så jeg fik også lige en rundvisning og fik lov til at gå rundt der, meget spændende. På den måde kunne vi også få lidt inspiration til projekter og opgaver.",
-        "Derefter tog vi tilbage til “Farmen”, som de kalder det. Her gik jeg I gang med, at lave forskellige koncepter til grow kit support siden I figma. Jeg fokuserede især meget på, hvordan home page siden til grow kit skal se ud, da det skal informere kunderne om meget. ",
-        "Ellers har jeg ikke lavet så meget andet I dag. Synes det har været en hyggelig dag og jeg er glad for, at jeg lærer Rotterdam og deres offentlige transport bedre at kende hver dag. ",
-        "Hej hej!"
-      ],
-      // Use array for multiple paragraphs with space between them
-      refleksionslog: [
-       "I min første uge hos Rotterzwam har jeg primært haft fokus på at finde mig til rette i virksomheden. Jeg har skulle forstå arbejdskulturen, opgaverne og virksomhedens værdier og mission. Det har været en uge med mange nye indtryk, og jeg har oplevet, hvordan det er at starte i en international og mindre virksomhed, hvor samarbejde og fleksibilitet spiller en stor rolle. ",
-       "(Læringsmål 2) I forhold til mine læringsmål om at arbejde i en international arbejdskultur, så har jeg allerede fået en bedre forståelse for, hvordan samarbejdet på tværs af sprog og arbejdsvaner fungerer i praksis. Dele af ugen har været hjemmearbejde på grund af for meget sne i Holland, så allerede her er jeg blevet udsat for selvstændigt arbejde, hvor kommunikation foregik digitalt, og hvor jeg selv skal tage ansvar for at få opfyldt mine opgaver. ",
-       "Det har været en udfordring, men samtidig har det gjort mig mere tryg ved at arbejde selvstændigt og samtidig skulle strukturere min tid. ",
-       "(Læringsmål 3) I forhold til mit mål om at planlægge og strukturere kreative projekter har jeg især arbejdet med research og idéudvikling. I løbet af ugen har jeg researchet forskellige hjemmesider og step-by-step guides, så jeg er forberedt til at arbejde med grow kit support-siden. Jeg har analyseret de forskellige emails som brugerne får tilsendt, når de har købt et grow kit, samt fundet frem til hvilke visuelle og funktionelle elementer, der kunne fungere godt. Jeg har arbejdet med at omsætte teorien fra studiet til praksis ved at samle inspiration, identificere visuelle elementer og begynde at udvikle konkrete koncepter i Figma. ",
-       "(Læringsmål 5) Jeg har også arbejdet med at forstå, hvordan en bæredygtig virksomhed arbejder med kommunikation, produktion og branding. Gennem rundvisning, research og samtaler med Noa har jeg fået en større forståelse for Rotterzwams fokus på cirkulær økonomi, deres mission og hvordan deres produkter, kommunikation og visuelle identitet hænger sammen. Jeg har fået meget ud af min research og det er inspirerende at se, hvordan bæredygtighed ikke blot er et budskab, men faktisk en del af hele virksomhedens arbejde. ",
-       "Samlet set har første uge været både udfordrende og lærerig. Jeg har været nervøs, men også oplevet, at jeg hurtigt er faldet mere til ro og føler mig mere tryg i mine opgaver. Jeg ser frem til de kommende uger, hvor jeg kan arbejde mere konkret med grow kit support-siden og generelt deres visuelle redesign og fortsætte med at udvikle mine faglige og personlige kompetencer!"
-      ]
-    },
+         {
+          day: 7,
+          date: "15. januar 2026",
+          image: "/img/dag-7.png",
+          spontanlog: [
+           "I dag har været en stille dag. Der er ikke sket så meget udover, at jeg har været I gang med illustrationer af growkit. Jeg fik lavede de forskellige illustrationer af forskellige faser, der er. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
 
-   
+         {
+          day: 8,
+          date: "16. januar 2026",
+          image: "/img/dag-8.png",
+          spontanlog: [
+            "Hej. I dag er det slutningen på ugen. Det var lidt sjovt, fordi jeg var den første der mødte ind, men heldigvis havde jeg fået en nøgle. ",
+            "Men ellers har jeg bare lavet illustrationer I dag. Jeg kiggede også til det growkit, som jeg holder øje med. På den måde er jeg faktisk med I hele processen og kan bedre forholde mig til, hvordan hele processen foregår. ",
+            "Jeg fik lavet en del videre på growkit illustrationerne og jeg startede også på nogle kaffe maskine illustrationer. Det er en lang process, fordi jeg vil gerne lave flere forskellige illustrationer, så holdet har noget at vælge af. "
+          ],
+          refleksionslog: [
+           "I løbet af uge 2 har jeg fået mulighed for at arbejde mere selvstændigt og også fordybe mig i opgaver som at illustrere illustrationer til growkit’et. Det har givet mig en bedre forståelse af, hvad min rolle er i virksomheden. ",
+           "(Læringsmål 2) I forhold til mit læringsmål om at arbejde i en international arbejdskultur, så har jeg oplevet, hvordan samarbejde ofte foregår fleksibelt og digitalt. Da jeg i denne her uge har arbejdet hjemme om torsdagen, så har jeg kunne udvikle min evne til at kommunikere tydeligt og samtidig tage ansvar for mine egne opgaver og hvad der skal være færdigt til næste dag. ",
+           "(Læringsmål 3) I den her uge (uge 2) har jeg især arbejdet med mit læringsmål om at planlægge og strukturere kreative projekter. Jeg har arbejdet med idéudvikling, skitsering og gentagelser for at skabe flere forskellige visuelle forslag, som teamet kan vælge imellem. Samtidig har jeg også fået indblik i, hvordan tidsestimering spiller en stor rolle i designprocesser, især når man skal forklare sit arbejde til personer, der måske ikke nødvendigvis har en designfaglig baggrund.  ",
+           "Samlet set har uge 2 styrket min faglige selvtillid og givet mig en klarere forståelse for, hvad mit ansvar er, men også generelt en forståelse for, hvordan Rotterzwam arbejder. Jeg føler mig mere tryg og er glad for, at jeg får gode og vigtige opgaver givet til mig. Jeg ser frem til at arbejde videre med illustrationerne og den visuelle udvikling af grow kits i de kommende uger!",
+          ]
+        }
+      ]
+    }
 
     
-   
-    // Add more days here as needed
-  ];
+  };
+  
+  // Get available weeks and current week data
+  const availableWeeks = Object.keys(weekData).map(Number).sort((a, b) => a - b);
+  const currentWeekData = weekData[selectedWeek];
 
   return (
     <section className="praktikblog-container">
@@ -86,31 +164,65 @@ export default function Praktikblog() {
           Denne blog bruges som refleksions- og logbog i forbindelse med mit praktikophold.
         </p>
         <hr />
+        
+        {/* Week navigation */}
+        <div className="week-navigation">
+          {availableWeeks.map((weekNum) => (
+            <button
+              key={weekNum}
+              className={`week-button ${selectedWeek === weekNum ? 'active' : ''}`}
+              onClick={() => setSelectedWeek(weekNum)}
+            >
+              Uge {weekNum}
+            </button>
+          ))}
+        </div>
+        
+        {/* Current week info */}
+        <div className="week-info">
+          <h2>{currentWeekData.title}</h2>
+          <p>{currentWeekData.dateRange}</p>
+        </div>
       </div>
         
-        {/* Automatically render all blog entries */}
-        {blogEntries.map((entry, index) => (
+        {/* Automatically render blog entries for selected week */}
+        {currentWeekData.entries.map((entry, index) => (
           <article key={entry.day} className={`blog-entry blog-entry-${(index % 2) + 1}`}>
             <h2>Dag {entry.day} – {entry.date}</h2>
             
             <table className="blog-table">
               <thead>
                 <tr>
+                  <th scope="col">Billeder</th>
                   <th scope="col">Spontanlog – Hvad der skete</th>
                   <th scope="col">Refleksionslog – Hvad jeg tænker om det</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  {/* Left column: paragraphs from array */}
+                  {/* Image column */}
+                  <td data-label="Billede" className="image-cell">
+                    {entry.image ? (
+                      <img 
+                        src={entry.image} 
+                        alt={`Dag ${entry.day}`}
+                        onClick={() => setLightboxImage(entry.image)}
+                        style={{ cursor: "pointer" }}
+                      />
+                    ) : (
+                      <p>Intet billede</p>
+                    )}
+                  </td>
+                  
+                  {/* Spontanlog column */}
                   <td data-label="Spontanlog – hvad der skete">
                     {entry.spontanlog.map((paragraph, index) => (
                       <p key={index}>{paragraph}</p>
                     ))}
                   </td>
-                  {/* Right column: reflective text */}
+                  
+                  {/* Refleksionslog column */}
                   <td data-label="Refleksionslog – hvad jeg tænker om det">
-                    {/* Support both string and array formats */}
                     {Array.isArray(entry.refleksionslog) ? (
                       entry.refleksionslog.map((paragraph, index) => (
                         <p key={index}>{paragraph}</p>
@@ -125,6 +237,17 @@ export default function Praktikblog() {
           </article>
         ))}
         
+        {/* Lightbox for viewing images */}
+        {lightboxImage && (
+          <div className="lightbox" onClick={() => setLightboxImage(null)}>
+            <div className="lightbox-content">
+              <img src={lightboxImage} alt="Enlarged view" />
+              <button className="lightbox-close" onClick={() => setLightboxImage(null)}>
+                ✕
+              </button>
+            </div>
+          </div>
+        )}
       </section>
   );
 }
