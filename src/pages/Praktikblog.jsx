@@ -147,7 +147,76 @@ export default function Praktikblog() {
           ]
         }
       ]
+    },
+
+    3: {
+      title: "Uge 3",
+      dateRange: "20. januar - 23. januar 2026",
+      entries: [
+        {
+          day: 9,
+          date: "20. januar 2026",
+          image: "/img/dag-9.png",
+          spontanlog: [
+           "Så er det starten på min tredje uge hos Rotterzwam! Jeg er overrasket over, hvor hurtigt dagene faktisk går. Jeg kan godt mærke, at det er anderledes at arbejde med projekter I praksis end hvad jeg har været vant til I undervisningen. ",
+           "Vi startede dagen ud med, at få holdt et møde. Det havde egentlig ikke så meget med mig at gøre, men jeg havde fri mulighed for at komme med inputs. Det var I forhold til, hvordan de forskellige produkter skulle udstilles I andre butikker som små landbrugs butikker. Vi vil nemlig gerne udtrykke den nye visuelle identitet mere, så folk er klar over, når produkter kommer fra Rotterzwam. ",
+           "Efter mødet besluttede Noa og jeg os for, at vi skulle have et møde eller en sparrings session sammen omkring den nye growkit support side, da jeg stort set er færdig med illustrationerne til growkit labelet. Mødet var ret langt, men også vigtigt. Det blev gjort klart for mig, hvordan support siden skulle opstilles, så det bliver tydeligt for brugerne, hvordan de skal navigere rundt I siden. ",
+           "Vi fik brugt et par timer på mødet og bagefter gik jeg videre med at designe, hvordan growkit siden skulle se ud. Vi blev enige om, at det ville være en god idé, at jeg lavede lo-fi prototyper, så jeg I næste uge kan vise det til resten af Rotterzwam teamet.  "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 10,
+          date: "21. januar 2026",
+          image: "/img/dag-10.png",
+          spontanlog: [
+           "I dag har været en dag, der stort set har bestået af det samme. Efter mødet med Noa I går, så har jeg kunne fortsætte med at lave videre på lo-fi skitsen I Figma. ",
+           "Jeg fik implementeret de forskellige sektioner, som Noa gerne ville have, der skulle være på growkit support homepagen. Da jeg var færdig med den, så kunne jeg gå videre med step 1 I growkit processen. Rotterzwam har haft en emailer, som er blevet lavet for mange år tilbage. Den passer ikke til den nye visuelle identitet og samtidig, så er den også forældet. Så vi har skulle lave informationerne om og samtidig sat strukturen anderledes. ",
+           "Så jeg har taget højde for, at når man går gennem de forskellige steps, så skal brugerne også kunne få svar på problemer, der eventuelt ville kunne opstå under growkit processen. ",
+           "Jeg nåede stort set at blive færdig med step 1 I dag, men jeg mangler stadig lidt, så den kan blive ordentlig færdig, men det må jeg nå I morgen :)",
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 11,
+          date: "22. januar 2026",
+          image: "/img/dag-11.png",
+          spontanlog: [
+           "I dag har jeg stort set bare arbejdet videre på lo-fi prototypen I Figma. Jeg brugte rimelig lang tid på, at finde frem til, hvordan de forskellige sektioners layout skulle se ud. ",
+           "Jeg begyndte også at starte på step 2, som handler mere om, hvordan de forskellige lag skal være I growkit’et. Men jeg tænker at jeg må nå resten af step 2 I morgen. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 12,
+          date: "23. januar 2026",
+          image: "/img/dag-12.png",
+          spontanlog: [
+            "I dag er det slutningen på uge 3. Jeg har arbejdet videre på lo-fi prototypen og fået lavet meget af step 2, men jeg mangler dog stadig nogle få sektioner til sidst. Jeg har lidt problemer, da jeg gerne vil lave en forbedret udgave af Rotterzwams timeline af deres growkit. Så brugeren hurtigt kan se, hvor lang tid de skal bruge på hver step, så Rotterzwam slipper for at få mails og opkald, hvor folk spørg, hvordan de skal lave growkit’et korrekt. ",
+            "Jeg regner med, at jeg vil arbejde lidt videre I weekenden, da jeg allerede I næste uge skal præsentere lo-fi prototypen til resten af teamet.",
+            "Men jeg glæder mig til, at se, hvordan de andre steps kommer til at se ud. Jeg synes egentlig det er ret fedt at arbejde med og at jeg får lov til at sidde med noget så vigtigt som en support side!"
+          ],
+          refleksionslog: [
+            "Så har jeg været i gang med tredje uge. I den her uge har jeg arbejdet med lo-fi growkit prototypen som et konkret projekt og det har krævet, at jeg både kan tænke i brugerens brugeroplevelse, struktur og selvfølgelig den visuelle sammenhæng med Rotterzwams nye visuelle identitet. ",
+            "(Læringsmål 3) Jeg vil sige, at jeg i denne her uge har arbejdet med læringsmålet om at planlægge og strukturere kreative projekter. Jeg har skulle arbejde sammen med Noa omkring strukturen og teksten, der skal være på support-siden, men samtidig har jeg selv skulle finde hoved og hale i, hvordan det ville blive visuelt bedst præsenteret.",
+            "Jeg har hele tiden skulle arbejde ud fra brugernes perspektiv. Ved at gentænke, hvordan growkit processens forskellige steps og informationer ville give bedst muligt, så Rotterzwam i fremtiden ikke skal svare på alle mulige mails og opkald. ",
+            "(Læringsmål 2)I forhold til mit læringsmål om at arbejde i en international og professionel arbejdskultur har jeg igen oplevet, at jeg bliver inddraget i beslutninger og får ansvar for vigtige dele af projektet. Det er virkelig motiverende at de giver mig tillid til at arbejde med en central support side, som har stor betydning for Rotterzwams kunder.",
+            "Jeg vil sige at uge 3 har styrket min forståelse for brugervenlighed og hvordan jeg skal kommunikere virksomhedens identitet. Jeg føler at jeg udvikler mine figma færdigheder og generelt, hvordan jeg træffer designvalg. Jeg ser frem til at præsentere lo-fi prototypen for resten af teamet og få feedback, som kan bruges til at videreudvikle løsningen i de kommende uger!"
+           
+          ]
+        }
+      ]
     }
+    
 
     
   };
