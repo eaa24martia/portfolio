@@ -215,8 +215,79 @@ export default function Praktikblog() {
           ]
         }
       ]
+    },
+    4: {
+      title: "Uge 4",
+      dateRange: "27. januar - 30. januar 2026",
+      entries: [
+        {
+          day: 13,
+          date: "27. januar 2026",
+          image: "/img/dag-13.png",
+          spontanlog: [
+           "Det er I dag allerede den fjerde ugen af min praktik. Jeg er overrasket over, hvor hurtigt tiden faktisk går. Men det er I den her uge, hvor jeg skal præsentere lo-fi prototypen af growkit support siden.",
+           "Jeg synes at det har været en virkelig god dag I dag. På trods af at jeg er I en virksomhed, hvor de fleste snakker Hollandsk, så kan jeg mærke at folk gerne vil have at jeg er en del af fællesskabet også selvom, at jeg bare er en “praktikant”. ",
+           "Jeg har egentlig ikke lavet så meget end at få styr på lo-fi skitserne. Jeg har også haft brugt tid på dem henover weekenden, men jeg er stadig ikke helt tilfreds. Jeg kan mærke, at jeg synes faktisk det er en virkelig stor opgave, som jeg er blevet sat I gang med. Jeg er både glad for det, men det er også lidt hårdt. Jeg er bange for at jeg gør noget forkert, men det er jo hele pointen med lo-fi prototypen. At man fanger fejlene tidligt. Jeg er spændt på, hvad resten af teamet siger I morgen til min såkaldte “præsentation”. ",
+           "Jeg synes egentlig det går meget godt. Jeg skal nok nå at blive færdig til I morgen. Der er bare meget information, der skal fortælles på kort plads, da jeg ikke vil have at brugerne skal bruge alt for meget tid på at scrolle, hvis de bare gerne vil I gang med deres growkit. ",
+           "Men ja. Stort set hele dagen har jeg arbejdet videre på prototypen. Det kan hurtigt blive tungt, men heldigvis er det ikke alle dage, der er så tunge. Jeg tror jeg har fundet ud af, at jeg egentlig godt kan lide en hverdag, hvor der sker lidt forskelligt. Der skal ske noget andet end bare at sidde foran computeren, så jeg vil sige at jeg egentlig er rimelig heldig med at arbejde I en lille virksomhed, så jeg står for flere opgaver. ",
+           "Det var alt for I dag! Hej hej. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 14,
+          date: "28. januar 2026",
+          image: "/img/dag-14.png",
+          spontanlog: [
+           "I dag har været en spændende dag. Det har været dagen, hvor jeg har skulle præsentere min lo-fi prototype af growkit support hjemmesiden. ",
+           "Til at starte med gik Noa og jeg over, hvad der kunne være vigtigt, at jeg lige fortalte til mødet. Det var egentlig rart nok, fordi hun er vant til at have med teamet at gøre, men også erfaring med at håndtere møder med andre kunder, der måske ikke har den samme grafiske erfaring. ",
+           "Mødet var først kl. 12, så jeg havde lige nogle timer inden at jeg skulle være klar. Jeg brugte tiden på at gøre lo-fi prototypen færdig og til min egen overraskelse blev jeg faktisk færdig. ",
+           "Til mødet var jeg spændt på, at fortælle teamet, hvad jeg havde brugt den sidste uge på at arbejde på. Jeg gennemgik figma prototypen og de forskellige steps, som brugeren bliver guidet igennem. Herefter kom de så med noget feedback på, hvordan de forskellige illustrationer kunne se ud, samt de forskellige sektioner. Jeg noterede det selvfølgelig, men de var mest af alt faktisk imponerede og jeg tror I hvert fald at de godt kunne lide det. Det var faktisk mest af alt Noa, der kom med nogle kommentare på designet, men hun er selvfølgelig også mere design orienteret. ",
+           "Efter mødet kunne jeg gå I gang med at redesigne dele af prototypen, som jeg havde fået feedback på."
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 15,
+          date: "29. januar 2026",
+          image: "",
+          spontanlog: [
+           "I dag har jeg brugt dagen på, at få styr på alt den feedback som jeg har fået til mødet og så implementere det på selve designet. ",
+           "Jeg har også brugt tiden på at finde nogle templates på webflow, der eventuelt ville kunne hjælpe med at skabe hele support hjemmesiden. Hele teamet og jeg er blevet enige om, at de gerne vil køre deres hjemmeside over webflow, så det er jeg gået med til. Det giver mig også en udfordring eftersom, at jeg aldrig rigtig har arbejdet med hjemmeside builders. Så jeg er spændt på det, men også lidt bange. Men tænker at det nok skal gå nu, hvor jeg allerede har rimelig godt styr på, hvordan man sætter en hjemmeside op med kode!"
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 16,
+          date: "30. januar 2026",
+          image: "/img/dag-16.png",
+          spontanlog: [
+           "Sidste dag af fjerde uge! Tiden går stærkt. Dagen har egentlig været ret stille og rolig. Jeg viste Noa de forskellige templates jeg havde fundet, men det har været ret svært, da mange af de templates der findes er mere til ecommerce osv, mens vi har brug for en template der skal fungere som en slags storytelling. ",
+           "Men vi endte med at finde en endelig template og jeg er spændt på, at arbejde ud fra den og kunne implementere min lo-fi prototype over til en mere officiel struktur. ",
+           "I dag spiste hele teamet også frokost sammen. Det var hyggeligt, men jeg kan godt mærke at jeg lige skal vænne mig til, at jeg ikke kan være med I alle samtaler, når de snakker Hollandsk. Men jeg vil sige, at de gør deres bedste for at inkludere mig. ",
+           "Resten af dagen brugte jeg egentlig på, at starte på et figma mockup, så jeg er klar til næste uge. Det skal nok blive godt, selvom jeg er faktisk ved at være lidt nervøs på om jeg har tid nok til at blive færdig med hele support hjemmesiden. "
+          ],
+          refleksionslog: [
+            "Jeg synes at fjerde uge har været vigtig for mit praktikforløb, da jeg for første gang faktisk skulle præsentere noget af mit arbejde for hele teamet. Jeg har skulle præsentere lo-fi prototypen af growkit support-siden, som jeg har arbejdet lang tid på og den har samtidig fyldt meget. ",
+            "(Læringsmål 2) I forhold til mit læringsmål om at arbejde i en international arbejdskultur har jeg oplevet, at jeg mere og mere føler mig inkluderet i fællesskabet hos Rotterzwam. Selvom sproget ofte er hollandsk, så oplever jeg, at teamet aktivt gør en indsats for at inkludere mig. ",
+            "I forhold til præsentationen af lo-fi prototypen, så følte jeg at det var en udfordring for mig, da jeg i hvert fald følte, at der var et stort ansvar for, at løsningen fungerede og gav mening for teamet. Feedbacken fra teamet var positiv og konstruktiv, og det gav mig større selvtillid i mine designvalg. Især sparringen med Noa har hjulpet mig til at udtrykke mine tanker mere klart og forklare designbeslutninger til personer uden samme designfaglige baggrund. ",
+            "(Læringsmål 3) Denne uge har igen styrket mit læringsmål om at planlægge og strukturere kreative projekter. Overgangen fra lo-fi prototype til næste fase har også gjort det klart for mig, hvor vigtigt det er at arbejde iterativt, hvilket er også derfor at jeg er glad for at jeg arbejder med lo-fi først. Desuden er jeg spændt på at arbejde videre i webflow, da det er en ny faglig udfordring for mig, da jeg ikke har arbejdet i website builders før. ",
+            "Samlet set har uge 4 været både krævende og lærerig. Jeg kan mærke, at opgaven er stor, men samtidig giver det mig motivation at arbejde med noget, der har reel betydning for virksomheden. "
+           
+          ]
+        }
+      ]
     }
-    
+
 
     
   };
