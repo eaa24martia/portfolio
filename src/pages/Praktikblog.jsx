@@ -286,7 +286,80 @@ export default function Praktikblog() {
           ]
         }
       ]
+    },
+     5: {
+      title: "Uge 5",
+      dateRange: "3. februar - 6. februar 2026",
+      entries: [
+        {
+          day: 17,
+          date: "3. februar 2026",
+          image: "/img/dag-17.png",
+          spontanlog: [
+         "Hej. I dag er det starten på den femte uge. Jeg har I dag startet på webflow filen, som growkit support hjemmesiden skal bygges og hostes over. ",
+         "Jeg er spændt på at komme længere ind I webflow, men lige nu kan jeg godt mærke at det er noget anderledes at sidde med end bare kode. Men jeg tror godt, at jeg kan lide det. Det er mere design orienteret og føles egentlig lidt mere som figma, men bare som en website builder. ",
+         "Men grundlæggende så har jeg rodet rundt med de forskellige funktioner, som webflow tilbyder og så er jeg begyndt på homepagen. Jeg er dog ikke nået særlig langt, da jeg lige skal I gang med, hvordan det fungere. ",
+         "Kan godt mærke at alle de interaktioner og animationer, som man kan lave er lidt overvældende. Jeg sad I hvert fald I lang tid og tænkte: “Det kommer til at tage noget tid at lære de her animationer at kende”. Men det skal nok gå! Jeg er positiv overfor det og håber bare at jeg bliver endnu bedre til det. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 18,
+          date: "4. februar 2026",
+          image: "",
+          spontanlog: [
+          "I dag har faktisk været en spændende dag. Noa og jeg havde et møde med en, der hedder Lisa som arbejder for Sporo, som er et firma der producere circulært substrat til blandt andet svampe. ",
+          "De har lige lavet en ny hjemmeside, men Lisa spurgte efter noget feedback på hjemmesiden, da hun er helt ny til at bygge hjemmesider. Så hun spurgte os om vi kunen give hende noget feedback. Det var faktisk rart at være med til det møde og at jeg fik lov til at være en del af det og komme med noget feedback. ",
+          "Derefter skulle Noa og jeg have et “halfway meeting” af min praktik. Hun spurgte ind til, hvordan jeg indtil videre har haft det med praktik og også bare generelt, hvordan jeg havde det. Det var virkelig rart at have den samtale og også bare I forhold til, hvordan jeg opfylder mine læringsmål osv.  Hvortil at jeg egentlig har opfyldt mange af mine læringsmål og at jeg endelig bare skal sige til, hvis jeg vil lave noget mere med animation eller produktion af produkter. Men indtil videre tænker jeg, at jeg har nok at se til med support growkit hjemmesiden.",
+          "Efter mødet gik vi tilbage til “farmen” og så kunne jeg lave videre på webflow hjemmesiden. Jeg kan godt mærke at det er noget andet end kode. Det er ikke fordi at det er svært som sådan, men jeg har godt nok svært ved lige at finde hoved og hale I, hvordan interaktionerne og animationerne fungere. Jeg vil virkelig gerne lære det og jeg tænker da også I morgen, at jeg helt sikkert skal dykke endnu dybere ned I det. ",
+          "Men det var alt for I dag :)"
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 19,
+          date: "5. februar 2026",
+          image: "/img/dag-19.png",
+          spontanlog: [
+            "I dag har været en god dag, hvor jeg primært har arbejdet på webflow. Jeg kan mærke at jeg faktisk er lidt frustreret over, hvordan webflow virker og alle deres animationer. Det får mig til at tvivle og samtidig gør det at jeg bliver mere nervøs for, at jeg ikke når deadline af hjemmesiden inden min praktik er ovre. ",
+            "Men jeg vil gøre mit bedste for at få hjemmesiden færdig og uanset hvad, så skal det nok gå. ",
+            "Jeg er stadig I gang med forsiden og den er også stort set færdigt, men jeg skal stadig have sat mig ordentlig ind I animationerne og hvordan de lige fungere. Samtidig skal jeg også have lavet flere illustrationer, da den mere eller mindre skal bestå af illustrationer frem for billder. Men ja, jeg har stort set fokuseret på forsiden/homepagen I dag. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 20,
+          date: "6. februar 2026",
+          image: "/img/dag-20.png",
+          spontanlog: [
+           "I dag har jeg valgt, at jeg slet ikke vil fokusere på hjemmesiden. Jeg må få kigget noget mere på illustrationerne I weekenden eller næste uge. Men jeg kan mærke, at jeg har brug for at lave noget andet end at arbejde med hjemmesiden hele tiden, så derfor besluttede jeg mig for at arbejde på en illustration, der skal vise brugeren hele growkit tidslinjen, så de har en idé om, hvor lang tid hele processen kommer til at tage. ",
+           "Jeg startede dagen ud med at levere nogle svampe til et museum her I Rotterdam, sammen med Noa. Det var egentlig rart nok lige at få startet dagen ud sådan. Da vi kom tilbage gik jeg egentlig bare I gang med at lave en sketch af, hvordan illustrationen skal se ud. ",
+           "Bagefter kunne jeg så begynde at lave den ovre I illustrator og på trods af at jeg har siddet virkelig længe med illustrationen, så er jeg stadig ikke færdig. Tror det er fordi jeg virkelig gerne vil have at brugeren skal forstå tidslinjen med det samme uden at stille spørgsmålstegn. ",
+           "Men jeg mangler at få lavet nogle flere illustrationer af ikoner til den og desuden skal jeg have rettet den lidt til, så de rigtige tider også bliver vist på den. Men jeg glæder mig til at den er færdig :)",
+           "Men det var alt for I dag og egentlig også den her uge? Hej hej!"
+          ],
+          refleksionslog: [
+           "Uge 5 har været mit halvvejs-punkt af mit praktikforløb og det har også været skiftet, hvor jeg er gået fra primært at arbejde med design og prototyper til at begynde den endelige implementering af grow kit support-siden i Webflow. Det har været en uge, som har været udfordrende og samtidig selvfølgelig lærerig, da jeg har skulle lære nye værktøjer at kende. ",
+           "(Læringsmål 3) I forhold til mit læringsmål om at planlægge og strukturere kreative projekter har arbejdet i Webflow gjort at jeg har fundet ud af, hvor anderledes det er at bygge en løsning frem for bare at designe den i Figma. Selvom jeg har erfaring med kode, har Webflow været en ny udfordring for mig. Især interaktioner og animationer har virket overvældende, og jeg har oplevet frustration og tvivl om, om jeg kan nå i mål inden praktikperioden slutter. Samtidig har det gjort mig mere bevidst om vigtigheden af at tage tingene skridt for skridt og acceptere, at sådan et projekt godt kan skabe usikkerhed, men så længe jeg arbejder hårdt, så skal det nok gå. ",
+           "I løbet af ugen havde jeg et møde med Lisa fra Sporo, samt halway mødet med Noa, som har givet mig refleksion over min egen faglige udvikling. Jeg har fået lov til at give feedback på en andens hjemmeside og det har styrket min selvtillid og gjort at jeg stoler på mine egne kompetencer. Samtalen med Noa har desuden hjulpet mig med at få overblik over mine læringsmål og gjort det tydeligt, at jeg allerede har opnået meget i mit praktikforløb. ",
+           "I slutningen af ugen valgte jeg bevidst at skifte fokus væk fra Webflow og arbejde med illustrationer og gjort det klart for mig at det er vigtigt også at have noget variation i sit arbejde, så man ikke går død. ",
+           "Samlet set har uge 5 været mentalt krævende, men også spænende og jeg synes jeg udvikler mig. Jeg har fået forståelse for, hvordan det føles at stå med et ansvar for et projekt. Samtidig har ugen gjort mig mere bevidst om mine egne styrker og grænser. I næste uge håber jeg at jeg har større motivation for at fortsætte arbejdet med både webflow og illustrationerne!"
+
+           
+          ]
+        }
+      ]
     }
+
 
 
     
