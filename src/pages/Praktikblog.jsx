@@ -358,6 +358,82 @@ export default function Praktikblog() {
           ]
         }
       ]
+    },
+
+      6: {
+      title: "Uge 6",
+      dateRange: "10. februar - 13. februar 2026",
+      entries: [
+        {
+          day: 21,
+          date: "10. februar 2026",
+          image: "/img/dag-21.png",
+          spontanlog: [
+            "Så er det begyndelsen på den sjette uge af mit praktikforløb!",
+            "Synes det er vildt, at der allerede er gået så lang tid. Nå, men I dag har været en god dag, men jeg har ikke fået lavet så meget må jeg indrømme. Jeg synes stadig webflow er virkelig svært og underligt at arbejde med, men det går fremad. ",
+            "I dag har jeg haft fokus på at starte på step 1 af support hjemmesiden, da det er de forskellige steps, der er de vigtigste I forhold til f.eks. homepagen. ",
+            "Så I det mindste fik jeg startet på step 1. Men jeg har fået mere styr på, hvordan interaktions delen fungere og jeg kan vel kun blive bedre til det. ",
+            "Men synes stadig det har været en god dag. Måske ikke så produktiv, men det er fordi jeg simpelthen har været sat fast I sektioner, som jeg ikke forstod, hvordan jeg lige skulle løse. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 22,
+          date: "11. februar 2026",
+          image: "/img/dag-22.png",
+          spontanlog: [
+            "Hej log, ",
+            "I dag har været en god dag, men også produktiv. Dagen har måske ikke været så spændende, da jeg bare har været foran skærmen hele dagen, men det har også gjort at jeg har kunne fokusere på webflow og på support-siden. ",
+            "Det var egentlig meningen, at hele teamet skulle have haft et møde I dag, så de kunne se hvor langt jeg er nået med hjemmesiden, men vi har været nødt til at aflyse det, da jeg næsten ikke har kunne vise noget. Det er selvfølgelig lidt irriterende og frustrerende, men jeg har simplethen ikke haft nok tid. ",
+            "Men alligevel synes jeg at jeg har formået at være rimelig produktiv. Jeg er som sagt begyndt på step 1 og lige nu har jeg fokus på de første sektioner, men jeg vil også genre have at de bliver fede, så derfor leger jeg også lidt med forskellige interaktioner. ",
+            "Jeg fik også kigget lidt på illustrator, da jeg gerne vil have nogle ikoner/illustrationer ind på support-siden, så det supplere til at gøre den mere spændende. ",
+            "Noa har også lært mig lidt I forhold til grids osv, som jeg måske ikke normalt tager så meget højde for. Det er en helt ny verden, der åbner sig, men det gør også at jeg tager mere hensyn til afstand, som selvfølgelig også kan tage mere tid. ",
+            "Men jeg tror det var alt for I dag!"
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 23,
+          date: "12. februar 2026",
+          image: "/img/dag-23.png",
+          spontanlog: [
+            "I dag har været en god dag. Jeg er begyndt at lege lidt med, hvordan jeg kan intereagere forskellige illustrationer ind I designet på support siden, så brugeren faktisk vil fortsætte med at scrolle på trods af meget information. ",
+            "Tror måske jeg er blevet lidt overrasket over, hvor lang tid det faktisk tager bare at lave en sektion. Det er jeg lidt overrasket over, men det tager selvfølgelig også tid, at få lavet det rigtigt især når jeg også stadig skal sætte mig ind I webflow og dens interaktioner. ",
+            "Men det var nok det for I dag. Jeg fik lavet den første sektion til Step 1: Starting, så det er rigtigt her, hvor historien skal udfolde sig. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 24,
+          date: "13. februar 2026",
+          image: "/img/dag-24.png",
+          spontanlog: [
+            "Det er slutningen på den sjette uge. Jeg har haft fokus på, at jeg gerne vil have en vanddråbe til at løbe, når brugeren scroller på hjemmesiden. Sektionen handler nemlig om, at ens kaffegrums skal have nok fugt for, at det fungere som substrat til svampene. ",
+            "Så jeg har virkelig bøvlet med, at få det til at fungere og sidde rigtigt. Så jeg har både arbejdet med forskellige positions og sticky, så dråben ikke bevæger sig, men der er tekst, der “løber” forbi den. Det har været lidt svært at sidde med, da jeg aldrig rigtigt har leget så meget med det førhen. Men det er nu spændende nok at lære det. Det eneste jeg kunne være bange for er, når den skal være responsive, men det må jeg tage på et andet tidspunkt. ",
+            "Ellers har jeg også brugt meget tid inde I illustrator, hvor jeg blandt andet har lavet en illustration af en vandhane, kaffegrums og selvfølgelig vanddråber. Så har jeg også prøvet at lege lidt med at tilføje rotterzwams visuelle identitet på det. ",
+            "Hej hej!"
+          ],
+          refleksionslog: [
+        
+            "I uge 6 har jeg brugt tid på især arbejdet i Webflow og med interaktioner. Selvom jeg til tider har følt, at det har gået langsomt, så har jeg også lært meget i forhold til det tekniske i Webflow, men også taget højde for designmæssige beslutninger. ",
+            "(Læringsmål 3) I forhold til mit læringsmål om at planlægge og strukturere kreative projekter har jeg oplevet, hvor tidskrævende det er at omsætte design til en fungerende, interaktiv løsning i Webflow. Arbejdet med step 1 og de første sektioner har gjort det tydeligt, at selv små sektioner med afstande, grids og interaktioner tager lang tid. Sparringen med Noa omkring grids og layout har åbnet mine øjne for, hvor vigtigt det er at tage højde for brugeren, når de går gennem designet, så det hele tiden opleves som spændende. ",
+            "Arbejdet med interaktioner og animationer i Webflow har været både frustrerende, men også lærerigt. Jeg har flere gange følt mig sat fast, især når funktioner ikke fungerede, som jeg forventede. Men jeg har også lært, at jeg kan bruge dem til at guide brugeren gennem noget information. Eksempelvis arbejdet med vanddråbe-animationen og sticky position har gjort mig mere bevidst om, hvordan bevægelse kan understøtte fortælling og skabe en mere engagerende brugeroplevelse. ",
+            "Jeg er også blevet mere opmærksom på, hvor lang tid det faktisk tager at skabe kvalitet i en digital løsning. En sektion kan tage flere timer, især når man samtidig lærer et nyt værktøj. ",
+            "Samlet set har uge 6 været teknisk udfordrende, men jeg har også lært en masse i Webflow. Jeg har mærket både frustration og fremgang, og jeg oplever at jeg bliver bedre og mere tryg i Webflow og arbejdet med interaktioner. Selvom processen kan føles langsom, så kan jeg tydeligt se min egen læring og det motivere mig også til at arbejde videre med support-siden. "
+
+           
+          ]
+        }
+      ]
     }
 
 
