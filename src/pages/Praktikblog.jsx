@@ -434,6 +434,87 @@ export default function Praktikblog() {
           ]
         }
       ]
+    },
+
+          7: {
+      title: "Uge 7",
+      dateRange: "17. februar - 20. februar 2026",
+      entries: [
+        {
+          day: 25,
+          date: "17. februar 2026",
+          image: "",
+          spontanlog: [
+           "Hej, det er i dag den syvende uge af mit praktikforløb. Jeg begyndte dagen med, at Noa og jeg tog ud til et trykkeri i Rotterdam, der hedder “Tromp Print & Packaging”. Det har været nogle af Rotterzwams samarbejdspartnere i lang tid, men eftersom growkit’et har brug for et nyt omslag. ",
+           "Noa stod mest for at lave designet til omslaget, men det er mine illustrationer af growkit processen, som er blevet brugt. Det er jeg faktisk lidt stolt over. Altså at det måske mest populære produkt har mit design over sig. ",
+           "Men ja, vi tog ud til trykkeriet og manden, der modtog os var virkelig flink. Vi fik snakket om, hvordan farverne ville se allerbedst ud på de forskellige papir typer. Jeg er glad for at jeg blev taget med i processen, da jeg ellers næsten ikke ved noget som helst om print og tryk, udover at man skal bruge CMYK til print og RGB til skærm. ",
+           "Efter snakken tilbudte han, at give os en tur rundt på trykkeriet. Jeg var fascineret af alle  de forskellige tryk, som de laver til forskellige mærker. De var virkelig flotte. ",
+           "Herefter blev vi lukket ind, hvor selve maskinerne var. Her så vi maskinerne, der trykker de forskellige udformninger af papiret, men også selve printeren. Tror aldrig jeg har set sådan en stor printer. ",
+           "Men efter turen rundt i trykkeriet, så kørte Noa og jeg tilbage til Rotterzwam farmen. Her fik jeg arbejdet videre med growkit hjemmesiden. Jeg er blevet mere komfortabel i webflow og kan mærke at det går frem ad. Jeg er ved at få styr på, hvordan de forskellige elementer skal implementeres også uden kode. Webflow er mere eller mindre ligesom Figma’s layout, men selvfølgelig med flere regler, da den står for at lave en hjemmeside. ",
+           "Jeg har også fået leget med nogle flere interaktioner, så når man scroller, så bliver forskellige elementer animeret til at bevæge sig lidt eller lave en “slide from bottom”. ",
+           "Jeg har fået lavet to sektioner i dag. Sektionen med, hvor growkit’et ville have bedst at stå henne og så fik jeg også lavet det sidste step af step 1, der skal navigere brugen hen til næste step eller tage brugeren tilbage til homepagen. ",
+           "Jeg synes jeg har lært meget i dag og det har været en god dag. Jeg er glad for at jeg sagde ja, til at tage med hen på trykkeriet!"
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 26,
+          date: "18. februar 2026",
+          image: "/img/dag-26.png",
+          spontanlog: [
+            "Dagen begyndte med en hurtig levering af svampe til Dutch Photomuseum. Herefter kom vi tilbage til farmen, hvor jeg stille og roligt begyndte på hjemmesiden. ",
+            "Jeg er stort set blevet færdig med step 1, så jeg er så småt begyndt på step 2 af hjemmesiden. Den skal handle om, hvordan brugeren fylder growkit’et med kaffegrums. ",
+            "Men jeg besluttede mig for, at jeg gerne ville gå gennem step 1 med Noa og høre, hvad hun syntes om det. Her kom hun med nogle forbedringer, men det hun lagde tryk på, var at jeg måske skulle fokusere på kontraster, som ikke kun er farver. Men altså at jeg begynder at tænkte over, hvordan størrelser og former kan være med til at skabe et visuelt hierarki og en bedre brugeroplevelse. ",
+            "Så i dag har jeg haft fokus på, at jeg fra step 2 gerne vil begynde at lave flere forme og størrelser, der nødvendigvis ikke er perfekte, men som skaber en større kontrast på siden. Vi fik også snakket lidt om, at jeg måske skulle sørge for at have mere fokus på White space også, så det guider brugeren bedre, men samtidig gør at brugeren får plads til at tage en pause. Så det vil jeg også begynde at have fokus på!"
+
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 27,
+          date: "19. februar 2026",
+          image: "/img/dag-27.png",
+          spontanlog: [
+           "I dag har jeg brugt meget af tiden på, at få opsat step 2 af support siden. Jeg har gerne ville tage det til mig, at arbejde mere med former og størrelser og samtidig have lidt fokus på, at der er white space, så brugeren får mulighed for at stoppe op og trække vejret uden at brugergrænsefladen er fyldt med information. ",
+           "Så jeg har brugt virkelig lang tid på den første sektion på step-2 siden, da den havde ret lange afsnit med tekst. Så jeg har hele dagen rodet med, hvordan sektionen skulle se ud. ",
+           "Jeg vil sige, at jeg er ret glad for, hvordan det endeligt er kommet til at se ud. Også I forhold til forskellige forme og størrelser, samtidig med farverne, der fortæller det visuelle hieraki og hvordan brugeren skal læse indholdet. "
+          ],
+          refleksionslog: [
+           
+          ]
+        },
+
+         {
+          day: 28,
+          date: "20. februar 2026",
+          image: "/img/dag-28.webm",
+          spontanlog: [
+           "Hej log, ",
+           "I dag har været en lang, men god dag. Jeg synes at jeg har været virkelig produktiv. Jeg begyndte dagen med at gå i gang med webflow. Jeg skulle nemlig have lavet en sektion, der fortæller brugeren om, hvornår de skal tilføje et nyt lag af kaffegrums og samtidig med, hvordan de kan gøre det mest effektivt. Samtidig har jeg også taget det til mig, at former størrelser kan være med til at hjælpe med det visuelle hierarki, men også generelt bare til at gøre hjemmesiden mere spændende. ",
+           "Jeg fik leget lidt med, hvordan sticky positionering kan gøre siden mere legende og 3D agtig, altså parralax. Desuden er jeg virkelig stolt over, at jeg endelig har fået leget med LottieFiles, som er den her hjemmeside eller program, der fungerer ligesom Adobe After Effects, men det er en JSON baseret animerings program. Så man kan lave alle mulige fede animationer i programmet og så eksportere det til Lottie JSON-fil, som er en meget lille fil, men kvaliteten er der stadig. Synes det er virkelig fedt. ",
+           "Så jeg brugte meget af dagen på, at få styr på LottieFiles. Jeg har dog arbejdet lidt med det før. Først lavede jeg min vektorgrafik af en kaffekop inde i illustrator. Meningen er at jeg gerne ville animere koppen, så den roterer rundt imens, der er noget tekst der skifter. Herefter kunne jeg så sætte det ind i lottiefiles, hvorefter jeg kunne begynde at animere ligesom man kan i after effects. Det smarte er, at webflow og lottiefiles fungere virkelig godt sammen. Så animationen den animeres kun på hjemmesiden, når man scroller. Det er også med til at give brugeren noget kontrol og gøre hele brugeroplevelsen mere interessant. ",
+           "Samtidig så har jeg også opfyldt mit læringsmål om at bruge relevante design- og redigeringsværktøjer. Jeg vil sige at jeg er virkelig glad og stolt over at jeg har fået det til at virke i dag. Det giver mig endnu mere motivation og vil helt sikkert kigge mere ind i lottiefiles senere!"
+          ],
+          refleksionslog: [
+        "I uge syv har jeg både arbejdet med den digitale udvikling af growkit-supportsiden og fået indblik i den fysiske produktion gennem besøget hos trykkeriet ”Tromp Print & Packaging”. ",
+        "(Læringsmål 4) Besøget hos trykkeriet understøtter mit læringsmål om at kunne skabe visuelt materiale og designelementer, der understøtter Rotterzwams visuelle identitet, samt udforske hvordan digitale designs kan oversættes til fysiske formater som tryk. ",
+        "Synes det har givet mig meget at se hvordan illustrationer blev en del af et fysisk produkt, og hvordan farver, materialer og trykteknikker påvirker det endelige resultat. Jeg fik altså en større forståelse for, hvordan designbeslutninger ikke kun fungerer på skærm, men også skal kunne fungere i en fysisk kontekst. ",
+        "(Læringsmål 1) Arbejdet med growkit-supportsiden har helt klart også understøttet mit læringsmål om at anvende relevante design-og redigeringsværktøjer. ",
+        "Jeg har eksperimenteret i Webflow med interaktioner og animationer, herunder brugen af Lottiefiles. At få Lottie-Animationer til at fungere i Webflow har styrket min tekniske forståelse, men også styrket min motivation. Det har givet mig en større selvtillid og jeg oplever, at jeg er blevet gladere for Webflow, men jeg er også stolt over, at jeg har fået det til at virke. Det har åbnet hele nye døre for mit webdesign. ",
+        "Derudover har feedbacken fra Noa gjort, at jeg tænker mere over arbejdet med visuelt hierarki, kontraster i former og størrelser samt brugen af white space. Jeg er blevet klogere på mine designvalg og hvordan de påvirker brugerens forståelse og navigation af sitet. Så jeg tænker i hvert fald i højere grad over struktur og informationsopbygningen. ",
+        "Samlet set så har uge 7 gjort, at jeg har udviklet mig meget. Jeg har større designbevidsthed og jeg har fået en forståelse for sammenhængen mellem digital og fysisk produktion. Jeg kan mærke, at jeg udvikler mig fra at fokusere på det æstetiske udtryk alene til i højere grad at tænke over funktion, struktur og brugeroplevelse. "
+
+
+           
+          ]
+        }
+      ]
     }
 
 
@@ -492,12 +573,24 @@ export default function Praktikblog() {
                   {/* Image column */}
                   <td data-label="Billede" className="image-cell">
                     {entry.image ? (
-                      <img 
-                        src={entry.image} 
-                        alt={`Dag ${entry.day}`}
-                        onClick={() => setLightboxImage(entry.image)}
-                        style={{ cursor: "pointer" }}
-                      />
+                      entry.image.endsWith('.webm') || entry.image.endsWith('.mp4') ? (
+                        <video 
+                          src={entry.image} 
+                          alt={`Dag ${entry.day}`}
+                          onClick={() => setLightboxImage(entry.image)}
+                          style={{ cursor: "pointer" }}
+                          controls
+                          muted
+                          loop
+                        />
+                      ) : (
+                        <img 
+                          src={entry.image} 
+                          alt={`Dag ${entry.day}`}
+                          onClick={() => setLightboxImage(entry.image)}
+                          style={{ cursor: "pointer" }}
+                        />
+                      )
                     ) : (
                       <p>Intet billede</p>
                     )}
@@ -526,11 +619,22 @@ export default function Praktikblog() {
           </article>
         ))}
         
-        {/* Lightbox for viewing images */}
+        {/* Lightbox for viewing images and videos */}
         {lightboxImage && (
           <div className="lightbox" onClick={() => setLightboxImage(null)}>
             <div className="lightbox-content">
-              <img src={lightboxImage} alt="Enlarged view" />
+              {lightboxImage.endsWith('.webm') || lightboxImage.endsWith('.mp4') ? (
+                <video 
+                  src={lightboxImage} 
+                  alt="Enlarged view"
+                  controls
+                  autoPlay
+                  loop
+                  style={{ maxWidth: '100%', maxHeight: '90vh' }}
+                />
+              ) : (
+                <img src={lightboxImage} alt="Enlarged view" />
+              )}
               <button className="lightbox-close" onClick={() => setLightboxImage(null)}>
                 ✕
               </button>
